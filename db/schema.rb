@@ -21,13 +21,4 @@ ActiveRecord::Schema.define(version: 20180104132356) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "heros", force: :cascade do |t|
-    t.string "title"
-    t.string "name"
-    t.string "slug"
-    t.string "poster_image"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
 end
