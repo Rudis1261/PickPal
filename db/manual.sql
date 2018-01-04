@@ -1,0 +1,16 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE IF NOT EXISTS "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY);
+INSERT INTO "schema_migrations" VALUES('20180104131222');
+INSERT INTO "schema_migrations" VALUES('20180104132356');
+CREATE TABLE IF NOT EXISTS "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL);
+INSERT INTO "ar_internal_metadata" VALUES('environment','development','2018-01-04 13:13:10.116284','2018-01-04 13:13:10.116284');
+CREATE TABLE IF NOT EXISTS "heros" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "name" varchar, "slug" varchar, "poster_image" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL);
+INSERT INTO "heros" VALUES(1,'The ork warchief','Thrall','thrall','http://media.blizzard.com/heroes/thrall/skins/thumbnails/world-shaman-thrall.jpg','2018-01-04 13:16:41.077752','2018-01-04 13:16:41.077752');
+CREATE TABLE IF NOT EXISTS "heroes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "name" varchar, "slug" varchar, "poster_image" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL);
+INSERT INTO "heroes" VALUES(1,'The greatest Orkish warrior leader','Thrall','thrall','http://media.blizzard.com/heroes/thrall/skins/thumbnails/world-shaman-thrall.jpg','2018-01-04 13:26:30.821162','2018-01-04 13:26:30.821162');
+INSERT INTO "heroes" VALUES(2,'The protos leader, the great Artanis himself','Artanis','artanis','http://media.blizzard.com/heroes/artanis/skins/thumbnails/hierarch-of-the-daelaam.jpg','2018-01-04 13:30:30.291935','2018-01-04 13:30:30.291935');
+DELETE FROM sqlite_sequence;
+INSERT INTO "sqlite_sequence" VALUES('heros',1);
+INSERT INTO "sqlite_sequence" VALUES('heroes',2);
+COMMIT;
