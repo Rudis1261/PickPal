@@ -7,6 +7,13 @@ module ApplicationHelper
     }.to_json
   end
 
+  def self.http404()
+    {
+        :error => true,
+        :message => '404 not-found'
+    }.to_json
+  end
+
   def self.valid_json?(json)
     JSON.parse(json)
     return true

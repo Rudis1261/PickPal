@@ -32,14 +32,14 @@ module ScraperHelper
       if !hero[needle].nil?
         @data[key] = hero[needle].map do |item|
 
-          #pre = Config.get('hero_image_pre').include?(hero['slug']) ? Config.get('hero_image_pre')[hero['slug']] : ''
-          #ability_image = ImageHelper.pull_image(hero['slug'], Config.image_urls['trait'] % [hero['slug'], "#{pre}#{item['slug']}"])
+          pre = Rails.configuration.hero_image_pre.include?(hero['slug']) ? Rails.configuration.hero_image_pre[hero['slug']] : ''
+          ability_image = ImageHelper.pull_image(hero['slug'], Rails.configuration.image_urls['trait'] % [hero['slug'], "#{pre}#{item['slug']}"])
 
           {
               'name' => item['name'],
               'description' => item['description'],
               'slug' => item['slug'],
-              'image' => ''#ability_image
+              'image' => ability_image
           }
         end
       else

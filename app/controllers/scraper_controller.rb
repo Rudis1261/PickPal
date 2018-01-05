@@ -102,20 +102,48 @@ class ScraperController < ApplicationController
     stat.complexity = parsed_hero_data['stat']['complexity']
     stat.hero_id = hero.id
     stat.save
+    hero.stat = stat
+
+    # Heroics
+    parsed_hero_data['heroics'].each do |heroics|
+      heroic = Heroic.find_by(slug: heroics['slug'], hero_id: hero.id)
+      heroic = Heroic.new if heroic.nil?
+      heroic.name = heroics['name']
+      heroic.slug = heroics['slug']
+      heroic.description = heroics['description']
+      heroic.image = heroics['image']
+      heroic.hero_id = hero.id
+      heroic.save
+
+      hero.heroic_ids << heroic.id
+    end
+
+    # Abilities
+    parsed_hero_data['abilities'].each do |data|
+      ability = Ability.find_by(slug: data['slug'], hero_id: hero.id)
+      ability = Ability.new if ability.nil?
+      ability.name = data['name']
+      ability.slug = data['slug']
+      ability.description = data['description']
+      ability.image = data['image']
+      ability.hero_id = hero.id
+      ability.save
+
+      hero.ability_ids << ability.id
+    end
 
     # Save the hero with the updated details
-    hero.stat_id = stat.id
     hero.save
     hero
   end
 
   def save_hero_to_disk(data)
-    return if data.nil? || data['name'].nil?
-    name = data['name']
+    return if data.nil? || data['slug'].nil?
+    slug = data['slug']
     ApplicationHelper.create_directory(Rails.configuration.local_hero_folder)
     hero = JSON.pretty_generate(data)
-    backup_hero_on_disk name
-    File.open(Rails.configuration.hero_local_file % name, 'w') { |file| file.write(hero) }
+    backup_hero_on_disk slug
+    File.open(Rails.configuration.hero_local_file % slug, 'w') { |file| file.write(hero) }
   end
 
   def backup_hero_on_disk(name)

@@ -10,7 +10,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180105193744) do
+ActiveRecord::Schema.define(version: 20180105224757) do
+
+  create_table "abilities", force: :cascade do |t|
+    t.string "name"
+    t.string "description"
+    t.string "slug"
+    t.string "image"
+    t.integer "hero_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["hero_id"], name: "index_abilities_on_hero_id"
+    t.index [nil], name: "index_abilities_on_belongs_to"
+  end
 
   create_table "heroes", force: :cascade do |t|
     t.string "title"
@@ -24,12 +36,22 @@ ActiveRecord::Schema.define(version: 20180105193744) do
     t.string "thumb"
     t.boolean "live"
     t.integer "role_id"
-    t.integer "stat_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["franchise"], name: "index_heroes_on_franchise"
     t.index ["role_id"], name: "index_heroes_on_role_id"
-    t.index ["stat_id"], name: "index_heroes_on_stat_id"
+  end
+
+  create_table "heroics", force: :cascade do |t|
+    t.string "name"
+    t.string "description"
+    t.string "slug"
+    t.string "image"
+    t.integer "hero_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["hero_id"], name: "index_heroics_on_hero_id"
+    t.index [nil], name: "index_heroics_on_belongs_to"
   end
 
   create_table "roles", force: :cascade do |t|

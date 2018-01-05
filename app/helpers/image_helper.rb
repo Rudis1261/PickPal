@@ -52,7 +52,7 @@ module ImageHelper
     return local_image if local_image == image
 
     # Failure to get image, thread it out and save it
-    #Thread.new do
+    Thread.new do
       puts "SCRAPING IMAGE: #{image}"
       image_data = HTTParty.get(image)
       puts "RESP #{image_data.code}"
@@ -62,7 +62,7 @@ module ImageHelper
 
       # Great success
       self.save_image_to_disk(image_file, image_data.parsed_response)
-    #end
+    end
 
     return image
   end

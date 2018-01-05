@@ -12,7 +12,6 @@ class CreateHeroes < ActiveRecord::Migration[5.1]
       t.string :thumb
       t.boolean :live
       t.belongs_to :role, index: true
-      t.belongs_to :stat, index: true
 
       t.timestamps
     end
