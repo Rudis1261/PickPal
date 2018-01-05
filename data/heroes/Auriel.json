@@ -1,0 +1,299 @@
+{
+  "name": "Auriel",
+  "slug": "auriel",
+  "title": "Archangel of Hope",
+  "description": "Support Healers, buffers, and everyone’s best friends.",
+  "role": {
+    "name": "Support",
+    "slug": "support",
+    "description": "Support Healers, buffers, and everyone’s best friends."
+  },
+  "type_of_hero": "Ranged",
+  "franchise": "Diablo",
+  "difficulty": "Medium",
+  "live": true,
+  "poster_image": "http://localhost:3000/images/auriel/bust.jpg",
+  "stat": {
+    "damage": 3,
+    "utility": 8,
+    "survivability": 4,
+    "complexity": 8
+  },
+  "thumb": "http://localhost:3000/images/auriel/archangel-of-hope.jpg",
+  "trait": {
+    "name": "Bestow Hope",
+    "description": "Bestow Hope",
+    "slug": "bestow-hope",
+    "image": ""
+  },
+  "abilities": [
+    {
+      "name": "Sacred Sweep",
+      "description": "Sweep the area with sacred power, dealing 57 damage to enemies and an additional 171 damage to enemies caught in the center.",
+      "slug": "sacred-sweep",
+      "image": ""
+    },
+    {
+      "name": "Ray of Heaven",
+      "description": "Consume Auriel's stored energy and heal allied Heroes in the area for the amount of energy consumed.",
+      "slug": "ray-of-heaven",
+      "image": ""
+    },
+    {
+      "name": "Detainment Strike",
+      "description": "Deal 55 damage to the first enemy Hero hit and knock them back. If they collide with terrain, they are also stunned for 1.25 seconds and take an additional 165 damage.",
+      "slug": "detainment-strike",
+      "image": ""
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Crystal Aegis",
+      "description": "Place an allied Hero into Stasis for 2 seconds. Upon expiration, Crystal Aegis deals 255 damage to all nearby enemies.",
+      "slug": "crystal-aegis",
+      "image": ""
+    },
+    {
+      "name": "Resurrect",
+      "description": "Channel on the spirit of a dead ally for 0.5 seconds. After a 5 second delay, they are brought back to life with 50% of their maximum Health at the location where they died.",
+      "slug": "resurrect",
+      "image": ""
+    }
+  ],
+  "original": {
+    "id": "Auriel",
+    "name": "Auriel",
+    "title": "Archangel of Hope",
+    "description": "It is through the archangel Auriel that the power of hope flows into the fabric of creation. Her eternal light illuminates even the darkest souls. Seeking harmony in all things, she is a mediator, a counselor, and when the need arises, a fearless warrior.",
+    "shortDescription": "A Healer that excels when paired with a high-octane damage dealer.",
+    "baseHeroInfo": {
+      "name": "Auriel",
+      "title": "Archangel of Hope",
+      "description": "It is through the archangel Auriel that the power of hope flows into the fabric of creation. Her eternal light illuminates even the darkest souls. Seeking harmony in all things, she is a mediator, a counselor, and when the need arises, a fearless warrior.",
+      "shortDescription": "A Healer that excels when paired with a high-octane damage dealer.",
+      "slug": "auriel",
+      "role": {
+        "name": "Support",
+        "slug": "support",
+        "description": "Support Healers, buffers, and everyone’s best friends."
+      },
+      "skins": [
+
+      ],
+      "type": {
+        "name": "Ranged",
+        "slug": "ranged"
+      },
+      "trait": {
+        "name": "Bestow Hope",
+        "description": "Passive: 50% of the damage Auriel deals to Heroes and 5% dealt to non-Heroes is stored as energy. Bestow an allied Hero with Hope. While they remain near Auriel, damage they deal causes her to gain energy. Auriel can only have Bestow Hope on 1 ally at a time. Auriel can store up to 475 energy.",
+        "id": "AurielBestowHope",
+        "slug": "bestow-hope"
+      },
+      "defaultMount": {
+        "name": "Horse",
+        "id": "HorseCommon"
+      },
+      "abilities": [
+        {
+          "name": "Sacred Sweep",
+          "description": "Sweep the area with sacred power, dealing 57 damage to enemies and an additional 171 damage to enemies caught in the center.",
+          "id": "AurielSacredSweep",
+          "video": "",
+          "slug": "sacred-sweep",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Ray of Heaven",
+          "description": "Consume Auriel's stored energy and heal allied Heroes in the area for the amount of energy consumed.",
+          "id": "AurielRayOfHeaven",
+          "video": "",
+          "slug": "ray-of-heaven",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Detainment Strike",
+          "description": "Deal 55 damage to the first enemy Hero hit and knock them back. If they collide with terrain, they are also stunned for 1.25 seconds and take an additional 165 damage.",
+          "id": "AurielDetainmentStrike",
+          "video": "",
+          "slug": "detainment-strike",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "heroicAbilities": [
+        {
+          "name": "Crystal Aegis",
+          "description": "Place an allied Hero into Stasis for 2 seconds. Upon expiration, Crystal Aegis deals 255 damage to all nearby enemies.",
+          "id": "AurielCrystalAegis",
+          "video": "",
+          "slug": "crystal-aegis",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Resurrect",
+          "description": "Channel on the spirit of a dead ally for 0.5 seconds. After a 5 second delay, they are brought back to life with 50% of their maximum Health at the location where they died.",
+          "id": "AurielResurrect",
+          "video": "",
+          "slug": "resurrect",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+    },
+    "roleSecondary": {
+    },
+    "type": {
+    },
+    "trait": {
+      "name": "Bestow Hope",
+      "description": "Passive: 50% of the damage Auriel deals to Heroes and 5% dealt to non-Heroes is stored as energy. Bestow an allied Hero with Hope. While they remain near Auriel, damage they deal causes her to gain energy. Auriel can only have Bestow Hope on 1 ally at a time. Auriel can store up to 475 energy.",
+      "id": "AurielBestowHope",
+      "slug": "bestow-hope"
+    },
+    "abilities": [
+      {
+        "name": "Sacred Sweep",
+        "description": "Sweep the area with sacred power, dealing 57 damage to enemies and an additional 171 damage to enemies caught in the center.",
+        "id": "AurielSacredSweep",
+        "video": "",
+        "slug": "sacred-sweep",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Ray of Heaven",
+        "description": "Consume Auriel's stored energy and heal allied Heroes in the area for the amount of energy consumed.",
+        "id": "AurielRayOfHeaven",
+        "video": "",
+        "slug": "ray-of-heaven",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Detainment Strike",
+        "description": "Deal 55 damage to the first enemy Hero hit and knock them back. If they collide with terrain, they are also stunned for 1.25 seconds and take an additional 165 damage.",
+        "id": "AurielDetainmentStrike",
+        "video": "",
+        "slug": "detainment-strike",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "heroicAbilities": [
+      {
+        "name": "Crystal Aegis",
+        "description": "Place an allied Hero into Stasis for 2 seconds. Upon expiration, Crystal Aegis deals 255 damage to all nearby enemies.",
+        "id": "AurielCrystalAegis",
+        "video": "",
+        "slug": "crystal-aegis",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Resurrect",
+        "description": "Channel on the spirit of a dead ally for 0.5 seconds. After a 5 second delay, they are brought back to life with 50% of their maximum Health at the location where they died.",
+        "id": "AurielResurrect",
+        "video": "",
+        "slug": "resurrect",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "defaultMount": {
+      "name": "Horse",
+      "id": "HorseCommon"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "otherAbilities": [
+
+    ],
+    "slug": "auriel",
+    "franchise": "Diablo",
+    "stanceSlug": "",
+    "difficulty": "Medium",
+    "stats": {
+      "damage": 3,
+      "utility": 8,
+      "survivability": 4,
+      "complexity": 8
+    },
+    "skins": [
+      {
+        "name": "Archangel of Hope",
+        "description": "It is through the archangel Auriel that the power of hope flows into the fabric of creation. Her eternal light illuminates even the darkest souls. Seeking harmony in all things, she is a mediator, a counselor, and when the need arises, a fearless warrior.",
+        "id": "AurielBaseCommon",
+        "analyticsName": "Auriel | archangel-of-hope",
+        "slug": "archangel-of-hope"
+      },
+      {
+        "name": "Archangel Auriel",
+        "description": "It is said that the power of the Nexus amplifies what lies within a warrior's heart. While Auriel’s countenance has changed, the light of Hope within her is more resplendent than ever.",
+        "id": "AurielUltimate",
+        "analyticsName": "Auriel | archangel-auriel",
+        "slug": "archangel-auriel"
+      },
+      {
+        "name": "Sakura Auriel",
+        "description": "For centuries, viewing cherry blossoms at the start of spring has been a time-honored tradition. Auriel was the first omnic to join in the festivities, and has done so every year since she started.",
+        "id": "AurielHanamura",
+        "analyticsName": "Auriel | sakura-auriel",
+        "slug": "sakura-auriel"
+      },
+      {
+        "name": "Demonic Auriel",
+        "description": "An angel can never truly become a demon. But once the Lord of Hatred corrupted Auriel's spirit and bound it within a mistress of the Burning Hells, most mortals would struggle to tell the difference.",
+        "id": "AurielDemonic",
+        "analyticsName": "Auriel | demonic-auriel",
+        "slug": "demonic-auriel"
+      }
+    ],
+    "releaseDate": {
+      "year": 2016,
+      "month": 8,
+      "day": 9
+    },
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "auriel",
+    "revealed": true,
+    "video": "8rCeejaaYlg",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
+  }
+}

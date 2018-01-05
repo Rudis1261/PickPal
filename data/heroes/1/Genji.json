@@ -1,0 +1,330 @@
+{
+  "name": "Genji",
+  "slug": "genji",
+  "title": "Cybernetic Ninja",
+  "description": "Assassin Slayers of Heroes and bringers of pain.",
+  "role": {
+    "name": "Assassin",
+    "slug": "assassin",
+    "description": "Assassin Slayers of Heroes and bringers of pain."
+  },
+  "type_of_hero": "Ranged",
+  "franchise": "Overwatch",
+  "difficulty": "Hard",
+  "live": true,
+  "poster_image": "http://media.blizzard.com/heroes/genji/bust.jpg",
+  "stat": {
+    "damage": 8,
+    "utility": 4,
+    "survivability": 4,
+    "complexity": 6
+  },
+  "thumb": "http://media.blizzard.com/heroes/genji/skins/thumbnails/cybernetic-ninja.jpg",
+  "trait": {
+    "name": "Cyber Agility",
+    "description": "Cyber Agility",
+    "slug": "cyber-agility",
+    "image": ""
+  },
+  "abilities": [
+    {
+      "name": "Shuriken",
+      "description": "Throw 3 Shuriken in a spread pattern, each dealing 65 damage to the first enemy hit. Stores up to 3 charges. Shuriken's cooldown replenishes all charges at the same time.",
+      "slug": "shuriken",
+      "image": ""
+    },
+    {
+      "name": "Deflect",
+      "description": "Channel for 1.25 seconds, becoming Protected and blocking damage. Any damage blocked while channeling causes Genji to throw a Kunai toward the nearest enemy, prioritizing Heroes and dealing 55 damage. Total Damage Deflected: 0",
+      "slug": "deflect",
+      "image": ""
+    },
+    {
+      "name": "Swift Strike",
+      "description": "Dash forward, dealing 215 damage to all enemies in a line. Enemy Heroes that die within 2 seconds of being hit with Swift Strike cause the cooldown and mana cost to be refunded.",
+      "slug": "swift-strike",
+      "image": ""
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Dragonblade",
+      "description": "Unleash the Dragonblade for 8 seconds. While active, Dragonblade can be reactivated to lunge forward and slash in a huge arc, dealing 240 damage. If enemy Heroes are killed within 2 seconds of being hit by Dragonblade, Swift Strike's cooldown is reset.",
+      "slug": "dragonblade",
+      "image": ""
+    },
+    {
+      "name": "X-Strike",
+      "description": "Perform two slashes dealing 135 damage. The slashes detonate after 1.25 seconds causing an additional 270 damage to enemies in their area.",
+      "slug": "x-strike",
+      "image": ""
+    }
+  ],
+  "original": {
+    "id": "Genji",
+    "name": "Genji",
+    "title": "Cybernetic Ninja",
+    "description": "Once the carefree youngest scion of the Shimada clan, Genji was cut down by his own brother for refusing to take part in their illegal ventures. Grafted into a cyborg body by Overwatch, Genji walks his own path as one who fights for what's right.",
+    "shortDescription": "An opportunistic, mobile Assassin who can tear apart a weak backline.",
+    "baseHeroInfo": {
+      "name": "Genji",
+      "title": "Cybernetic Ninja",
+      "description": "Once the carefree youngest scion of the Shimada clan, Genji was cut down by his own brother for refusing to take part in their illegal ventures. Grafted into a cyborg body by Overwatch, Genji walks his own path as one who fights for what's right.",
+      "shortDescription": "An opportunistic, mobile Assassin who can tear apart a weak backline.",
+      "slug": "genji",
+      "role": {
+        "name": "Assassin",
+        "slug": "assassin",
+        "description": "Assassin Slayers of Heroes and bringers of pain."
+      },
+      "skins": [
+
+      ],
+      "type": {
+        "name": "Ranged",
+        "slug": "ranged"
+      },
+      "trait": {
+        "name": "Cyber Agility",
+        "description": "Activate to jump to the target area.",
+        "id": "GenjiCyberAgility",
+        "slug": "cyber-agility"
+      },
+      "defaultMount": {
+        "name": "Horse",
+        "id": "HorseCommon"
+      },
+      "abilities": [
+        {
+          "name": "Shuriken",
+          "description": "Throw 3 Shuriken in a spread pattern, each dealing 65 damage to the first enemy hit. Stores up to 3 charges. Shuriken's cooldown replenishes all charges at the same time.",
+          "id": "GenjiShuriken",
+          "video": "",
+          "slug": "shuriken",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Deflect",
+          "description": "Channel for 1.25 seconds, becoming Protected and blocking damage. Any damage blocked while channeling causes Genji to throw a Kunai toward the nearest enemy, prioritizing Heroes and dealing 55 damage. Total Damage Deflected: 0",
+          "id": "GenjiDeflect",
+          "video": "",
+          "slug": "deflect",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Swift Strike",
+          "description": "Dash forward, dealing 215 damage to all enemies in a line. Enemy Heroes that die within 2 seconds of being hit with Swift Strike cause the cooldown and mana cost to be refunded.",
+          "id": "GenjiSwiftStrike",
+          "video": "",
+          "slug": "swift-strike",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "heroicAbilities": [
+        {
+          "name": "Dragonblade",
+          "description": "Unleash the Dragonblade for 8 seconds. While active, Dragonblade can be reactivated to lunge forward and slash in a huge arc, dealing 240 damage. If enemy Heroes are killed within 2 seconds of being hit by Dragonblade, Swift Strike's cooldown is reset.",
+          "id": "GenjiDragonblade",
+          "video": "",
+          "slug": "dragonblade",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "X-Strike",
+          "description": "Perform two slashes dealing 135 damage. The slashes detonate after 1.25 seconds causing an additional 270 damage to enemies in their area.",
+          "id": "GenjiXStrike",
+          "video": "",
+          "slug": "x-strike",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+        {
+          "name": "Dragonblade",
+          "description": "Lunge forward and slash in a huge arc, dealing 240 damage. If enemy Heroes are killed within 2 seconds of being hit by Dragonblade, Swift Strike's cooldown is reset.",
+          "id": "GenjiDragonbladeAttack",
+          "video": "",
+          "slug": "dragonblade",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Dragon Claw",
+          "description": "Deal 190 damage to all nearby enemies.",
+          "id": "GenjiDeflectDragonClawAbility",
+          "video": "",
+          "slug": "dragon-claw",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+    },
+    "roleSecondary": {
+    },
+    "type": {
+    },
+    "trait": {
+      "name": "Cyber Agility",
+      "description": "Activate to jump to the target area.",
+      "id": "GenjiCyberAgility",
+      "slug": "cyber-agility"
+    },
+    "abilities": [
+      {
+        "name": "Shuriken",
+        "description": "Throw 3 Shuriken in a spread pattern, each dealing 65 damage to the first enemy hit. Stores up to 3 charges. Shuriken's cooldown replenishes all charges at the same time.",
+        "id": "GenjiShuriken",
+        "video": "",
+        "slug": "shuriken",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Deflect",
+        "description": "Channel for 1.25 seconds, becoming Protected and blocking damage. Any damage blocked while channeling causes Genji to throw a Kunai toward the nearest enemy, prioritizing Heroes and dealing 55 damage. Total Damage Deflected: 0",
+        "id": "GenjiDeflect",
+        "video": "",
+        "slug": "deflect",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Swift Strike",
+        "description": "Dash forward, dealing 215 damage to all enemies in a line. Enemy Heroes that die within 2 seconds of being hit with Swift Strike cause the cooldown and mana cost to be refunded.",
+        "id": "GenjiSwiftStrike",
+        "video": "",
+        "slug": "swift-strike",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "heroicAbilities": [
+      {
+        "name": "Dragonblade",
+        "description": "Unleash the Dragonblade for 8 seconds. While active, Dragonblade can be reactivated to lunge forward and slash in a huge arc, dealing 240 damage. If enemy Heroes are killed within 2 seconds of being hit by Dragonblade, Swift Strike's cooldown is reset.",
+        "id": "GenjiDragonblade",
+        "video": "",
+        "slug": "dragonblade",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "X-Strike",
+        "description": "Perform two slashes dealing 135 damage. The slashes detonate after 1.25 seconds causing an additional 270 damage to enemies in their area.",
+        "id": "GenjiXStrike",
+        "video": "",
+        "slug": "x-strike",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "defaultMount": {
+      "name": "Horse",
+      "id": "HorseCommon"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "otherAbilities": [
+      {
+        "name": "Dragonblade",
+        "description": "Lunge forward and slash in a huge arc, dealing 240 damage. If enemy Heroes are killed within 2 seconds of being hit by Dragonblade, Swift Strike's cooldown is reset.",
+        "id": "GenjiDragonbladeAttack",
+        "video": "",
+        "slug": "dragonblade",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Dragon Claw",
+        "description": "Deal 190 damage to all nearby enemies.",
+        "id": "GenjiDeflectDragonClawAbility",
+        "video": "",
+        "slug": "dragon-claw",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "slug": "genji",
+    "franchise": "Overwatch",
+    "stanceSlug": "",
+    "difficulty": "Hard",
+    "stats": {
+      "damage": 8,
+      "utility": 4,
+      "survivability": 4,
+      "complexity": 6
+    },
+    "skins": [
+      {
+        "name": "Cybernetic Ninja",
+        "description": "Once the carefree youngest scion of the Shimada clan, Genji was cut down by his own brother for refusing to take part in their illegal ventures. Grafted into a cyborg body by Overwatch, Genji walks his own path as one who fights for what's right.",
+        "id": "GenjiBaseCommon",
+        "analyticsName": "Genji | cybernetic-ninja",
+        "slug": "cybernetic-ninja"
+      },
+      {
+        "name": "Oni Genji",
+        "description": "It is said that an oni with an iron club is invincible. But that's nothing compared to an oni with a katana.",
+        "id": "GenjiOni",
+        "analyticsName": "Genji | oni-genji",
+        "slug": "oni-genji"
+      },
+      {
+        "name": "Steel Dragon Genji",
+        "description": "Though he used to struggle with being part man and part machine, Genji has since come to terms with his dual nature. Improving his body along with his spirit was the obvious next step.",
+        "id": "GenjiUltimate",
+        "analyticsName": "Genji | steel-dragon-genji",
+        "slug": "steel-dragon-genji"
+      }
+    ],
+    "releaseDate": {
+      "year": 2017,
+      "month": 4,
+      "day": 25
+    },
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "genji",
+    "revealed": true,
+    "video": "bhS1R_PkuCE",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
+  }
+}

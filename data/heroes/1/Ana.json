@@ -1,0 +1,363 @@
+{
+  "name": "Ana",
+  "slug": "ana",
+  "title": "Veteran Sniper",
+  "description": "Support Healers, buffers, and everyone’s best friends.",
+  "role": {
+    "name": "Support",
+    "slug": "support",
+    "description": "Support Healers, buffers, and everyone’s best friends."
+  },
+  "type_of_hero": "Ranged",
+  "franchise": "Overwatch",
+  "difficulty": "Hard",
+  "live": true,
+  "poster_image": "http://localhost:3000/images/ana/bust.jpg",
+  "stat": {
+    "damage": 3,
+    "utility": 7,
+    "survivability": 3,
+    "complexity": 6
+  },
+  "thumb": "http://localhost:3000/images/ana/veteran-sniper.jpg",
+  "trait": {
+    "name": "Shrike",
+    "description": "Shrike",
+    "slug": "shrike",
+    "image": ""
+  },
+  "abilities": [
+    {
+      "name": "Healing Dart",
+      "description": "Fire a dart which heals the first allied Hero hit for 237 Health.",
+      "slug": "healing-dart",
+      "image": ""
+    },
+    {
+      "name": "Biotic Grenade",
+      "description": "Toss a Grenade at the target area. Allied Heroes hit are healed for 166 Health and receive 25% increased healing for 4 seconds. Enemies hit take 60 damage and receive 100% less healing for 2 seconds.",
+      "slug": "biotic-grenade",
+      "image": ""
+    },
+    {
+      "name": "Sleep Dart",
+      "description": "Fire a dart that puts the first enemy Hero hit to Sleep, Stunning them for 3 seconds. Sleep's effects end instantly if the target takes damage after the first 0.5 seconds. Cannot be used on Vehicles.",
+      "slug": "sleep-dart",
+      "image": ""
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Nano Boost",
+      "description": "Instantly boost an allied Hero, restoring 200 Mana. For the next 8 seconds, they gain 30% Spell Power and their Basic Ability cooldowns recharge 150% faster. Cannot be used on Ana.",
+      "slug": "nano-boost",
+      "image": ""
+    },
+    {
+      "name": "Eye of Horus",
+      "description": "Assume a sniping position, gaining the ability to fire up to 8 specialized rounds with unlimited range. Rounds hit the first allied or enemy Hero or enemy Structure in their path. Allies are healed for 285 and enemies are damaged for 166. Deals 50% less damage to Structures. Ana is unable to move while Eye of Horus is active.",
+      "slug": "eye-of-horus",
+      "image": ""
+    }
+  ],
+  "original": {
+    "id": "Ana",
+    "name": "Ana",
+    "title": "Veteran Sniper",
+    "description": "As a founding member of Overwatch and one of the world's best snipers, Ana Amari uses her skills to protect the innocent. Though she went MIA after losing her eye, Ana's sense of duty and responsibility has brought her back to the fight.",
+    "shortDescription": "A burst Healer who uses precise skillshots to heal allies and can deny enemy healing.",
+    "baseHeroInfo": {
+      "name": "Ana",
+      "title": "Veteran Sniper",
+      "description": "As a founding member of Overwatch and one of the world's best snipers, Ana Amari uses her skills to protect the innocent. Though she went MIA after losing her eye, Ana's sense of duty and responsibility has brought her back to the fight.",
+      "shortDescription": "A burst Healer who uses precise skillshots to heal allies and can deny enemy healing.",
+      "slug": "ana",
+      "role": {
+        "name": "Support",
+        "slug": "support",
+        "description": "Support Healers, buffers, and everyone’s best friends."
+      },
+      "skins": [
+
+      ],
+      "type": {
+        "name": "Ranged",
+        "slug": "ranged"
+      },
+      "trait": {
+        "name": "Shrike",
+        "description": "Basic Attacks apply a Dose to non-Structure enemies, dealing an additional 44 damage over 5 seconds, and stacking up to 5 times.",
+        "id": "AnaTraitShrikeSniper",
+        "slug": "shrike"
+      },
+      "defaultMount": {
+        "name": "Horse",
+        "id": "HorseCommon"
+      },
+      "abilities": [
+        {
+          "name": "Healing Dart",
+          "description": "Fire a dart which heals the first allied Hero hit for 237 Health.",
+          "id": "AnaHealingDart",
+          "video": "",
+          "slug": "healing-dart",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Biotic Grenade",
+          "description": "Toss a Grenade at the target area. Allied Heroes hit are healed for 166 Health and receive 25% increased healing for 4 seconds. Enemies hit take 60 damage and receive 100% less healing for 2 seconds.",
+          "id": "AnaBioticGrenade",
+          "video": "",
+          "slug": "biotic-grenade",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Sleep Dart",
+          "description": "Fire a dart that puts the first enemy Hero hit to Sleep, Stunning them for 3 seconds. Sleep's effects end instantly if the target takes damage after the first 0.5 seconds. Cannot be used on Vehicles.",
+          "id": "AnaSleepDart",
+          "video": "",
+          "slug": "sleep-dart",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "heroicAbilities": [
+        {
+          "name": "Nano Boost",
+          "description": "Instantly boost an allied Hero, restoring 200 Mana. For the next 8 seconds, they gain 30% Spell Power and their Basic Ability cooldowns recharge 150% faster. Cannot be used on Ana.",
+          "id": "AnaNanoBoost",
+          "video": "",
+          "slug": "nano-boost",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Eye of Horus",
+          "description": "Assume a sniping position, gaining the ability to fire up to 8 specialized rounds with unlimited range. Rounds hit the first allied or enemy Hero or enemy Structure in their path. Allies are healed for 285 and enemies are damaged for 166. Deals 50% less damage to Structures. Ana is unable to move while Eye of Horus is active.",
+          "id": "AnaEyeOfHorusActivate",
+          "video": "",
+          "slug": "eye-of-horus",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+        {
+          "name": "Eye of Horus",
+          "description": "Assume a sniping position, gaining the ability to fire up to 8 specialized rounds with unlimited range. Rounds hit the first allied or enemy Hero or enemy Structure in their path. Allies are healed for 285 and enemies are damaged for 166. Deals 50% less damage to Structures. Ana is unable to move while Eye of Horus is active.",
+          "id": "AnaEyeOfHorusActivate",
+          "video": "",
+          "slug": "eye-of-horus",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Eye of Horus",
+          "description": "Assume a sniping position, gaining the ability to fire up to 8 specialized rounds with unlimited range. Rounds hit the first allied or enemy Hero or enemy Structure in their path. Allies are healed for 285 and enemies are damaged for 166. Deals 50% less damage to Structures. Ana is unable to move while Eye of Horus is active.",
+          "id": "AnaEyeOfHorusActivate",
+          "video": "",
+          "slug": "eye-of-horus",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Shrike",
+          "description": "Basic Attacks apply a Dose to non-Structure enemies, dealing an additional 44 damage over 5 seconds, and stacking up to 5 times.",
+          "id": "AnaAimDownSightsActivate",
+          "video": "",
+          "slug": "shrike",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Cancel Shrike",
+          "description": "Basic Attacks apply a Dose to non-Structure enemies, dealing an additional 44 damage over 5 seconds, and stacking up to 5 times.",
+          "id": "AnaAimDownSightsDeactivate",
+          "video": "",
+          "slug": "cancel-shrike",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+    },
+    "roleSecondary": {
+    },
+    "type": {
+    },
+    "trait": {
+      "name": "Shrike",
+      "description": "Basic Attacks apply a Dose to non-Structure enemies, dealing an additional 44 damage over 5 seconds, and stacking up to 5 times.",
+      "id": "AnaTraitShrikeSniper",
+      "slug": "shrike"
+    },
+    "abilities": [
+      {
+        "name": "Healing Dart",
+        "description": "Fire a dart which heals the first allied Hero hit for 237 Health.",
+        "id": "AnaHealingDart",
+        "video": "",
+        "slug": "healing-dart",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Biotic Grenade",
+        "description": "Toss a Grenade at the target area. Allied Heroes hit are healed for 166 Health and receive 25% increased healing for 4 seconds. Enemies hit take 60 damage and receive 100% less healing for 2 seconds.",
+        "id": "AnaBioticGrenade",
+        "video": "",
+        "slug": "biotic-grenade",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Sleep Dart",
+        "description": "Fire a dart that puts the first enemy Hero hit to Sleep, Stunning them for 3 seconds. Sleep's effects end instantly if the target takes damage after the first 0.5 seconds. Cannot be used on Vehicles.",
+        "id": "AnaSleepDart",
+        "video": "",
+        "slug": "sleep-dart",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "heroicAbilities": [
+      {
+        "name": "Nano Boost",
+        "description": "Instantly boost an allied Hero, restoring 200 Mana. For the next 8 seconds, they gain 30% Spell Power and their Basic Ability cooldowns recharge 150% faster. Cannot be used on Ana.",
+        "id": "AnaNanoBoost",
+        "video": "",
+        "slug": "nano-boost",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Eye of Horus",
+        "description": "Assume a sniping position, gaining the ability to fire up to 8 specialized rounds with unlimited range. Rounds hit the first allied or enemy Hero or enemy Structure in their path. Allies are healed for 285 and enemies are damaged for 166. Deals 50% less damage to Structures. Ana is unable to move while Eye of Horus is active.",
+        "id": "AnaEyeOfHorusActivate",
+        "video": "",
+        "slug": "eye-of-horus",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "defaultMount": {
+      "name": "Horse",
+      "id": "HorseCommon"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "otherAbilities": [
+      {
+        "name": "Eye of Horus",
+        "description": "Assume a sniping position, gaining the ability to fire up to 8 specialized rounds with unlimited range. Rounds hit the first allied or enemy Hero or enemy Structure in their path. Allies are healed for 285 and enemies are damaged for 166. Deals 50% less damage to Structures. Ana is unable to move while Eye of Horus is active.",
+        "id": "AnaEyeOfHorusActivate",
+        "video": "",
+        "slug": "eye-of-horus",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Eye of Horus",
+        "description": "Assume a sniping position, gaining the ability to fire up to 8 specialized rounds with unlimited range. Rounds hit the first allied or enemy Hero or enemy Structure in their path. Allies are healed for 285 and enemies are damaged for 166. Deals 50% less damage to Structures. Ana is unable to move while Eye of Horus is active.",
+        "id": "AnaEyeOfHorusActivate",
+        "video": "",
+        "slug": "eye-of-horus",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Shrike",
+        "description": "Basic Attacks apply a Dose to non-Structure enemies, dealing an additional 44 damage over 5 seconds, and stacking up to 5 times.",
+        "id": "AnaAimDownSightsActivate",
+        "video": "",
+        "slug": "shrike",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Cancel Shrike",
+        "description": "Basic Attacks apply a Dose to non-Structure enemies, dealing an additional 44 damage over 5 seconds, and stacking up to 5 times.",
+        "id": "AnaAimDownSightsDeactivate",
+        "video": "",
+        "slug": "cancel-shrike",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "slug": "ana",
+    "franchise": "Overwatch",
+    "stanceSlug": "",
+    "difficulty": "Hard",
+    "stats": {
+      "damage": 3,
+      "utility": 7,
+      "survivability": 3,
+      "complexity": 6
+    },
+    "skins": [
+      {
+        "name": "Veteran Sniper",
+        "description": "As a founding member of Overwatch and one of the world's best snipers, Ana Amari uses her skills to protect the innocent. Though she went MIA after losing her eye, Ana's sense of duty and responsibility has brought her back to the fight.",
+        "id": "AnaBaseCommon",
+        "analyticsName": "Ana | veteran-sniper",
+        "slug": "veteran-sniper"
+      },
+      {
+        "name": "Shrike",
+        "description": "Recently, Ana has been operating in the Nexus under the alias of \"Shrike\" and is wanted for espionage, assault, and theft in Luxoria.",
+        "id": "AnaShrike",
+        "analyticsName": "Ana | shrike",
+        "slug": "shrike"
+      }
+    ],
+    "releaseDate": {
+      "year": 2017,
+      "month": 9,
+      "day": 26
+    },
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "ana",
+    "revealed": true,
+    "video": "wjHMN8Nfae4",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
+  }
+}

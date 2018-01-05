@@ -62,7 +62,7 @@ class HeroesController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_heroes
-      @heroes = Hero.joins(:role).includes(:role, :stat).all
+      @heroes = Hero.joins(:role).includes(:role, :stat).order(:name).all
     end
 
     def set_hero

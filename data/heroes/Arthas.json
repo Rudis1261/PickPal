@@ -1,0 +1,312 @@
+{
+  "name": "Arthas",
+  "slug": "arthas",
+  "title": "The Lich King",
+  "description": "Warrior Front-line defenders and bruisers.",
+  "role": {
+    "name": "Warrior",
+    "slug": "warrior",
+    "description": "Warrior Front-line defenders and bruisers."
+  },
+  "type_of_hero": "Melee",
+  "franchise": "Warcraft",
+  "difficulty": "Medium",
+  "live": true,
+  "poster_image": "http://localhost:3000/images/arthas/bust.jpg",
+  "stat": {
+    "damage": 6,
+    "utility": 5,
+    "survivability": 8,
+    "complexity": 4
+  },
+  "thumb": "http://localhost:3000/images/arthas/the-lich-king.jpg",
+  "trait": {
+    "name": "Frostmourne Hungers",
+    "description": "Frostmourne Hungers",
+    "slug": "frostmourne-hungers",
+    "image": ""
+  },
+  "abilities": [
+    {
+      "name": "Death Coil",
+      "description": "Deals 164 damage to target enemy. Can be self-cast to heal for 262 Health.",
+      "slug": "death-coil",
+      "image": ""
+    },
+    {
+      "name": "Howling Blast",
+      "description": "Root enemies within the target area for 1.25 seconds and deals 68 damage.",
+      "slug": "howling-blast",
+      "image": ""
+    },
+    {
+      "name": "Frozen Tempest",
+      "description": "Deal 40 damage per second to nearby enemies and Slow their Movement Speed by 10% per second, stacking up to 40%. Heroes hit also have their Attack Speed Slowed by 10% per second, stacking up to 40%. Frozen Tempest's effects last for 1.5 seconds.",
+      "slug": "frozen-tempest",
+      "image": ""
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Army of the Dead",
+      "description": "Summons Ghouls that last 15 seconds. Sacrifice Ghouls to heal for 267 Health.",
+      "slug": "army-of-the-dead",
+      "image": ""
+    },
+    {
+      "name": "Summon Sindragosa",
+      "description": "Deals 230 damage and slows enemies by 60% for 4 seconds. Also disables non-Heroic enemies and Structures for 20 seconds.",
+      "slug": "summon-sindragosa",
+      "image": ""
+    }
+  ],
+  "original": {
+    "id": "Arthas",
+    "name": "Arthas",
+    "title": "The Lich King",
+    "description": "Once the crown prince of Lordaeron, and protégé of Uther the Lightbringer, Arthas was corrupted by the cursed blade Frostmourne in a bid to save his people. Now he rules over the damned as the Lich King and all shall know his wrath.",
+    "shortDescription": "A Tank who is proficient against melee Physical Attackers, slowing them. 0 Physical Armor",
+    "baseHeroInfo": {
+      "name": "Arthas",
+      "title": "The Lich King",
+      "description": "Once the crown prince of Lordaeron, and protégé of Uther the Lightbringer, Arthas was corrupted by the cursed blade Frostmourne in a bid to save his people. Now he rules over the damned as the Lich King and all shall know his wrath.",
+      "shortDescription": "A Tank who is proficient against melee Physical Attackers, slowing them. 0 Physical Armor",
+      "slug": "arthas",
+      "role": {
+        "name": "Warrior",
+        "slug": "warrior",
+        "description": "Warrior Front-line defenders and bruisers."
+      },
+      "skins": [
+
+      ],
+      "type": {
+        "name": "Melee",
+        "slug": "melee"
+      },
+      "trait": {
+        "name": "Frostmourne Hungers",
+        "description": "Activate to make Arthas's next Basic Attack strike immediately, do 99 increased damage, and restore 30 Mana.",
+        "id": "ArthasFrostmourneHungers",
+        "slug": "frostmourne-hungers"
+      },
+      "defaultMount": {
+        "name": "Battle Beast",
+        "id": "BattleBeast"
+      },
+      "abilities": [
+        {
+          "name": "Death Coil",
+          "description": "Deals 164 damage to target enemy. Can be self-cast to heal for 262 Health.",
+          "id": "ArthasDeathCoil",
+          "video": "",
+          "slug": "death-coil",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Howling Blast",
+          "description": "Root enemies within the target area for 1.25 seconds and deals 68 damage.",
+          "id": "ArthasHowlingBlast",
+          "video": "",
+          "slug": "howling-blast",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Frozen Tempest",
+          "description": "Deal 40 damage per second to nearby enemies and Slow their Movement Speed by 10% per second, stacking up to 40%. Heroes hit also have their Attack Speed Slowed by 10% per second, stacking up to 40%. Frozen Tempest's effects last for 1.5 seconds.",
+          "id": "ArthasFrozenTempest",
+          "video": "",
+          "slug": "frozen-tempest",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "heroicAbilities": [
+        {
+          "name": "Army of the Dead",
+          "description": "Summons Ghouls that last 15 seconds. Sacrifice Ghouls to heal for 267 Health.",
+          "id": "ArthasArmyOfTheDead",
+          "video": "",
+          "slug": "army-of-the-dead",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Summon Sindragosa",
+          "description": "Deals 230 damage and slows enemies by 60% for 4 seconds. Also disables non-Heroic enemies and Structures for 20 seconds.",
+          "id": "ArthasSummonSindragosa",
+          "video": "",
+          "slug": "summon-sindragosa",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+    },
+    "roleSecondary": {
+    },
+    "type": {
+    },
+    "trait": {
+      "name": "Frostmourne Hungers",
+      "description": "Activate to make Arthas's next Basic Attack strike immediately, do 99 increased damage, and restore 30 Mana.",
+      "id": "ArthasFrostmourneHungers",
+      "slug": "frostmourne-hungers"
+    },
+    "abilities": [
+      {
+        "name": "Death Coil",
+        "description": "Deals 164 damage to target enemy. Can be self-cast to heal for 262 Health.",
+        "id": "ArthasDeathCoil",
+        "video": "",
+        "slug": "death-coil",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Howling Blast",
+        "description": "Root enemies within the target area for 1.25 seconds and deals 68 damage.",
+        "id": "ArthasHowlingBlast",
+        "video": "",
+        "slug": "howling-blast",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Frozen Tempest",
+        "description": "Deal 40 damage per second to nearby enemies and Slow their Movement Speed by 10% per second, stacking up to 40%. Heroes hit also have their Attack Speed Slowed by 10% per second, stacking up to 40%. Frozen Tempest's effects last for 1.5 seconds.",
+        "id": "ArthasFrozenTempest",
+        "video": "",
+        "slug": "frozen-tempest",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "heroicAbilities": [
+      {
+        "name": "Army of the Dead",
+        "description": "Summons Ghouls that last 15 seconds. Sacrifice Ghouls to heal for 267 Health.",
+        "id": "ArthasArmyOfTheDead",
+        "video": "",
+        "slug": "army-of-the-dead",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Summon Sindragosa",
+        "description": "Deals 230 damage and slows enemies by 60% for 4 seconds. Also disables non-Heroic enemies and Structures for 20 seconds.",
+        "id": "ArthasSummonSindragosa",
+        "video": "",
+        "slug": "summon-sindragosa",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "defaultMount": {
+      "name": "Battle Beast",
+      "id": "BattleBeast"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "otherAbilities": [
+
+    ],
+    "slug": "arthas",
+    "franchise": "Warcraft",
+    "stanceSlug": "",
+    "difficulty": "Medium",
+    "stats": {
+      "damage": 6,
+      "utility": 5,
+      "survivability": 8,
+      "complexity": 4
+    },
+    "skins": [
+      {
+        "name": "The Lich King",
+        "description": "Once the crown prince of Lordaeron, and protégé of Uther the Lightbringer, Arthas was corrupted by the cursed blade Frostmourne in a bid to save his people. Now he rules over the damned as the Lich King and all shall know his wrath.",
+        "id": "ArthasCommon",
+        "analyticsName": "Arthas | the-lich-king",
+        "slug": "the-lich-king"
+      },
+      {
+        "name": "Death God Arthas",
+        "description": "As Frostmourne devoured more and more souls, the Lich King's dominion over the damned grew ever stronger. It wasn't long before his armor began to manifest changes.",
+        "id": "ArthasUltimate",
+        "analyticsName": "Arthas | death-god-arthas",
+        "slug": "death-god-arthas"
+      },
+      {
+        "name": "Mystic Kingdoms Arthas",
+        "description": "Revered for his bravery and martial skill, General Arthas has led his king’s armies to countless victories. His loyalty knows no bounds, and nothing can make him break his oath of service.",
+        "id": "ArthasGuanYu",
+        "analyticsName": "Arthas | mystic-kingdoms-arthas",
+        "slug": "mystic-kingdoms-arthas"
+      },
+      {
+        "name": "Crimson Count Arthas",
+        "description": "Few of Sarah von Kerrigan’s suitors are as bold or brash as Marquis Arthas du Menethíl. The Crimson Count hopes their unholy union will spell doom for Raven Court’s Vampire Slayers.",
+        "id": "ArthasCrimsonCount",
+        "analyticsName": "Arthas | crimson-count-arthas",
+        "slug": "crimson-count-arthas"
+      },
+      {
+        "name": "Crown Prince Arthas",
+        "description": "As his hands gripped the hilt of the cursed blade Frostmourne, a dimensional gateway erupted from the icy pedestal, dragging the young prince Arthas into the Nexus.",
+        "id": "ArthasLichPrince",
+        "analyticsName": "Arthas | crown-prince-arthas",
+        "slug": "crown-prince-arthas"
+      },
+      {
+        "name": "Frost Wyrm Arthas",
+        "description": "After the death of the Ashen Verdict's champions, none could halt the Lich King's advance. As a reminder of his victory, he grafted the bones of his fallen servants onto his armor.",
+        "id": "ArthasFrostWyrm",
+        "analyticsName": "Arthas | frost-wyrm-arthas",
+        "slug": "frost-wyrm-arthas"
+      }
+    ],
+    "releaseDate": {
+      "year": 2014,
+      "month": 1,
+      "day": 1
+    },
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "arthas",
+    "revealed": true,
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
+  }
+}

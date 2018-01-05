@@ -1,0 +1,284 @@
+{
+  "name": "Kel'Thuzad",
+  "slug": "kelthuzad",
+  "title": "Archlich of Naxxramas",
+  "description": "Assassin Slayers of Heroes and bringers of pain.",
+  "role": {
+    "name": "Assassin",
+    "slug": "assassin",
+    "description": "Assassin Slayers of Heroes and bringers of pain."
+  },
+  "type_of_hero": "Ranged",
+  "franchise": "Warcraft",
+  "difficulty": "Hard",
+  "live": true,
+  "poster_image": "http://media.blizzard.com/heroes/kelthuzad/bust.jpg",
+  "stat": {
+    "damage": 8,
+    "utility": 7,
+    "survivability": 4,
+    "complexity": 7
+  },
+  "thumb": "http://media.blizzard.com/heroes/kelthuzad/skins/thumbnails/archlich-of-naxxramas.jpg",
+  "trait": {
+    "name": "Master of the Cold Dark",
+    "description": "Master of the Cold Dark",
+    "slug": "master-of-the-cold-dark",
+    "image": ""
+  },
+  "abilities": [
+    {
+      "name": "Death and Decay",
+      "description": "After 0.5 seconds, launch an orb that explodes upon hitting an enemy, dealing 150 damage to enemies in the area. The explosion leaves behind a pool of decay that lasts 2 seconds, dealing 70 damage every 0.5 seconds to enemies.",
+      "slug": "death-and-decay",
+      "image": ""
+    },
+    {
+      "name": "Frost Nova",
+      "description": "Create a nova that explodes after 1 second, dealing 212 damage to enemies inside and Slowing them by 35% for 2.5 seconds. Enemies in the center are Rooted for 1 second.",
+      "slug": "frost-nova",
+      "image": ""
+    },
+    {
+      "name": "Chains of Kel'Thuzad",
+      "description": "Launch a chain, dealing 97 damage to the first enemy Hero or Structure hit. For 4 seconds after hitting an enemy, Chains can be reactivated to launch to an additional enemy, pulling both enemies together and Stunning them for 0.5 seconds.",
+      "slug": "chains-of-kelthuzad",
+      "image": ""
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Frost Blast",
+      "description": "Launch a meteor of ice at an enemy Hero. Upon impact, the meteor deals 100 damage to its target and 275 damage to enemies in the area. All enemies hit by Frost Blast are Rooted for 1.5 seconds.",
+      "slug": "frost-blast",
+      "image": ""
+    },
+    {
+      "name": "Shadow Fissure",
+      "description": "Create a fissure anywhere on the Battleground that explodes after 1.5 seconds, dealing 400 damage to enemy Heroes in its area.",
+      "slug": "shadow-fissure",
+      "image": ""
+    }
+  ],
+  "original": {
+    "id": "KelThuzad",
+    "name": "Kel'Thuzad",
+    "title": "Archlich of Naxxramas",
+    "description": "Kel'Thuzad has faithfully served the Lich King both in life and after death. Reanimated as the Archlich of the Scourge and given domain of the Dread Necropolis, Naxxramas, Kel’Thuzad remains Arthas’s most trusted advisor and master of the cold dark.",
+    "shortDescription": "A burst damage Mage that locks down enemies and devastates them with powerful combos.",
+    "baseHeroInfo": {
+      "name": "Kel'Thuzad",
+      "title": "Archlich of Naxxramas",
+      "description": "Kel'Thuzad has faithfully served the Lich King both in life and after death. Reanimated as the Archlich of the Scourge and given domain of the Dread Necropolis, Naxxramas, Kel’Thuzad remains Arthas’s most trusted advisor and master of the cold dark.",
+      "shortDescription": "A burst damage Mage that locks down enemies and devastates them with powerful combos.",
+      "slug": "kelthuzad",
+      "role": {
+        "name": "Assassin",
+        "slug": "assassin",
+        "description": "Assassin Slayers of Heroes and bringers of pain."
+      },
+      "skins": [
+
+      ],
+      "type": {
+        "name": "Ranged",
+        "slug": "ranged"
+      },
+      "trait": {
+        "name": "Master of the Cold Dark",
+        "description": "Quest: Gain 1 Blight every time a Hero is Rooted by Frost Nova or hit by Chains of Kel'Thuzad. Reward: After gaining 15 Blight, the cooldown of all Basic Abilities is reduced by 2 seconds. Reward: After gaining 30 Blight, gain 75% Spell Power. Blight: 0/30",
+        "id": "KelThuzadMasterOfTheColdDark",
+        "slug": "master-of-the-cold-dark"
+      },
+      "defaultMount": {
+        "name": "Unrelenting Frost",
+        "id": "MountKelThuzadWake"
+      },
+      "abilities": [
+        {
+          "name": "Death and Decay",
+          "description": "After 0.5 seconds, launch an orb that explodes upon hitting an enemy, dealing 150 damage to enemies in the area. The explosion leaves behind a pool of decay that lasts 2 seconds, dealing 70 damage every 0.5 seconds to enemies.",
+          "id": "KelThuzadDeathAndDecay",
+          "video": "",
+          "slug": "death-and-decay",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Frost Nova",
+          "description": "Create a nova that explodes after 1 second, dealing 212 damage to enemies inside and Slowing them by 35% for 2.5 seconds. Enemies in the center are Rooted for 1 second.",
+          "id": "KelThuzadFrostNova",
+          "video": "",
+          "slug": "frost-nova",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Chains of Kel'Thuzad",
+          "description": "Launch a chain, dealing 97 damage to the first enemy Hero or Structure hit. For 4 seconds after hitting an enemy, Chains can be reactivated to launch to an additional enemy, pulling both enemies together and Stunning them for 0.5 seconds.",
+          "id": "KelThuzadChains",
+          "video": "",
+          "slug": "chains-of-kelthuzad",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "heroicAbilities": [
+        {
+          "name": "Frost Blast",
+          "description": "Launch a meteor of ice at an enemy Hero. Upon impact, the meteor deals 100 damage to its target and 275 damage to enemies in the area. All enemies hit by Frost Blast are Rooted for 1.5 seconds.",
+          "id": "KelThuzadFrozenTomb",
+          "video": "",
+          "slug": "frost-blast",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Shadow Fissure",
+          "description": "Create a fissure anywhere on the Battleground that explodes after 1.5 seconds, dealing 400 damage to enemy Heroes in its area.",
+          "id": "KelThuzadShadowFissure",
+          "video": "",
+          "slug": "shadow-fissure",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+    },
+    "roleSecondary": {
+    },
+    "type": {
+    },
+    "trait": {
+      "name": "Master of the Cold Dark",
+      "description": "Quest: Gain 1 Blight every time a Hero is Rooted by Frost Nova or hit by Chains of Kel'Thuzad. Reward: After gaining 15 Blight, the cooldown of all Basic Abilities is reduced by 2 seconds. Reward: After gaining 30 Blight, gain 75% Spell Power. Blight: 0/30",
+      "id": "KelThuzadMasterOfTheColdDark",
+      "slug": "master-of-the-cold-dark"
+    },
+    "abilities": [
+      {
+        "name": "Death and Decay",
+        "description": "After 0.5 seconds, launch an orb that explodes upon hitting an enemy, dealing 150 damage to enemies in the area. The explosion leaves behind a pool of decay that lasts 2 seconds, dealing 70 damage every 0.5 seconds to enemies.",
+        "id": "KelThuzadDeathAndDecay",
+        "video": "",
+        "slug": "death-and-decay",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Frost Nova",
+        "description": "Create a nova that explodes after 1 second, dealing 212 damage to enemies inside and Slowing them by 35% for 2.5 seconds. Enemies in the center are Rooted for 1 second.",
+        "id": "KelThuzadFrostNova",
+        "video": "",
+        "slug": "frost-nova",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Chains of Kel'Thuzad",
+        "description": "Launch a chain, dealing 97 damage to the first enemy Hero or Structure hit. For 4 seconds after hitting an enemy, Chains can be reactivated to launch to an additional enemy, pulling both enemies together and Stunning them for 0.5 seconds.",
+        "id": "KelThuzadChains",
+        "video": "",
+        "slug": "chains-of-kelthuzad",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "heroicAbilities": [
+      {
+        "name": "Frost Blast",
+        "description": "Launch a meteor of ice at an enemy Hero. Upon impact, the meteor deals 100 damage to its target and 275 damage to enemies in the area. All enemies hit by Frost Blast are Rooted for 1.5 seconds.",
+        "id": "KelThuzadFrozenTomb",
+        "video": "",
+        "slug": "frost-blast",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Shadow Fissure",
+        "description": "Create a fissure anywhere on the Battleground that explodes after 1.5 seconds, dealing 400 damage to enemy Heroes in its area.",
+        "id": "KelThuzadShadowFissure",
+        "video": "",
+        "slug": "shadow-fissure",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "defaultMount": {
+      "name": "Unrelenting Frost",
+      "id": "MountKelThuzadWake"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "otherAbilities": [
+
+    ],
+    "slug": "kelthuzad",
+    "franchise": "Warcraft",
+    "stanceSlug": "",
+    "difficulty": "Hard",
+    "stats": {
+      "damage": 8,
+      "utility": 7,
+      "survivability": 4,
+      "complexity": 7
+    },
+    "skins": [
+      {
+        "name": "Archlich of Naxxramas",
+        "description": "Kel'Thuzad has faithfully served the Lich King both in life and after death. Reanimated as the Archlich of the Scourge and given domain of the Dread Necropolis, Naxxramas, Kel’Thuzad remains Arthas’s most trusted advisor and master of the cold dark.",
+        "id": "KelThuzadBaseCommon",
+        "analyticsName": "Kel'Thuzad | archlich-of-naxxramas",
+        "slug": "archlich-of-naxxramas"
+      },
+      {
+        "name": "Star Lich Kel'Thuzad",
+        "description": "\"What the heroes of this pitiful blue marble fail to understand is the Earth's fate cannot be delayed forever. In the end, the stars will fade and die, and in the cold dark... our empire is eternal.\"",
+        "id": "KelThuzadStarLich",
+        "analyticsName": "Kel'Thuzad | star-lich-kelthuzad",
+        "slug": "star-lich-kelthuzad"
+      }
+    ],
+    "releaseDate": {
+      "year": 2017,
+      "month": 9,
+      "day": 5
+    },
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "kelthuzad",
+    "revealed": true,
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
+  }
+}

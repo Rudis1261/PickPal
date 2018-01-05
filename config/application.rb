@@ -6,6 +6,12 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
+if Rack::Server.new.options[:Port] != 9292
+  $local_port = Rack::Server.new.options[:Port]
+else
+  $local_port = (ENV['PORT'] || '3000').to_i
+end
+
 module PickPal
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
@@ -23,7 +29,8 @@ module PickPal
     config.hero_local_file = File.dirname(__dir__) + '/data/heroes/%s.json'
     config.image_urls = {
         'bust' => 'http://media.blizzard.com/heroes/%s/bust.jpg',
-        'trait' => 'http://media.blizzard.com/heroes/%s/abilities/icons/%s.png'
+        'trait' => 'http://media.blizzard.com/heroes/%s/abilities/icons/%s.png',
+        'thumb' => 'http://media.blizzard.com/heroes/%s/skins/thumbnails/%s.jpg'
     }
 
     config.image_path = '/images/'
@@ -33,5 +40,9 @@ module PickPal
         'varian' => 'warrior/',
         'chogall' => 'cho/',
     }
+
+    config.active_record.default_timezone = :local
+    config.time_zone = 'Africa/Johannesburg'
+    config.hostname = "http://localhost:#{$local_port}"
   end
 end

@@ -1,0 +1,305 @@
+{
+  "name": "Artanis",
+  "slug": "artanis",
+  "title": "Hierarch of the Daelaam",
+  "description": "Warrior Front-line defenders and bruisers.",
+  "role": {
+    "name": "Warrior",
+    "slug": "warrior",
+    "description": "Warrior Front-line defenders and bruisers."
+  },
+  "type_of_hero": "Melee",
+  "franchise": "StarCraft",
+  "difficulty": "Medium",
+  "live": true,
+  "poster_image": "http://localhost:3000/images/artanis/bust.jpg",
+  "stat": {
+    "damage": 6,
+    "utility": 6,
+    "survivability": 8,
+    "complexity": 5
+  },
+  "thumb": "http://localhost:3000/images/artanis/hierarch-of-the-daelaam.jpg",
+  "trait": {
+    "name": "Shield Overload",
+    "description": "Shield Overload",
+    "slug": "shield-overload",
+    "image": ""
+  },
+  "abilities": [
+    {
+      "name": "Blade Dash",
+      "description": "Dash forward and deal 57 damage to enemies, then return and deal 171 damage. Every enemy hit reduces the cooldown on Shield Overload by 1 second, and Heroes by 2 seconds.",
+      "slug": "blade-dash",
+      "image": ""
+    },
+    {
+      "name": "Twin Blades",
+      "description": "Artanis's next Basic Attack immediately causes him to charge a short distance and strike the enemy 2 times.",
+      "slug": "twin-blades",
+      "image": ""
+    },
+    {
+      "name": "Phase Prism",
+      "description": "Fire a Phase Prism that deals 66 damage to the first Hero hit and swaps Artanis's position with theirs. Can be used during Blade Dash.",
+      "slug": "phase-prism",
+      "image": ""
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Suppression Pulse",
+      "description": "Fire a large area pulse from the Spear of Adun, dealing 114 damage and Blinding enemies for 4 seconds. Unlimited range.",
+      "slug": "suppression-pulse",
+      "image": ""
+    },
+    {
+      "name": "Purifier Beam",
+      "description": "Target an enemy Hero with an orbital beam from the Spear of Adun, dealing 184 damage per second for 8 seconds. The beam will chase the target as they move. Unlimited range.",
+      "slug": "purifier-beam",
+      "image": ""
+    }
+  ],
+  "original": {
+    "id": "Artanis",
+    "name": "Artanis",
+    "title": "Hierarch of the Daelaam",
+    "description": "Despite his relative youth, Artanis was named Hierarch of the Daelaam after the fall of Aiur. Driven by the promise of a brighter future, he hopes to reclaim the protoss' fallen home world and rebuild their once glorious civilization. Artanis is FREE to purchasers of StarCraft® II: Legacy of the Void™",
+    "shortDescription": "A tough Bruiser that deals high damage if the enemy team is unable to shut him down.",
+    "baseHeroInfo": {
+      "name": "Artanis",
+      "title": "Hierarch of the Daelaam",
+      "description": "Despite his relative youth, Artanis was named Hierarch of the Daelaam after the fall of Aiur. Driven by the promise of a brighter future, he hopes to reclaim the protoss' fallen home world and rebuild their once glorious civilization. Artanis is FREE to purchasers of StarCraft® II: Legacy of the Void™",
+      "shortDescription": "A tough Bruiser that deals high damage if the enemy team is unable to shut him down.",
+      "slug": "artanis",
+      "role": {
+        "name": "Warrior",
+        "slug": "warrior",
+        "description": "Warrior Front-line defenders and bruisers."
+      },
+      "skins": [
+
+      ],
+      "type": {
+        "name": "Melee",
+        "slug": "melee"
+      },
+      "trait": {
+        "name": "Shield Overload",
+        "description": "After taking damage while below 75% Health grants Artanis a 375 point Shield for 5 seconds. Basic Attacks lower the cooldown of Shield Overload by 4 seconds.",
+        "id": "ArtanisShieldOverloadTrait",
+        "slug": "shield-overload"
+      },
+      "defaultMount": {
+        "name": "Battle Beast",
+        "id": "BattleBeast"
+      },
+      "abilities": [
+        {
+          "name": "Blade Dash",
+          "description": "Dash forward and deal 57 damage to enemies, then return and deal 171 damage. Every enemy hit reduces the cooldown on Shield Overload by 1 second, and Heroes by 2 seconds.",
+          "id": "ArtanisBladeDash",
+          "video": "",
+          "slug": "blade-dash",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Twin Blades",
+          "description": "Artanis's next Basic Attack immediately causes him to charge a short distance and strike the enemy 2 times.",
+          "id": "ArtanisTwinBlades",
+          "video": "",
+          "slug": "twin-blades",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Phase Prism",
+          "description": "Fire a Phase Prism that deals 66 damage to the first Hero hit and swaps Artanis's position with theirs. Can be used during Blade Dash.",
+          "id": "ArtanisPhasePrism",
+          "video": "",
+          "slug": "phase-prism",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "heroicAbilities": [
+        {
+          "name": "Suppression Pulse",
+          "description": "Fire a large area pulse from the Spear of Adun, dealing 114 damage and Blinding enemies for 4 seconds. Unlimited range.",
+          "id": "ArtanisSpearofAdunSuppressionPulse",
+          "video": "",
+          "slug": "suppression-pulse",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Purifier Beam",
+          "description": "Target an enemy Hero with an orbital beam from the Spear of Adun, dealing 184 damage per second for 8 seconds. The beam will chase the target as they move. Unlimited range.",
+          "id": "ArtanisSpearofAdunPurifierBeam",
+          "video": "",
+          "slug": "purifier-beam",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+    },
+    "roleSecondary": {
+    },
+    "type": {
+    },
+    "trait": {
+      "name": "Shield Overload",
+      "description": "After taking damage while below 75% Health grants Artanis a 375 point Shield for 5 seconds. Basic Attacks lower the cooldown of Shield Overload by 4 seconds.",
+      "id": "ArtanisShieldOverloadTrait",
+      "slug": "shield-overload"
+    },
+    "abilities": [
+      {
+        "name": "Blade Dash",
+        "description": "Dash forward and deal 57 damage to enemies, then return and deal 171 damage. Every enemy hit reduces the cooldown on Shield Overload by 1 second, and Heroes by 2 seconds.",
+        "id": "ArtanisBladeDash",
+        "video": "",
+        "slug": "blade-dash",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Twin Blades",
+        "description": "Artanis's next Basic Attack immediately causes him to charge a short distance and strike the enemy 2 times.",
+        "id": "ArtanisTwinBlades",
+        "video": "",
+        "slug": "twin-blades",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Phase Prism",
+        "description": "Fire a Phase Prism that deals 66 damage to the first Hero hit and swaps Artanis's position with theirs. Can be used during Blade Dash.",
+        "id": "ArtanisPhasePrism",
+        "video": "",
+        "slug": "phase-prism",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "heroicAbilities": [
+      {
+        "name": "Suppression Pulse",
+        "description": "Fire a large area pulse from the Spear of Adun, dealing 114 damage and Blinding enemies for 4 seconds. Unlimited range.",
+        "id": "ArtanisSpearofAdunSuppressionPulse",
+        "video": "",
+        "slug": "suppression-pulse",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Purifier Beam",
+        "description": "Target an enemy Hero with an orbital beam from the Spear of Adun, dealing 184 damage per second for 8 seconds. The beam will chase the target as they move. Unlimited range.",
+        "id": "ArtanisSpearofAdunPurifierBeam",
+        "video": "",
+        "slug": "purifier-beam",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "defaultMount": {
+      "name": "Battle Beast",
+      "id": "BattleBeast"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "otherAbilities": [
+
+    ],
+    "slug": "artanis",
+    "franchise": "StarCraft",
+    "stanceSlug": "",
+    "difficulty": "Medium",
+    "stats": {
+      "damage": 6,
+      "utility": 6,
+      "survivability": 8,
+      "complexity": 5
+    },
+    "skins": [
+      {
+        "name": "Hierarch of the Daelaam",
+        "description": "Despite his relative youth, Artanis was named Hierarch of the Daelaam after the fall of Aiur. Driven by the promise of a brighter future, he hopes to reclaim the protoss' fallen home world and rebuild their once glorious civilization. Artanis is FREE to purchasers of StarCraft® II: Legacy of the Void™",
+        "id": "ArtanisBase",
+        "analyticsName": "Artanis | hierarch-of-the-daelaam",
+        "slug": "hierarch-of-the-daelaam"
+      },
+      {
+        "name": "Hierarch Artanis",
+        "description": "As hierarch, Artanis strives for unity among his people. Drawing inspiration from the cultures of both Aiur and Shakuras, his ceremonial armor is a symbol of their combined strength.",
+        "id": "ArtanisUltimate",
+        "analyticsName": "Artanis | hierarch-artanis",
+        "slug": "hierarch-artanis"
+      },
+      {
+        "name": "Daelaam Artanis",
+        "description": "The Khala is lost, and the war against Amon rages across the Koprulu Sector. Aboard the Spear of Adun, Artanis and his forces are the last hope against annihilation.",
+        "id": "ArtanisZeraBlade",
+        "analyticsName": "Artanis | daelaam-artanis",
+        "slug": "daelaam-artanis"
+      },
+      {
+        "name": "Shogun Artanis",
+        "description": "The Daelaam Shogunate is not blind to its people's suffering. Artanis, the newly appointed Shogun, has sworn to bring the Lenassa to justice before another clan falls to their dark blades.",
+        "id": "ArtanisSkinRonin",
+        "analyticsName": "Artanis | shogun-artanis",
+        "slug": "shogun-artanis"
+      },
+      {
+        "name": "Purifier Artanis",
+        "description": "Shortly after reactivation, Artanis purged Aiur of the protoss in an act of open rebellion. Now the Hierarch of the Purifiers leads his people on a quest to cleanse the sector of all organic life.",
+        "id": "ArtanisPurifier",
+        "analyticsName": "Artanis | purifier-artanis",
+        "slug": "purifier-artanis"
+      }
+    ],
+    "releaseDate": {
+      "year": 2015,
+      "month": 10,
+      "day": 27
+    },
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "artanis",
+    "revealed": true,
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
+  }
+}

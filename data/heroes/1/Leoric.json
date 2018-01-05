@@ -1,0 +1,364 @@
+{
+  "name": "Leoric",
+  "slug": "leoric",
+  "title": "The Skeleton King",
+  "description": "Warrior Front-line defenders and bruisers.",
+  "role": {
+    "name": "Warrior",
+    "slug": "warrior",
+    "description": "Warrior Front-line defenders and bruisers."
+  },
+  "type_of_hero": "Melee",
+  "franchise": "Diablo",
+  "difficulty": "Easy",
+  "live": true,
+  "poster_image": "http://media.blizzard.com/heroes/leoric/bust.jpg",
+  "stat": {
+    "damage": 4,
+    "utility": 5,
+    "survivability": 8,
+    "complexity": 6
+  },
+  "thumb": "http://media.blizzard.com/heroes/leoric/skins/thumbnails/the-skeleton-king.jpg",
+  "trait": {
+    "name": "Undying",
+    "description": "Undying",
+    "slug": "undying",
+    "image": ""
+  },
+  "abilities": [
+    {
+      "name": "Skeletal Swing",
+      "description": "Leoric swings his mace, dealing 150 damage and Slowing enemies by 40% for 2.5 seconds. If an enemy Hero is hit, refund 50% of the cooldown and Mana cost. Peasants!",
+      "slug": "skeletal-swing",
+      "image": ""
+    },
+    {
+      "name": "Drain Hope",
+      "description": "Grab an enemy Hero's soul, dealing up to 20% of their maximum Health as damage and healing Leoric for up to 20% of his maximum Health while he is nearby, over 4 seconds. Leoric's Movement Speed is reduced by 20% while this is active.",
+      "slug": "drain-hope",
+      "image": ""
+    },
+    {
+      "name": "Wraith Walk",
+      "description": "Leoric separates from his body, becoming Unstoppable and gaining Movement Speed accelerating up to 50% over 2.5 seconds. When Wraith Walk ends or is canceled, his body jumps to his wraith.",
+      "slug": "wraith-walk",
+      "image": ""
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Entomb",
+      "description": "Create an unpassable tomb for 4 seconds.",
+      "slug": "entomb",
+      "image": ""
+    },
+    {
+      "name": "March of the Black King",
+      "description": "Leoric becomes Unstoppable and walks forward, swinging his mace 3 times. Enemies hit take 250 damage, and Heroes hit heal Leoric for 12% of his maximum Health.",
+      "slug": "march-of-the-black-king",
+      "image": ""
+    }
+  ],
+  "original": {
+    "id": "Leoric",
+    "name": "Leoric",
+    "title": "The Skeleton King",
+    "description": "Madness. Betrayal. Death. These are the legacy of the Black King Leoric's reign. Driven to madness by the spirit of Diablo, Leoric brought untold suffering on his kingdom. Even after his death there was no release for the Skeleton King.",
+    "shortDescription": "A Bruiser that deals high damage against teams with many high Health Heroes.",
+    "baseHeroInfo": {
+      "name": "Leoric",
+      "title": "The Skeleton King",
+      "description": "Madness. Betrayal. Death. These are the legacy of the Black King Leoric's reign. Driven to madness by the spirit of Diablo, Leoric brought untold suffering on his kingdom. Even after his death there was no release for the Skeleton King.",
+      "shortDescription": "A Bruiser that deals high damage against teams with many high Health Heroes.",
+      "slug": "leoric",
+      "role": {
+        "name": "Warrior",
+        "slug": "warrior",
+        "description": "Warrior Front-line defenders and bruisers."
+      },
+      "skins": [
+
+      ],
+      "type": {
+        "name": "Melee",
+        "slug": "melee"
+      },
+      "trait": {
+        "name": "Undying",
+        "description": "Leoric becomes a ghost when he dies, and resurrects upon reaching full Health. Leoric deals no damage while dead. Wrath Of The Bone King Leoric's first two Basic Attacks cleave for 100% damage, and his third Basic Attack deals 200% damage to a single target.",
+        "id": "LeoricUndyingTrait",
+        "slug": "undying"
+      },
+      "defaultMount": {
+        "name": "Horse",
+        "id": "HorseCommon"
+      },
+      "abilities": [
+        {
+          "name": "Skeletal Swing",
+          "description": "Leoric swings his mace, dealing 150 damage and Slowing enemies by 40% for 2.5 seconds. If an enemy Hero is hit, refund 50% of the cooldown and Mana cost. Peasants!",
+          "id": "LeoricSkeletalSwing",
+          "video": "",
+          "slug": "skeletal-swing",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Drain Hope",
+          "description": "Grab an enemy Hero's soul, dealing up to 20% of their maximum Health as damage and healing Leoric for up to 20% of his maximum Health while he is nearby, over 4 seconds. Leoric's Movement Speed is reduced by 20% while this is active.",
+          "id": "LeoricDrainHope",
+          "video": "",
+          "slug": "drain-hope",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Wraith Walk",
+          "description": "Leoric separates from his body, becoming Unstoppable and gaining Movement Speed accelerating up to 50% over 2.5 seconds. When Wraith Walk ends or is canceled, his body jumps to his wraith.",
+          "id": "LeoricWraithWalk",
+          "video": "",
+          "slug": "wraith-walk",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "heroicAbilities": [
+        {
+          "name": "Entomb",
+          "description": "Create an unpassable tomb for 4 seconds.",
+          "id": "LeoricEntomb",
+          "video": "",
+          "slug": "entomb",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "March of the Black King",
+          "description": "Leoric becomes Unstoppable and walks forward, swinging his mace 3 times. Enemies hit take 250 damage, and Heroes hit heal Leoric for 12% of his maximum Health.",
+          "id": "LeoricMarchoftheBlackKing",
+          "video": "",
+          "slug": "march-of-the-black-king",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+        {
+          "name": "Ghastly Swing",
+          "description": "Slow enemies by 40% for 2.5 seconds.",
+          "id": "LeoricGhastlySwing",
+          "video": "",
+          "slug": "ghastly-swing",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Drain Essence",
+          "description": "Throw out a chain, attaching to the first enemy Hero hit, healing Leoric for up to 10% of his maximum Health over 4 seconds as long as the enemy remains close.",
+          "id": "LeoricDrainEssence",
+          "video": "",
+          "slug": "drain-essence",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Shroud of the Dead King",
+          "description": "Activate to become Protected for 3 seconds, preventing all damage.",
+          "id": "LeoricShroudoftheDeadKingTalent",
+          "video": "",
+          "slug": "shroud-of-the-dead-king",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+    },
+    "roleSecondary": {
+    },
+    "type": {
+    },
+    "trait": {
+      "name": "Undying",
+      "description": "Leoric becomes a ghost when he dies, and resurrects upon reaching full Health. Leoric deals no damage while dead. Wrath Of The Bone King Leoric's first two Basic Attacks cleave for 100% damage, and his third Basic Attack deals 200% damage to a single target.",
+      "id": "LeoricUndyingTrait",
+      "slug": "undying"
+    },
+    "abilities": [
+      {
+        "name": "Skeletal Swing",
+        "description": "Leoric swings his mace, dealing 150 damage and Slowing enemies by 40% for 2.5 seconds. If an enemy Hero is hit, refund 50% of the cooldown and Mana cost. Peasants!",
+        "id": "LeoricSkeletalSwing",
+        "video": "",
+        "slug": "skeletal-swing",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Drain Hope",
+        "description": "Grab an enemy Hero's soul, dealing up to 20% of their maximum Health as damage and healing Leoric for up to 20% of his maximum Health while he is nearby, over 4 seconds. Leoric's Movement Speed is reduced by 20% while this is active.",
+        "id": "LeoricDrainHope",
+        "video": "",
+        "slug": "drain-hope",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Wraith Walk",
+        "description": "Leoric separates from his body, becoming Unstoppable and gaining Movement Speed accelerating up to 50% over 2.5 seconds. When Wraith Walk ends or is canceled, his body jumps to his wraith.",
+        "id": "LeoricWraithWalk",
+        "video": "",
+        "slug": "wraith-walk",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "heroicAbilities": [
+      {
+        "name": "Entomb",
+        "description": "Create an unpassable tomb for 4 seconds.",
+        "id": "LeoricEntomb",
+        "video": "",
+        "slug": "entomb",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "March of the Black King",
+        "description": "Leoric becomes Unstoppable and walks forward, swinging his mace 3 times. Enemies hit take 250 damage, and Heroes hit heal Leoric for 12% of his maximum Health.",
+        "id": "LeoricMarchoftheBlackKing",
+        "video": "",
+        "slug": "march-of-the-black-king",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "defaultMount": {
+      "name": "Horse",
+      "id": "HorseCommon"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "otherAbilities": [
+      {
+        "name": "Ghastly Swing",
+        "description": "Slow enemies by 40% for 2.5 seconds.",
+        "id": "LeoricGhastlySwing",
+        "video": "",
+        "slug": "ghastly-swing",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Drain Essence",
+        "description": "Throw out a chain, attaching to the first enemy Hero hit, healing Leoric for up to 10% of his maximum Health over 4 seconds as long as the enemy remains close.",
+        "id": "LeoricDrainEssence",
+        "video": "",
+        "slug": "drain-essence",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Shroud of the Dead King",
+        "description": "Activate to become Protected for 3 seconds, preventing all damage.",
+        "id": "LeoricShroudoftheDeadKingTalent",
+        "video": "",
+        "slug": "shroud-of-the-dead-king",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "slug": "leoric",
+    "franchise": "Diablo",
+    "stanceSlug": "",
+    "difficulty": "Easy",
+    "stats": {
+      "damage": 4,
+      "utility": 5,
+      "survivability": 8,
+      "complexity": 6
+    },
+    "skins": [
+      {
+        "name": "The Skeleton King",
+        "description": "Madness. Betrayal. Death. These are the legacy of the Black King Leoric's reign. Driven to madness by the spirit of Diablo, Leoric brought untold suffering on his kingdom. Even after his death there was no release for the Skeleton King.",
+        "id": "LeoricCommon",
+        "analyticsName": "Leoric | the-skeleton-king",
+        "slug": "the-skeleton-king"
+      },
+      {
+        "name": "Zakarum Leoric",
+        "description": "These ornamental warplates were once a symbol of the holy Zakarum faith. Now, they serve only as a stark reminder of its demonic corruption.",
+        "id": "LeoricUltimate",
+        "analyticsName": "Leoric | zakarum-leoric",
+        "slug": "zakarum-leoric"
+      },
+      {
+        "name": "Space Lord Leoric",
+        "description": "The Space Lord has brought countless worlds to heel in the name of the Eternal Empire. Soon, even the Earth's troublesome Star Princesses will fall to the power of the darkness.",
+        "id": "LeoricSpace",
+        "analyticsName": "Leoric | space-lord-leoric",
+        "slug": "space-lord-leoric"
+      },
+      {
+        "name": "God-King Leoric",
+        "description": "King Leoric used his legendary might to strike down every jarl who challenged his ascent to the throne. But not even uncontested rule is enough to slake his thirst for power. ",
+        "id": "LeoricKingVrykul",
+        "analyticsName": "Leoric | god-king-leoric",
+        "slug": "god-king-leoric"
+      },
+      {
+        "name": "Vrykul Leoric",
+        "description": "Leoric held the Winterskorn Chieftain's skull aloft for the gathering crowd to see. \"Who else among you wishes to challenge me?\" The silence was deafening.",
+        "id": "LeoricVrykul",
+        "analyticsName": "Leoric | vrykul-leoric",
+        "slug": "vrykul-leoric"
+      }
+    ],
+    "releaseDate": {
+      "year": 2015,
+      "month": 7,
+      "day": 21
+    },
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "leoric",
+    "revealed": true,
+    "video": "WOR0qArdtHY",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
+  }
+}

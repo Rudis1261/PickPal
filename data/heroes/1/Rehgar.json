@@ -1,0 +1,333 @@
+{
+  "name": "Rehgar",
+  "slug": "rehgar",
+  "title": "Shaman of the Earthen Ring",
+  "description": "Support Healers, buffers, and everyone’s best friends.",
+  "role": {
+    "name": "Support",
+    "slug": "support",
+    "description": "Support Healers, buffers, and everyone’s best friends."
+  },
+  "type_of_hero": "Melee",
+  "franchise": "Warcraft",
+  "difficulty": "Medium",
+  "live": true,
+  "poster_image": "http://media.blizzard.com/heroes/rehgar/bust.jpg",
+  "stat": {
+    "damage": 5,
+    "utility": 7,
+    "survivability": 7,
+    "complexity": 6
+  },
+  "thumb": "http://media.blizzard.com/heroes/rehgar/skins/thumbnails/shaman-of-the-earthen-ring.jpg",
+  "trait": {
+    "name": "Ghost Wolf",
+    "description": "Ghost Wolf",
+    "slug": "ghost-wolf",
+    "image": ""
+  },
+  "abilities": [
+    {
+      "name": "Chain Heal",
+      "description": "Heal an ally with a wave of healing for 240 Health. The wave then bounces 2 times to nearby allies within 7 range, restoring 240 Health to them. ",
+      "slug": "chain-heal",
+      "image": ""
+    },
+    {
+      "name": "Lightning Shield",
+      "description": "Imbue an ally with lightning dealing 64 damage a second to nearby enemies. Lasts 5 seconds.",
+      "slug": "lightning-shield",
+      "image": ""
+    },
+    {
+      "name": "Earthbind Totem",
+      "description": "Create a totem that slows nearby enemies by 35%. The totem has 217 Health and lasts for 8 seconds.",
+      "slug": "earthbind-totem",
+      "image": ""
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Ancestral Healing",
+      "description": "After 1 second, heal an allied Hero for 1475 Health. Cannot be used on Rehgar.",
+      "slug": "ancestral-healing",
+      "image": ""
+    },
+    {
+      "name": "Bloodlust",
+      "description": "Grant nearby allied Heroes 40% Attack Speed and 25% Movement Speed and causes them to heal for 30% of the Basic Attack damage to their primary target. Lasts for 8 seconds.",
+      "slug": "bloodlust",
+      "image": ""
+    }
+  ],
+  "original": {
+    "id": "Rehgar",
+    "name": "Rehgar",
+    "title": "Shaman of the Earthen Ring",
+    "description": "Rehgar Earthfury has seen his share of combat, both as a gladiator, and a master of his own team. Now, having put that life aside, he serves as a simple shaman of the Earthen Ring, earning his redemption by healing the lands of Azeroth.",
+    "shortDescription": "A well-rounded Healer that pairs well with Melee allies.",
+    "baseHeroInfo": {
+      "name": "Rehgar",
+      "title": "Shaman of the Earthen Ring",
+      "description": "Rehgar Earthfury has seen his share of combat, both as a gladiator, and a master of his own team. Now, having put that life aside, he serves as a simple shaman of the Earthen Ring, earning his redemption by healing the lands of Azeroth.",
+      "shortDescription": "A well-rounded Healer that pairs well with Melee allies.",
+      "slug": "rehgar",
+      "role": {
+        "name": "Support",
+        "slug": "support",
+        "description": "Support Healers, buffers, and everyone’s best friends."
+      },
+      "skins": [
+
+      ],
+      "type": {
+        "name": "Melee",
+        "slug": "melee"
+      },
+      "trait": {
+        "name": "Ghost Wolf",
+        "description": "Instead of using a mount, Rehgar transforms into a Ghost Wolf with 20% increased Movement Speed. Basic Attacks in Ghost Wolf form cause him to lunge at his target and deal 75% bonus damage. Dealing damage, using Abilities, and channeling cancels Ghost Wolf form.",
+        "id": "RehgarGhostWolf",
+        "slug": "ghost-wolf"
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+        {
+          "name": "Chain Heal",
+          "description": "Heal an ally with a wave of healing for 240 Health. The wave then bounces 2 times to nearby allies within 7 range, restoring 240 Health to them. ",
+          "id": "RehgarChainHeal",
+          "video": "",
+          "slug": "chain-heal",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Lightning Shield",
+          "description": "Imbue an ally with lightning dealing 64 damage a second to nearby enemies. Lasts 5 seconds.",
+          "id": "RehgarLightningShield",
+          "video": "",
+          "slug": "lightning-shield",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Earthbind Totem",
+          "description": "Create a totem that slows nearby enemies by 35%. The totem has 217 Health and lasts for 8 seconds.",
+          "id": "RehgarEarthbindTotem",
+          "video": "",
+          "slug": "earthbind-totem",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "heroicAbilities": [
+        {
+          "name": "Ancestral Healing",
+          "description": "After 1 second, heal an allied Hero for 1475 Health. Cannot be used on Rehgar.",
+          "id": "RehgarAncestralHealing",
+          "video": "",
+          "slug": "ancestral-healing",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Bloodlust",
+          "description": "Grant nearby allied Heroes 40% Attack Speed and 25% Movement Speed and causes them to heal for 30% of the Basic Attack damage to their primary target. Lasts for 8 seconds.",
+          "id": "RehgarBloodlust",
+          "video": "",
+          "slug": "bloodlust",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+        {
+          "name": "Totemic Projection",
+          "description": "Instantly move Earthbind Totem to a new location.",
+          "id": "RehgarTotemicProjection",
+          "video": "",
+          "slug": "totemic-projection",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Ghost Wolf",
+          "description": "Increases Movement Speed by 20%.",
+          "id": "RehgarGhostWolfActivate",
+          "video": "",
+          "slug": "ghost-wolf",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+    },
+    "roleSecondary": {
+    },
+    "type": {
+    },
+    "trait": {
+      "name": "Ghost Wolf",
+      "description": "Instead of using a mount, Rehgar transforms into a Ghost Wolf with 20% increased Movement Speed. Basic Attacks in Ghost Wolf form cause him to lunge at his target and deal 75% bonus damage. Dealing damage, using Abilities, and channeling cancels Ghost Wolf form.",
+      "id": "RehgarGhostWolf",
+      "slug": "ghost-wolf"
+    },
+    "abilities": [
+      {
+        "name": "Chain Heal",
+        "description": "Heal an ally with a wave of healing for 240 Health. The wave then bounces 2 times to nearby allies within 7 range, restoring 240 Health to them. ",
+        "id": "RehgarChainHeal",
+        "video": "",
+        "slug": "chain-heal",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Lightning Shield",
+        "description": "Imbue an ally with lightning dealing 64 damage a second to nearby enemies. Lasts 5 seconds.",
+        "id": "RehgarLightningShield",
+        "video": "",
+        "slug": "lightning-shield",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Earthbind Totem",
+        "description": "Create a totem that slows nearby enemies by 35%. The totem has 217 Health and lasts for 8 seconds.",
+        "id": "RehgarEarthbindTotem",
+        "video": "",
+        "slug": "earthbind-totem",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "heroicAbilities": [
+      {
+        "name": "Ancestral Healing",
+        "description": "After 1 second, heal an allied Hero for 1475 Health. Cannot be used on Rehgar.",
+        "id": "RehgarAncestralHealing",
+        "video": "",
+        "slug": "ancestral-healing",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Bloodlust",
+        "description": "Grant nearby allied Heroes 40% Attack Speed and 25% Movement Speed and causes them to heal for 30% of the Basic Attack damage to their primary target. Lasts for 8 seconds.",
+        "id": "RehgarBloodlust",
+        "video": "",
+        "slug": "bloodlust",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "defaultMount": {
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "otherAbilities": [
+      {
+        "name": "Totemic Projection",
+        "description": "Instantly move Earthbind Totem to a new location.",
+        "id": "RehgarTotemicProjection",
+        "video": "",
+        "slug": "totemic-projection",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Ghost Wolf",
+        "description": "Increases Movement Speed by 20%.",
+        "id": "RehgarGhostWolfActivate",
+        "video": "",
+        "slug": "ghost-wolf",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "slug": "rehgar",
+    "franchise": "Warcraft",
+    "stanceSlug": "",
+    "difficulty": "Medium",
+    "stats": {
+      "damage": 5,
+      "utility": 7,
+      "survivability": 7,
+      "complexity": 6
+    },
+    "skins": [
+      {
+        "name": "Shaman of the Earthen Ring",
+        "description": "Rehgar Earthfury has seen his share of combat, both as a gladiator, and a master of his own team. Now, having put that life aside, he serves as a simple shaman of the Earthen Ring, earning his redemption by healing the lands of Azeroth.",
+        "id": "RehgarCommon",
+        "analyticsName": "Rehgar | shaman-of-the-earthen-ring",
+        "slug": "shaman-of-the-earthen-ring"
+      },
+      {
+        "name": "Storm Wolf Rehgar",
+        "description": "Long ago the spirit of Lo'gosh revealed itself to the orc clans of Draenor. To this day his ferocity and feral instincts still serve as a guide to the shaman of the Earthen Ring.",
+        "id": "RehgarUltimate",
+        "analyticsName": "Rehgar | storm-wolf-rehgar",
+        "slug": "storm-wolf-rehgar"
+      },
+      {
+        "name": "Great-father Winter Rehgar",
+        "description": "Some people believe that Great-father Winter is just a symbol of commercialization created by Smokeywood Pastures. Those people get coal shoved up their stockings.",
+        "id": "RehgarGFWinter",
+        "analyticsName": "Rehgar | great-father-winter-rehgar",
+        "slug": "great-father-winter-rehgar"
+      },
+      {
+        "name": "Ironclaw Rehgar",
+        "description": "The deal was simple... His life in exchange for training Garrosh's warriors. With their victory in Orgrimmar, Rehgar knew the Iron Horde could only be brought down from within.",
+        "id": "RehgarIronClaw",
+        "analyticsName": "Rehgar | ironclaw-rehgar",
+        "slug": "ironclaw-rehgar"
+      }
+    ],
+    "releaseDate": {
+      "year": 2014,
+      "month": 7,
+      "day": 22
+    },
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "rehgar",
+    "revealed": true,
+    "video": "atZ3qAOTcz0",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
+  }
+}

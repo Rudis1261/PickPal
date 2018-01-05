@@ -1,0 +1,323 @@
+{
+  "name": "Nazeebo",
+  "slug": "nazeebo",
+  "title": "Heretic Witch Doctor",
+  "description": "Specialist Rule breakers and masters of unconventional warfare.",
+  "role": {
+    "name": "Specialist",
+    "slug": "specialist",
+    "description": "Specialist Rule breakers and masters of unconventional warfare."
+  },
+  "type_of_hero": "Ranged",
+  "franchise": "Diablo",
+  "difficulty": "Medium",
+  "live": true,
+  "poster_image": "http://localhost:3000/images/nazeebo/bust.jpg",
+  "stat": {
+    "damage": 8,
+    "utility": 4,
+    "survivability": 3,
+    "complexity": 6
+  },
+  "thumb": "http://localhost:3000/images/nazeebo/heretic-witch-doctor.jpg",
+  "trait": {
+    "name": "Voodoo Ritual",
+    "description": "Voodoo Ritual",
+    "slug": "voodoo-ritual",
+    "image": ""
+  },
+  "abilities": [
+    {
+      "name": "Corpse Spiders",
+      "description": "Hurl a jar of spiders that deals 50 damage. If it hits at least one enemy, create 3 Corpse Spiders that attack for 38 damage. Spiders last for 4 seconds.",
+      "slug": "corpse-spiders",
+      "image": ""
+    },
+    {
+      "name": "Zombie Wall",
+      "description": "After 1 second, create a ring of Zombies surrounding the target area that deal 28 damage and last for 3 seconds.",
+      "slug": "zombie-wall",
+      "image": ""
+    },
+    {
+      "name": "Plague of Toads",
+      "description": "Create a wave of 3 Toads that explode on contact, dealing 126 damage over 6 seconds. This effect stacks. Stores up to 2 charges.",
+      "slug": "plague-of-toads",
+      "image": ""
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Gargantuan",
+      "description": "Summon a Gargantuan to guard an area for 20 seconds. Deals 100 damage when summoned, attacks for 150 damage, and can be ordered to stomp nearby enemies.",
+      "slug": "gargantuan",
+      "image": ""
+    },
+    {
+      "name": "Ravenous Spirit",
+      "description": "Channel a Ravenous Spirit that deals 216 damage per second. Cannot move while channeling. Lasts for 8 seconds.",
+      "slug": "ravenous-spirit",
+      "image": ""
+    }
+  ],
+  "original": {
+    "id": "WitchDoctor",
+    "name": "Nazeebo",
+    "title": "Heretic Witch Doctor",
+    "description": "With cabalistic incantations and vestments of feather and bone, the witch doctor Nazeebo calls upon spirits from the Unformed Land to aid him. Few outlanders encounter a witch doctor in the flesh, without losing their own.",
+    "shortDescription": "A sustained damage Mage who gains power when killing enemy minions.",
+    "baseHeroInfo": {
+      "name": "Nazeebo",
+      "title": "Heretic Witch Doctor",
+      "description": "With cabalistic incantations and vestments of feather and bone, the witch doctor Nazeebo calls upon spirits from the Unformed Land to aid him. Few outlanders encounter a witch doctor in the flesh, without losing their own.",
+      "shortDescription": "A sustained damage Mage who gains power when killing enemy minions.",
+      "slug": "nazeebo",
+      "role": {
+        "name": "Specialist",
+        "slug": "specialist",
+        "description": "Specialist Rule breakers and masters of unconventional warfare."
+      },
+      "skins": [
+
+      ],
+      "type": {
+        "name": "Ranged",
+        "slug": "ranged"
+      },
+      "trait": {
+        "name": "Voodoo Ritual",
+        "description": "Nazeebo's Basic Attacks and Abilities poison Non-Heroic enemies, causing them to take 67 additional damage over 6 seconds. Quest: If a Minion dies while poisoned by Voodoo Ritual, Nazeebo permanently gains 6 Health and 1 Mana.",
+        "id": "WitchDoctorVoodooRitualTrait",
+        "slug": "voodoo-ritual"
+      },
+      "defaultMount": {
+        "name": "Horse",
+        "id": "HorseCommon"
+      },
+      "abilities": [
+        {
+          "name": "Corpse Spiders",
+          "description": "Hurl a jar of spiders that deals 50 damage. If it hits at least one enemy, create 3 Corpse Spiders that attack for 38 damage. Spiders last for 4 seconds.",
+          "id": "WitchDoctorCorpseSpiders",
+          "video": "",
+          "slug": "corpse-spiders",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Zombie Wall",
+          "description": "After 1 second, create a ring of Zombies surrounding the target area that deal 28 damage and last for 3 seconds.",
+          "id": "WitchDoctorZombieWall",
+          "video": "",
+          "slug": "zombie-wall",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Plague of Toads",
+          "description": "Create a wave of 3 Toads that explode on contact, dealing 126 damage over 6 seconds. This effect stacks. Stores up to 2 charges.",
+          "id": "WitchDoctorPlagueOfToads",
+          "video": "",
+          "slug": "plague-of-toads",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "heroicAbilities": [
+        {
+          "name": "Gargantuan",
+          "description": "Summon a Gargantuan to guard an area for 20 seconds. Deals 100 damage when summoned, attacks for 150 damage, and can be ordered to stomp nearby enemies.",
+          "id": "WitchDoctorGargantuan",
+          "video": "",
+          "slug": "gargantuan",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Ravenous Spirit",
+          "description": "Channel a Ravenous Spirit that deals 216 damage per second. Cannot move while channeling. Lasts for 8 seconds.",
+          "id": "WitchDoctorRavenousSpirit",
+          "video": "",
+          "slug": "ravenous-spirit",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+        {
+          "name": "Gargantuan Stomp",
+          "description": "Order the Gargantuan to stomp, dealing 240 damage to nearby enemies and slowing them by 30% for 2 seconds.",
+          "id": "WitchDoctorGargantuanStomp",
+          "video": "",
+          "slug": "gargantuan-stomp",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+    },
+    "roleSecondary": {
+    },
+    "type": {
+    },
+    "trait": {
+      "name": "Voodoo Ritual",
+      "description": "Nazeebo's Basic Attacks and Abilities poison Non-Heroic enemies, causing them to take 67 additional damage over 6 seconds. Quest: If a Minion dies while poisoned by Voodoo Ritual, Nazeebo permanently gains 6 Health and 1 Mana.",
+      "id": "WitchDoctorVoodooRitualTrait",
+      "slug": "voodoo-ritual"
+    },
+    "abilities": [
+      {
+        "name": "Corpse Spiders",
+        "description": "Hurl a jar of spiders that deals 50 damage. If it hits at least one enemy, create 3 Corpse Spiders that attack for 38 damage. Spiders last for 4 seconds.",
+        "id": "WitchDoctorCorpseSpiders",
+        "video": "",
+        "slug": "corpse-spiders",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Zombie Wall",
+        "description": "After 1 second, create a ring of Zombies surrounding the target area that deal 28 damage and last for 3 seconds.",
+        "id": "WitchDoctorZombieWall",
+        "video": "",
+        "slug": "zombie-wall",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Plague of Toads",
+        "description": "Create a wave of 3 Toads that explode on contact, dealing 126 damage over 6 seconds. This effect stacks. Stores up to 2 charges.",
+        "id": "WitchDoctorPlagueOfToads",
+        "video": "",
+        "slug": "plague-of-toads",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "heroicAbilities": [
+      {
+        "name": "Gargantuan",
+        "description": "Summon a Gargantuan to guard an area for 20 seconds. Deals 100 damage when summoned, attacks for 150 damage, and can be ordered to stomp nearby enemies.",
+        "id": "WitchDoctorGargantuan",
+        "video": "",
+        "slug": "gargantuan",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Ravenous Spirit",
+        "description": "Channel a Ravenous Spirit that deals 216 damage per second. Cannot move while channeling. Lasts for 8 seconds.",
+        "id": "WitchDoctorRavenousSpirit",
+        "video": "",
+        "slug": "ravenous-spirit",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "defaultMount": {
+      "name": "Horse",
+      "id": "HorseCommon"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "otherAbilities": [
+      {
+        "name": "Gargantuan Stomp",
+        "description": "Order the Gargantuan to stomp, dealing 240 damage to nearby enemies and slowing them by 30% for 2 seconds.",
+        "id": "WitchDoctorGargantuanStomp",
+        "video": "",
+        "slug": "gargantuan-stomp",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "slug": "nazeebo",
+    "franchise": "Diablo",
+    "stanceSlug": "",
+    "difficulty": "Medium",
+    "stats": {
+      "damage": 8,
+      "utility": 4,
+      "survivability": 3,
+      "complexity": 6
+    },
+    "skins": [
+      {
+        "name": "Heretic Witch Doctor",
+        "description": "With cabalistic incantations and vestments of feather and bone, the witch doctor Nazeebo calls upon spirits from the Unformed Land to aid him. Few outlanders encounter a witch doctor in the flesh, without losing their own.",
+        "id": "WitchDoctorCommon",
+        "analyticsName": "Nazeebo | heretic-witch-doctor",
+        "slug": "heretic-witch-doctor"
+      },
+      {
+        "name": "Hellflame Nazeebo",
+        "description": "The Hellflame Mask was created in honor of Nazeebo's victory over the Prime Evil. Trusting no one else to guard the black soulstone, he kept it close... Perhaps, too close.",
+        "id": "MasterNazeebo",
+        "analyticsName": "Nazeebo | hellflame-nazeebo",
+        "slug": "hellflame-nazeebo"
+      },
+      {
+        "name": "Gingerdread Nazeebo",
+        "description": "Run, run, run... as fast as you can! No one escapes from the Gingerdread Man.",
+        "id": "WitchDoctorWinter",
+        "analyticsName": "Nazeebo | gingerdread-nazeebo",
+        "slug": "gingerdread-nazeebo"
+      },
+      {
+        "name": "Harlequin Nazeebo",
+        "description": "The Countess Kerrigan's demands for entertainment mirror the darkness within her. Her harlequins are masters at manipulating life and death, solely for her amusement.",
+        "id": "WitchDoctorHarlequin",
+        "analyticsName": "Nazeebo | harlequin-nazeebo",
+        "slug": "harlequin-nazeebo"
+      },
+      {
+        "name": "Grimskull Nazeebo",
+        "description": "The Teganze jungles hold many legendary weapons wielded by both man and demon alike. The Grimskull Visage itself has passed from one Witch Doctor to the next since the Sin War.",
+        "id": "WitchDoctorGrimskull",
+        "analyticsName": "Nazeebo | grimskull-nazeebo",
+        "slug": "grimskull-nazeebo"
+      }
+    ],
+    "releaseDate": {
+      "year": 2014,
+      "month": 1,
+      "day": 1
+    },
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "nazeebo",
+    "revealed": true,
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
+  }
+}

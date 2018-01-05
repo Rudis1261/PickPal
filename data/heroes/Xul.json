@@ -1,0 +1,309 @@
+{
+  "name": "Xul",
+  "slug": "xul",
+  "title": "Cryptic Necromancer",
+  "description": "Specialist Rule breakers and masters of unconventional warfare.",
+  "role": {
+    "name": "Specialist",
+    "slug": "specialist",
+    "description": "Specialist Rule breakers and masters of unconventional warfare."
+  },
+  "type_of_hero": "Melee",
+  "franchise": "Diablo",
+  "difficulty": "Medium",
+  "live": true,
+  "poster_image": "http://localhost:3000/images/xul/bust.jpg",
+  "stat": {
+    "damage": 5,
+    "utility": 9,
+    "survivability": 7,
+    "complexity": 4
+  },
+  "thumb": "http://localhost:3000/images/xul/cryptic-necromancer.jpg",
+  "trait": {
+    "name": "Raise Skeleton",
+    "description": "Raise Skeleton",
+    "slug": "raise-skeleton",
+    "image": ""
+  },
+  "abilities": [
+    {
+      "name": "Spectral Scythe",
+      "description": "Summon a scythe that travels to Xul after 1 second, dealing 240 damage to enemies.",
+      "slug": "spectral-scythe",
+      "image": ""
+    },
+    {
+      "name": "Cursed Strikes",
+      "description": "Xul's Basic Attacks deal damage in a wide area and reduce the Attack Speed of Heroes and Summons by 40% for 2 seconds. Lasts 4 seconds once triggered.",
+      "slug": "cursed-strikes",
+      "image": ""
+    },
+    {
+      "name": "Bone Prison",
+      "description": "After a 2 second delay, deal 80 damage and Root the target enemy Hero for 1.75 seconds. All nearby Skeletal Warriors will fixate on the target for their duration.",
+      "slug": "bone-prison",
+      "image": ""
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Poison Nova",
+      "description": "After 0.5 seconds, release poisonous missiles that deal 570 damage to all enemies hit over 10 seconds.",
+      "slug": "poison-nova",
+      "image": ""
+    },
+    {
+      "name": "Skeletal Mages",
+      "description": "Vector Targeting Summon 4 Frost Mages in a line that attack nearby enemies for 47 damage a second and Slow them by 30% for 2 seconds. Last up to 15 seconds.",
+      "slug": "skeletal-mages",
+      "image": ""
+    }
+  ],
+  "original": {
+    "id": "Necromancer",
+    "name": "Xul",
+    "title": "Cryptic Necromancer",
+    "description": "From the recesses of the eastern jungles comes a man cloaked in mystery. As a member of the secretive Priests of Rathma, or the Necromancers, Xul wields powerful death magic and fights to preserve the delicate balance between order and chaos.",
+    "shortDescription": "A Summoner who can push multiple lanes with ease.",
+    "baseHeroInfo": {
+      "name": "Xul",
+      "title": "Cryptic Necromancer",
+      "description": "From the recesses of the eastern jungles comes a man cloaked in mystery. As a member of the secretive Priests of Rathma, or the Necromancers, Xul wields powerful death magic and fights to preserve the delicate balance between order and chaos.",
+      "shortDescription": "A Summoner who can push multiple lanes with ease.",
+      "slug": "xul",
+      "role": {
+        "name": "Specialist",
+        "slug": "specialist",
+        "description": "Specialist Rule breakers and masters of unconventional warfare."
+      },
+      "skins": [
+
+      ],
+      "type": {
+        "name": "Melee",
+        "slug": "melee"
+      },
+      "trait": {
+        "name": "Raise Skeleton",
+        "description": "When a nearby enemy Minion dies, it becomes a Skeletal Warrior with 240 Health that attacks for 23 damage and last up to 15 seconds. Up to 4 Skeletal Warriors can be active at once.",
+        "id": "NecromancerRaiseSkeleton",
+        "slug": "raise-skeleton"
+      },
+      "defaultMount": {
+        "name": "Horse",
+        "id": "HorseCommon"
+      },
+      "abilities": [
+        {
+          "name": "Spectral Scythe",
+          "description": "Summon a scythe that travels to Xul after 1 second, dealing 240 damage to enemies.",
+          "id": "NecromancerSpectralScythe",
+          "video": "",
+          "slug": "spectral-scythe",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Cursed Strikes",
+          "description": "Xul's Basic Attacks deal damage in a wide area and reduce the Attack Speed of Heroes and Summons by 40% for 2 seconds. Lasts 4 seconds once triggered.",
+          "id": "NecromancerCursedStrikes",
+          "video": "",
+          "slug": "cursed-strikes",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Bone Prison",
+          "description": "After a 2 second delay, deal 80 damage and Root the target enemy Hero for 1.75 seconds. All nearby Skeletal Warriors will fixate on the target for their duration.",
+          "id": "NecromancerBonePrison",
+          "video": "",
+          "slug": "bone-prison",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Bone Armor",
+          "description": "Activate to gain a Shield equal to 25% of Xul's maximum Health for 3 seconds.",
+          "id": "NecromancerBoneArmor",
+          "video": "",
+          "slug": "bone-armor",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "heroicAbilities": [
+        {
+          "name": "Poison Nova",
+          "description": "After 0.5 seconds, release poisonous missiles that deal 570 damage to all enemies hit over 10 seconds.",
+          "id": "NecromancerPoisonNova",
+          "video": "",
+          "slug": "poison-nova",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Skeletal Mages",
+          "description": "Vector Targeting Summon 4 Frost Mages in a line that attack nearby enemies for 47 damage a second and Slow them by 30% for 2 seconds. Last up to 15 seconds.",
+          "id": "NecromancerSkeletalMages",
+          "video": "",
+          "slug": "skeletal-mages",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+    },
+    "roleSecondary": {
+    },
+    "type": {
+    },
+    "trait": {
+      "name": "Raise Skeleton",
+      "description": "When a nearby enemy Minion dies, it becomes a Skeletal Warrior with 240 Health that attacks for 23 damage and last up to 15 seconds. Up to 4 Skeletal Warriors can be active at once.",
+      "id": "NecromancerRaiseSkeleton",
+      "slug": "raise-skeleton"
+    },
+    "abilities": [
+      {
+        "name": "Spectral Scythe",
+        "description": "Summon a scythe that travels to Xul after 1 second, dealing 240 damage to enemies.",
+        "id": "NecromancerSpectralScythe",
+        "video": "",
+        "slug": "spectral-scythe",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Cursed Strikes",
+        "description": "Xul's Basic Attacks deal damage in a wide area and reduce the Attack Speed of Heroes and Summons by 40% for 2 seconds. Lasts 4 seconds once triggered.",
+        "id": "NecromancerCursedStrikes",
+        "video": "",
+        "slug": "cursed-strikes",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Bone Prison",
+        "description": "After a 2 second delay, deal 80 damage and Root the target enemy Hero for 1.75 seconds. All nearby Skeletal Warriors will fixate on the target for their duration.",
+        "id": "NecromancerBonePrison",
+        "video": "",
+        "slug": "bone-prison",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "heroicAbilities": [
+      {
+        "name": "Poison Nova",
+        "description": "After 0.5 seconds, release poisonous missiles that deal 570 damage to all enemies hit over 10 seconds.",
+        "id": "NecromancerPoisonNova",
+        "video": "",
+        "slug": "poison-nova",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Skeletal Mages",
+        "description": "Vector Targeting Summon 4 Frost Mages in a line that attack nearby enemies for 47 damage a second and Slow them by 30% for 2 seconds. Last up to 15 seconds.",
+        "id": "NecromancerSkeletalMages",
+        "video": "",
+        "slug": "skeletal-mages",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "defaultMount": {
+      "name": "Horse",
+      "id": "HorseCommon"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "otherAbilities": [
+
+    ],
+    "slug": "xul",
+    "franchise": "Diablo",
+    "stanceSlug": "",
+    "difficulty": "Medium",
+    "stats": {
+      "damage": 5,
+      "utility": 9,
+      "survivability": 7,
+      "complexity": 4
+    },
+    "skins": [
+      {
+        "name": "Cryptic Necromancer",
+        "description": "From the recesses of the eastern jungles comes a man cloaked in mystery. As a member of the secretive Priests of Rathma, or the Necromancers, Xul wields powerful death magic and fights to preserve the delicate balance between order and chaos.",
+        "id": "NecromancerBaseCommon",
+        "analyticsName": "Xul | cryptic-necromancer",
+        "slug": "cryptic-necromancer"
+      },
+      {
+        "name": "Necromaster Xul",
+        "description": "Cloaked in foreign garb, Xul returned from his fight against the Prime Evils as a Master Necromancer. He chose to mentor only a single apprentice, a promising student named Mehtan.",
+        "id": "NecromancerUltimate",
+        "analyticsName": "Xul | necromaster-xul",
+        "slug": "necromaster-xul"
+      },
+      {
+        "name": "Scarecrow Xul",
+        "description": "Farmer Saldean looked at the empty pole with confusion. Hadn't he hitched up that new Scarecrow? In his bewilderment he missed the words scratched into the dirt, \"It's time to harvest.\"",
+        "id": "NecromancerScare",
+        "analyticsName": "Xul | scarecrow-xul",
+        "slug": "scarecrow-xul"
+      },
+      {
+        "name": "Serpent King Xul",
+        "description": "While the Serpent King acted as Pharaoh Ta-sadar’s vizier, his true loyalty had always belonged to the Spider Queen. Once he saw his chance, Xul’s betrayal was as swift as a serpent’s strike.",
+        "id": "NecromancerSnake",
+        "analyticsName": "Xul | serpent-king-xul",
+        "slug": "serpent-king-xul"
+      }
+    ],
+    "releaseDate": {
+      "year": 2016,
+      "month": 3,
+      "day": 1
+    },
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "xul",
+    "revealed": true,
+    "video": "uC7AdjaAE2o",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
+  }
+}

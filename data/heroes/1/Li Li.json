@@ -1,0 +1,330 @@
+{
+  "name": "Li Li",
+  "slug": "li-li",
+  "title": "World Wanderer",
+  "description": "Support Healers, buffers, and everyone’s best friends.",
+  "role": {
+    "name": "Support",
+    "slug": "support",
+    "description": "Support Healers, buffers, and everyone’s best friends."
+  },
+  "type_of_hero": "Ranged",
+  "franchise": "Warcraft",
+  "difficulty": "Easy",
+  "live": true,
+  "poster_image": "http://media.blizzard.com/heroes/li-li/bust.jpg",
+  "stat": {
+    "damage": 3,
+    "utility": 8,
+    "survivability": 8,
+    "complexity": 3
+  },
+  "thumb": "http://media.blizzard.com/heroes/li-li/skins/thumbnails/world-wanderer.jpg",
+  "trait": {
+    "name": "Fast Feet",
+    "description": "Fast Feet",
+    "slug": "fast-feet",
+    "image": ""
+  },
+  "abilities": [
+    {
+      "name": "Healing Brew",
+      "description": "Heal lowest Health ally (prioritizing Heroes) within 6 range for 190 Health.",
+      "slug": "healing-brew",
+      "image": ""
+    },
+    {
+      "name": "Cloud Serpent",
+      "description": "Summon a Cloud Serpent on an allied Hero that attacks nearby enemies every second. Each attack deals 26 damage and heals the ally for 20. Lasts for 8 seconds.",
+      "slug": "cloud-serpent",
+      "image": ""
+    },
+    {
+      "name": "Blinding Wind",
+      "description": "Throw a cloud of wind at the 2 nearest enemies (prioritizing Heroes), dealing 133 damage. Affected targets are Blinded for 1.5 seconds, causing their Basic Attacks to miss and deal no damage.",
+      "slug": "blinding-wind",
+      "image": ""
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Jug of 1,000 Cups",
+      "description": "Channel for up to 6 seconds. Every 0.25 seconds, heal the lowest Health nearby allied Hero for 70 Health and increase the cooldown of Jug of 1,000 Cups by 2 seconds, up to 50.",
+      "slug": "jug-of-1000-cups",
+      "image": ""
+    },
+    {
+      "name": "Water Dragon",
+      "description": "Li Li channels for 2 seconds, summoning a Water Dragon that hits the nearest enemy Hero within 12 range and all enemies near them, dealing 300 damage and slowing their Movement Speed by 70% for 4 seconds.",
+      "slug": "water-dragon",
+      "image": ""
+    }
+  ],
+  "original": {
+    "id": "LiLi",
+    "name": "Li Li",
+    "title": "World Wanderer",
+    "description": "Born upon Shen-zin Su, the Wandering Isle, Li Li Stormstout led an uneventful life until she began reading her uncle Chen's journals. Soon, nothing would sate her desire for adventure, exploration, and pestering adventurers around Halfhill.",
+    "shortDescription": "A sustained Healer who works well against Physical attackers by Blinding them.",
+    "baseHeroInfo": {
+      "name": "Li Li",
+      "title": "World Wanderer",
+      "description": "Born upon Shen-zin Su, the Wandering Isle, Li Li Stormstout led an uneventful life until she began reading her uncle Chen's journals. Soon, nothing would sate her desire for adventure, exploration, and pestering adventurers around Halfhill.",
+      "shortDescription": "A sustained Healer who works well against Physical attackers by Blinding them.",
+      "slug": "li-li",
+      "role": {
+        "name": "Support",
+        "slug": "support",
+        "description": "Support Healers, buffers, and everyone’s best friends."
+      },
+      "skins": [
+
+      ],
+      "type": {
+        "name": "Ranged",
+        "slug": "ranged"
+      },
+      "trait": {
+        "name": "Fast Feet",
+        "description": "Upon taking damage, your Basic Ability cooldowns refresh 50% faster and you gain 10% Movement Speed for 1 second.",
+        "id": "LiLiFastFeet",
+        "slug": "fast-feet"
+      },
+      "defaultMount": {
+        "name": "Horse",
+        "id": "HorseCommon"
+      },
+      "abilities": [
+        {
+          "name": "Healing Brew",
+          "description": "Heal lowest Health ally (prioritizing Heroes) within 6 range for 190 Health.",
+          "id": "LiLiHealingBrew",
+          "video": "",
+          "slug": "healing-brew",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Cloud Serpent",
+          "description": "Summon a Cloud Serpent on an allied Hero that attacks nearby enemies every second. Each attack deals 26 damage and heals the ally for 20. Lasts for 8 seconds.",
+          "id": "LiLiCloudSerpent",
+          "video": "",
+          "slug": "cloud-serpent",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Blinding Wind",
+          "description": "Throw a cloud of wind at the 2 nearest enemies (prioritizing Heroes), dealing 133 damage. Affected targets are Blinded for 1.5 seconds, causing their Basic Attacks to miss and deal no damage.",
+          "id": "LiLiBlindingWind",
+          "video": "",
+          "slug": "blinding-wind",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "heroicAbilities": [
+        {
+          "name": "Jug of 1,000 Cups",
+          "description": "Channel for up to 6 seconds. Every 0.25 seconds, heal the lowest Health nearby allied Hero for 70 Health and increase the cooldown of Jug of 1,000 Cups by 2 seconds, up to 50.",
+          "id": "LiLiJugof1000Cups",
+          "video": "",
+          "slug": "jug-of-1000-cups",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Water Dragon",
+          "description": "Li Li channels for 2 seconds, summoning a Water Dragon that hits the nearest enemy Hero within 12 range and all enemies near them, dealing 300 damage and slowing their Movement Speed by 70% for 4 seconds.",
+          "id": "LiLiWaterDragon",
+          "video": "",
+          "slug": "water-dragon",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+        {
+          "name": "Safety Sprint",
+          "description": "Activate to gain Fast Feet for 3 seconds and increase its Movement Speed bonus to 30% while active.",
+          "id": "LiLiSafetySprintTalent",
+          "video": "",
+          "slug": "safety-sprint",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+    },
+    "roleSecondary": {
+    },
+    "type": {
+    },
+    "trait": {
+      "name": "Fast Feet",
+      "description": "Upon taking damage, your Basic Ability cooldowns refresh 50% faster and you gain 10% Movement Speed for 1 second.",
+      "id": "LiLiFastFeet",
+      "slug": "fast-feet"
+    },
+    "abilities": [
+      {
+        "name": "Healing Brew",
+        "description": "Heal lowest Health ally (prioritizing Heroes) within 6 range for 190 Health.",
+        "id": "LiLiHealingBrew",
+        "video": "",
+        "slug": "healing-brew",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Cloud Serpent",
+        "description": "Summon a Cloud Serpent on an allied Hero that attacks nearby enemies every second. Each attack deals 26 damage and heals the ally for 20. Lasts for 8 seconds.",
+        "id": "LiLiCloudSerpent",
+        "video": "",
+        "slug": "cloud-serpent",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Blinding Wind",
+        "description": "Throw a cloud of wind at the 2 nearest enemies (prioritizing Heroes), dealing 133 damage. Affected targets are Blinded for 1.5 seconds, causing their Basic Attacks to miss and deal no damage.",
+        "id": "LiLiBlindingWind",
+        "video": "",
+        "slug": "blinding-wind",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "heroicAbilities": [
+      {
+        "name": "Jug of 1,000 Cups",
+        "description": "Channel for up to 6 seconds. Every 0.25 seconds, heal the lowest Health nearby allied Hero for 70 Health and increase the cooldown of Jug of 1,000 Cups by 2 seconds, up to 50.",
+        "id": "LiLiJugof1000Cups",
+        "video": "",
+        "slug": "jug-of-1000-cups",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Water Dragon",
+        "description": "Li Li channels for 2 seconds, summoning a Water Dragon that hits the nearest enemy Hero within 12 range and all enemies near them, dealing 300 damage and slowing their Movement Speed by 70% for 4 seconds.",
+        "id": "LiLiWaterDragon",
+        "video": "",
+        "slug": "water-dragon",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "defaultMount": {
+      "name": "Horse",
+      "id": "HorseCommon"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "otherAbilities": [
+      {
+        "name": "Safety Sprint",
+        "description": "Activate to gain Fast Feet for 3 seconds and increase its Movement Speed bonus to 30% while active.",
+        "id": "LiLiSafetySprintTalent",
+        "video": "",
+        "slug": "safety-sprint",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "slug": "li-li",
+    "franchise": "Warcraft",
+    "stanceSlug": "",
+    "difficulty": "Easy",
+    "stats": {
+      "damage": 3,
+      "utility": 8,
+      "survivability": 8,
+      "complexity": 3
+    },
+    "skins": [
+      {
+        "name": "World Wanderer",
+        "description": "Born upon Shen-zin Su, the Wandering Isle, Li Li Stormstout led an uneventful life until she began reading her uncle Chen's journals. Soon, nothing would sate her desire for adventure, exploration, and pestering adventurers around Halfhill.",
+        "id": "LiLiCommon",
+        "analyticsName": "Li Li | world-wanderer",
+        "slug": "world-wanderer"
+      },
+      {
+        "name": "Adventurer Li Li",
+        "description": "When you've wandered as much of the world as Li Li has you learn many things... but perhaps the most important is that it's always wise to carry an umbrella.",
+        "id": "LiLiUltimate",
+        "analyticsName": "Li Li | adventurer-li-li",
+        "slug": "adventurer-li-li"
+      },
+      {
+        "name": "Shadowblade Li Li",
+        "description": "When faced with an opponent as powerful as the Thunder King, honorable combat is simply not an option. To attain victory, one must strike from the shadows. Li Li has taken this lesson to heart.",
+        "id": "LiLiShadowblade",
+        "analyticsName": "Li Li | shadowblade-li-li",
+        "slug": "shadowblade-li-li"
+      },
+      {
+        "name": "Shadowpaw Li Li",
+        "description": "Not all pandaren were willing to serve as the Thunder King's army of Warmasters. Even now, rumors persist of a rebellion; a resistance born within the shadows.",
+        "id": "LiLiShadowpaw",
+        "analyticsName": "Li Li | shadowpaw-li-li",
+        "slug": "shadowpaw-li-li"
+      },
+      {
+        "name": "Lunar Li Li",
+        "description": "Each new year brings with it untold promise. It is a joyous time when we honor those who came before us, while celebrating the endless possibilities ahead of us.",
+        "id": "LiLiLunarLiLi",
+        "analyticsName": "Li Li | lunar-li-li",
+        "slug": "lunar-li-li"
+      },
+      {
+        "name": "Explorer Li Li",
+        "description": "The Explorer's League is known for their progressive stance on accepting members of all races into their ranks. If you've got a heart that longs for adventure and discovery, you're in!",
+        "id": "LiLiExplorer",
+        "analyticsName": "Li Li | explorer-li-li",
+        "slug": "explorer-li-li"
+      }
+    ],
+    "releaseDate": {
+      "year": 2014,
+      "month": 4,
+      "day": 15
+    },
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "li-li",
+    "revealed": true,
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
+  }
+}

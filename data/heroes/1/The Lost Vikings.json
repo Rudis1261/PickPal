@@ -1,0 +1,416 @@
+{
+  "name": "The Lost Vikings",
+  "slug": "the-lost-vikings",
+  "title": "Triple Trouble",
+  "description": "Specialist Rule breakers and masters of unconventional warfare.",
+  "role": {
+    "name": "Specialist",
+    "slug": "specialist",
+    "description": "Specialist Rule breakers and masters of unconventional warfare."
+  },
+  "type_of_hero": "Melee",
+  "franchise": "Retro",
+  "difficulty": "Very Hard",
+  "live": true,
+  "poster_image": "http://media.blizzard.com/heroes/the-lost-vikings/bust.jpg",
+  "stat": {
+    "damage": 7,
+    "utility": 5,
+    "survivability": 6,
+    "complexity": 10
+  },
+  "thumb": "http://media.blizzard.com/heroes/the-lost-vikings/skins/thumbnails/triple-trouble.jpg",
+  "trait": {
+    "name": "Viking Hoard",
+    "description": "Viking Hoard",
+    "slug": "viking-hoard",
+    "image": ""
+  },
+  "abilities": [
+    {
+      "name": "Jump!",
+      "description": "Makes all Vikings Invulnerable and able to pass over enemies for 1.5 seconds.",
+      "slug": "jump",
+      "image": ""
+    },
+    {
+      "name": "Spin To Win!",
+      "description": "Activate to have each Viking deal 101 damage to nearby enemies.",
+      "slug": "spin-to-win",
+      "image": ""
+    },
+    {
+      "name": "Norse Force!",
+      "description": "All Vikings gain a 110 to 220 point Shield, increasing in strength for each Viking alive. Lasts 4 seconds.",
+      "slug": "norse-force",
+      "image": ""
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Longboat Raid!",
+      "description": "Hop into an Unstoppable Longboat that fires at nearby enemies for 112 damage per second and can fire a mortar that deals 205 damage in an area. The boat has increased Health for each Viking inside. If the boat is destroyed by enemies, all Vikings are stunned for 1.5 seconds. Lasts 15 seconds. Requires all surviving Vikings to be nearby.",
+      "slug": "longboat-raid",
+      "image": ""
+    },
+    {
+      "name": "Play Again!",
+      "description": "Summon, fully heal, and revive all Lost Vikings at target location after a Viking channels for 2 seconds. Only one Viking may attempt to summon at a time.",
+      "slug": "play-again",
+      "image": ""
+    }
+  ],
+  "original": {
+    "id": "LostVikings",
+    "name": "The Lost Vikings",
+    "title": "Triple Trouble",
+    "description": "The Lost Vikings are back! While they briefly considered retirement after defeating the emperor Tomator, there were only so many polar bears they could wrestle before falling into a Nexus portal seemed like a solid life decision. ",
+    "shortDescription": "Three Heroes in one! Can gather experience from multiple locations.",
+    "baseHeroInfo": {
+      "name": "The Lost Vikings",
+      "title": "Triple Trouble",
+      "description": "The Lost Vikings are back! While they briefly considered retirement after defeating the emperor Tomator, there were only so many polar bears they could wrestle before falling into a Nexus portal seemed like a solid life decision. ",
+      "shortDescription": "Three Heroes in one! Can gather experience from multiple locations.",
+      "slug": "the-lost-vikings",
+      "role": {
+        "name": "Specialist",
+        "slug": "specialist",
+        "description": "Specialist Rule breakers and masters of unconventional warfare."
+      },
+      "skins": [
+
+      ],
+      "type": {
+        "name": "Melee",
+        "slug": "melee"
+      },
+      "trait": {
+        "name": "Viking Hoard",
+        "description": "Gathering a Regeneration Globe with a Viking permanently increases all their Health Regeneration by 0.5 per second.",
+        "id": "LostVikingsVikingHoardHeroSelect",
+        "slug": "viking-hoard"
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+        {
+          "name": "Select Olaf",
+          "description": "Olaf can charge enemies and slow their Movement Speed by 30% for 3 seconds by right-clicking on them. 8 second cooldown. Olaf gains increased Health Regeneration when out of combat for 4 seconds.",
+          "id": "LostVikingSelectOlaf",
+          "video": "",
+          "slug": "select-olaf",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Select Baleog",
+          "description": "Baleog's Basic Attacks deal 50% splash damage to enemies behind his attack target.",
+          "id": "LostVikingSelectBaleog",
+          "video": "",
+          "slug": "select-baleog",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Select Erik",
+          "description": "Erik moves faster than the other Vikings and has increased Basic Attack range.",
+          "id": "LostVikingSelectErik",
+          "video": "",
+          "slug": "select-erik",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Go Go Go!",
+          "description": "The Vikings gain 30% increased Movement Speed for 4 seconds.",
+          "id": "LostVikingsGoGoGo",
+          "video": "",
+          "slug": "go-go-go",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "heroicAbilities": [
+        {
+          "name": "Longboat Raid!",
+          "description": "Hop into an Unstoppable Longboat that fires at nearby enemies for 112 damage per second and can fire a mortar that deals 205 damage in an area. The boat has increased Health for each Viking inside. If the boat is destroyed by enemies, all Vikings are stunned for 1.5 seconds. Lasts 15 seconds. Requires all surviving Vikings to be nearby.",
+          "id": "LostVikingsLongboatRaid",
+          "video": "",
+          "slug": "longboat-raid",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Play Again!",
+          "description": "Summon, fully heal, and revive all Lost Vikings at target location after a Viking channels for 2 seconds. Only one Viking may attempt to summon at a time.",
+          "id": "LostVikingsPlayAgain",
+          "video": "",
+          "slug": "play-again",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+        {
+          "name": "Jump!",
+          "description": "Makes all Vikings Invulnerable and able to pass over enemies for 1.5 seconds.",
+          "id": "LostVikingsJump",
+          "video": "",
+          "slug": "jump",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Nordic Attack Squad",
+          "description": "Activate to have all Viking Basic Attacks deal bonus damage equal to 1% of a Hero's maximum Health for 5 seconds.",
+          "id": "LostVikingsNordicAttackSquad",
+          "video": "",
+          "slug": "nordic-attack-squad",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Spin To Win!",
+          "description": "Activate to have each Viking deal 101 damage to nearby enemies.",
+          "id": "LostVikingsSpinToWin",
+          "video": "",
+          "slug": "spin-to-win",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Norse Force!",
+          "description": "All Vikings gain a 110 to 220 point Shield, increasing in strength for each Viking alive. Lasts 4 seconds.",
+          "id": "LostVikingsNorseForce",
+          "video": "",
+          "slug": "norse-force",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Viking Bribery",
+          "description": "Enemy Minions or captured Mercenaries killed near The Lost Vikings grant stacks of Bribe. Use 40 stacks to bribe target Mercenary, instantly defeating them. Does not work on Bosses. Maximum stacks available: 200. If a camp is defeated entirely with Bribe, the camp respawns 50% faster. Current number of Bribe stacks: 0",
+          "id": "LostVikingsVikingBribery",
+          "video": "",
+          "slug": "viking-bribery",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Mortar",
+          "description": "Fires a mortar at the targeted location, dealing 205 damage in a large area.",
+          "id": "LostVikingsMortar",
+          "video": "",
+          "slug": "mortar",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+    },
+    "roleSecondary": {
+    },
+    "type": {
+    },
+    "trait": {
+      "name": "Viking Hoard",
+      "description": "Gathering a Regeneration Globe with a Viking permanently increases all their Health Regeneration by 0.5 per second.",
+      "id": "LostVikingsVikingHoardHeroSelect",
+      "slug": "viking-hoard"
+    },
+    "abilities": [
+      {
+        "name": "Jump!",
+        "description": "Makes all Vikings Invulnerable and able to pass over enemies for 1.5 seconds.",
+        "id": "LostVikingsJump",
+        "video": "",
+        "slug": "jump",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Spin To Win!",
+        "description": "Activate to have each Viking deal 101 damage to nearby enemies.",
+        "id": "LostVikingsSpinToWin",
+        "video": "",
+        "slug": "spin-to-win",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Norse Force!",
+        "description": "All Vikings gain a 110 to 220 point Shield, increasing in strength for each Viking alive. Lasts 4 seconds.",
+        "id": "LostVikingsNorseForce",
+        "video": "",
+        "slug": "norse-force",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "heroicAbilities": [
+      {
+        "name": "Longboat Raid!",
+        "description": "Hop into an Unstoppable Longboat that fires at nearby enemies for 112 damage per second and can fire a mortar that deals 205 damage in an area. The boat has increased Health for each Viking inside. If the boat is destroyed by enemies, all Vikings are stunned for 1.5 seconds. Lasts 15 seconds. Requires all surviving Vikings to be nearby.",
+        "id": "LostVikingsLongboatRaid",
+        "video": "",
+        "slug": "longboat-raid",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Play Again!",
+        "description": "Summon, fully heal, and revive all Lost Vikings at target location after a Viking channels for 2 seconds. Only one Viking may attempt to summon at a time.",
+        "id": "LostVikingsPlayAgain",
+        "video": "",
+        "slug": "play-again",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "defaultMount": {
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "otherAbilities": [
+      {
+        "name": "Jump!",
+        "description": "Makes all Vikings Invulnerable and able to pass over enemies for 1.5 seconds.",
+        "id": "LostVikingsJump",
+        "video": "",
+        "slug": "jump",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Nordic Attack Squad",
+        "description": "Activate to have all Viking Basic Attacks deal bonus damage equal to 1% of a Hero's maximum Health for 5 seconds.",
+        "id": "LostVikingsNordicAttackSquad",
+        "video": "",
+        "slug": "nordic-attack-squad",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Spin To Win!",
+        "description": "Activate to have each Viking deal 101 damage to nearby enemies.",
+        "id": "LostVikingsSpinToWin",
+        "video": "",
+        "slug": "spin-to-win",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Norse Force!",
+        "description": "All Vikings gain a 110 to 220 point Shield, increasing in strength for each Viking alive. Lasts 4 seconds.",
+        "id": "LostVikingsNorseForce",
+        "video": "",
+        "slug": "norse-force",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Viking Bribery",
+        "description": "Enemy Minions or captured Mercenaries killed near The Lost Vikings grant stacks of Bribe. Use 40 stacks to bribe target Mercenary, instantly defeating them. Does not work on Bosses. Maximum stacks available: 200. If a camp is defeated entirely with Bribe, the camp respawns 50% faster. Current number of Bribe stacks: 0",
+        "id": "LostVikingsVikingBribery",
+        "video": "",
+        "slug": "viking-bribery",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Mortar",
+        "description": "Fires a mortar at the targeted location, dealing 205 damage in a large area.",
+        "id": "LostVikingsMortar",
+        "video": "",
+        "slug": "mortar",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "slug": "the-lost-vikings",
+    "franchise": "Retro",
+    "stanceSlug": "",
+    "difficulty": "Very Hard",
+    "stats": {
+      "damage": 7,
+      "utility": 5,
+      "survivability": 6,
+      "complexity": 10
+    },
+    "skins": [
+      {
+        "name": "Triple Trouble",
+        "description": "The Lost Vikings are back! While they briefly considered retirement after defeating the emperor Tomator, there were only so many polar bears they could wrestle before falling into a Nexus portal seemed like a solid life decision. ",
+        "id": "LostVikings",
+        "analyticsName": "The Lost Vikings | triple-trouble",
+        "slug": "triple-trouble"
+      },
+      {
+        "name": "Sequel Lost Vikings",
+        "description": "Now sporting the finest equipment a Viking can illegally procure from an evil alien overlord's robot army.",
+        "id": "LostVikingsUltimate",
+        "analyticsName": "The Lost Vikings | sequel-lost-vikings",
+        "slug": "sequel-lost-vikings"
+      },
+      {
+        "name": "Pajama Party Lost Vikings",
+        "description": "While \"Party in Pajamaland\" is technically a part of the Expanded Universe, the storyline is still considered a seminal work in the Lost Vikings mythos.",
+        "id": "LostVikingsPajamaParty",
+        "analyticsName": "The Lost Vikings | pajama-party-lost-vikings",
+        "slug": "pajama-party-lost-vikings"
+      }
+    ],
+    "releaseDate": {
+      "year": 2015,
+      "month": 2,
+      "day": 10
+    },
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "the-lost-vikings",
+    "revealed": true,
+    "video": "YVsvVprwR0w",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
+  }
+}

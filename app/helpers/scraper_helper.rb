@@ -60,6 +60,11 @@ module ScraperHelper
       }
     end
 
+    @thumb = ''
+    if hero['skins'] && hero['skins'][0] && hero['skins'][0]['slug']
+      @thumb = ImageHelper.pull_image(hero['slug'], Rails.configuration.image_urls['thumb'] % [hero['slug'], hero['skins'][0]['slug']])
+    end
+
     {
         'name' => hero['name'],
         'slug' => hero['slug'],
@@ -74,12 +79,13 @@ module ScraperHelper
         'franchise' => hero['franchise'],
         'difficulty' => hero['difficulty'],
         'live' => hero['revealed'],
-        'poster_image' => '',#ImageHelper.pull_image(hero['slug'], Config.image_urls['bust'] % hero['slug']),
-        'stats' => @stats,
+        'poster_image' => ImageHelper.pull_image(hero['slug'], Rails.configuration.image_urls['bust'] % hero['slug']),
+        'stat' => @stats,
+        'thumb' => @thumb,
         'trait' => @data['trait'],
         'abilities' => @data['abilities'],
         'heroics' => @data['heroics'],
-        #'original' => hero
+        'original' => hero
     }
   end
 end

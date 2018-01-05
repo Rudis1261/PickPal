@@ -1,0 +1,299 @@
+{
+  "name": "Tyrael",
+  "slug": "tyrael",
+  "title": "Archangel of Justice",
+  "description": "Warrior Front-line defenders and bruisers.",
+  "role": {
+    "name": "Warrior",
+    "slug": "warrior",
+    "description": "Warrior Front-line defenders and bruisers."
+  },
+  "type_of_hero": "Melee",
+  "franchise": "Diablo",
+  "difficulty": "Medium",
+  "live": true,
+  "poster_image": "http://media.blizzard.com/heroes/tyrael/bust.jpg",
+  "stat": {
+    "damage": 6,
+    "utility": 6,
+    "survivability": 8,
+    "complexity": 5
+  },
+  "thumb": "http://media.blizzard.com/heroes/tyrael/skins/thumbnails/archangel-of-justice.jpg",
+  "trait": {
+    "name": "Archangel's Wrath",
+    "description": "Archangel's Wrath",
+    "slug": "archangels-wrath",
+    "image": ""
+  },
+  "abilities": [
+    {
+      "name": "El'druin's Might",
+      "description": "Deals 110 damage to enemies within target area, slowing them by 25% for 2.5 seconds. Reactivating will teleport Tyrael to the blade and slow nearby enemies again.",
+      "slug": "eldruins-might",
+      "image": ""
+    },
+    {
+      "name": "Righteousness",
+      "description": "Shields Tyrael for 336 damage and nearby allies for 135 damage for 4 seconds.",
+      "slug": "righteousness",
+      "image": ""
+    },
+    {
+      "name": "Smite",
+      "description": "Rake target area for 144 damage. Allies moving through the targeted area gain 25% increased Movement Speed for 2 seconds.",
+      "slug": "smite",
+      "image": ""
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Judgment",
+      "description": "After 0.75 seconds, charge an enemy Hero dealing 150 damage and stunning them for 1.5 seconds. Nearby enemies are knocked away and take 75 damage.",
+      "slug": "judgment",
+      "image": ""
+    },
+    {
+      "name": "Sanctification",
+      "description": "After 0.5 seconds create a field of holy energy that makes allied Heroes Invulnerable. Lasts 3 seconds.",
+      "slug": "sanctification",
+      "image": ""
+    }
+  ],
+  "original": {
+    "id": "Tyrael",
+    "name": "Tyrael",
+    "title": "Archangel of Justice",
+    "description": "Among the angels it is the Archangel of Justice Tyrael who is humanity's greatest defender. Wielding his sword El'druin against the Burning Hells, the Prime Evils would have enslaved humanity long ago if Tyrael had not intervened.",
+    "shortDescription": "A Tank who pairs well with allies that like to dive into the enemy team. 0 Spell Armor",
+    "baseHeroInfo": {
+      "name": "Tyrael",
+      "title": "Archangel of Justice",
+      "description": "Among the angels it is the Archangel of Justice Tyrael who is humanity's greatest defender. Wielding his sword El'druin against the Burning Hells, the Prime Evils would have enslaved humanity long ago if Tyrael had not intervened.",
+      "shortDescription": "A Tank who pairs well with allies that like to dive into the enemy team. 0 Spell Armor",
+      "slug": "tyrael",
+      "role": {
+        "name": "Warrior",
+        "slug": "warrior",
+        "description": "Warrior Front-line defenders and bruisers."
+      },
+      "skins": [
+
+      ],
+      "type": {
+        "name": "Melee",
+        "slug": "melee"
+      },
+      "trait": {
+        "name": "Archangel's Wrath",
+        "description": "Upon dying, become invulnerable and explode for 550 damage after 3.5 seconds.",
+        "id": "TyraelArchangelsWrath",
+        "slug": "archangels-wrath"
+      },
+      "defaultMount": {
+        "name": "Horse",
+        "id": "HorseCommon"
+      },
+      "abilities": [
+        {
+          "name": "El'druin's Might",
+          "description": "Deals 110 damage to enemies within target area, slowing them by 25% for 2.5 seconds. Reactivating will teleport Tyrael to the blade and slow nearby enemies again.",
+          "id": "TyraelElDruinsMight",
+          "video": "",
+          "slug": "eldruins-might",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Righteousness",
+          "description": "Shields Tyrael for 336 damage and nearby allies for 135 damage for 4 seconds.",
+          "id": "TyraelRighteousness",
+          "video": "",
+          "slug": "righteousness",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Smite",
+          "description": "Rake target area for 144 damage. Allies moving through the targeted area gain 25% increased Movement Speed for 2 seconds.",
+          "id": "TyraelSmite",
+          "video": "",
+          "slug": "smite",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "heroicAbilities": [
+        {
+          "name": "Judgment",
+          "description": "After 0.75 seconds, charge an enemy Hero dealing 150 damage and stunning them for 1.5 seconds. Nearby enemies are knocked away and take 75 damage.",
+          "id": "TyraelJudgment",
+          "video": "",
+          "slug": "judgment",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Sanctification",
+          "description": "After 0.5 seconds create a field of holy energy that makes allied Heroes Invulnerable. Lasts 3 seconds.",
+          "id": "TyraelSanctificationStationary",
+          "video": "",
+          "slug": "sanctification",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+    },
+    "roleSecondary": {
+    },
+    "type": {
+    },
+    "trait": {
+      "name": "Archangel's Wrath",
+      "description": "Upon dying, become invulnerable and explode for 550 damage after 3.5 seconds.",
+      "id": "TyraelArchangelsWrath",
+      "slug": "archangels-wrath"
+    },
+    "abilities": [
+      {
+        "name": "El'druin's Might",
+        "description": "Deals 110 damage to enemies within target area, slowing them by 25% for 2.5 seconds. Reactivating will teleport Tyrael to the blade and slow nearby enemies again.",
+        "id": "TyraelElDruinsMight",
+        "video": "",
+        "slug": "eldruins-might",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Righteousness",
+        "description": "Shields Tyrael for 336 damage and nearby allies for 135 damage for 4 seconds.",
+        "id": "TyraelRighteousness",
+        "video": "",
+        "slug": "righteousness",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Smite",
+        "description": "Rake target area for 144 damage. Allies moving through the targeted area gain 25% increased Movement Speed for 2 seconds.",
+        "id": "TyraelSmite",
+        "video": "",
+        "slug": "smite",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "heroicAbilities": [
+      {
+        "name": "Judgment",
+        "description": "After 0.75 seconds, charge an enemy Hero dealing 150 damage and stunning them for 1.5 seconds. Nearby enemies are knocked away and take 75 damage.",
+        "id": "TyraelJudgment",
+        "video": "",
+        "slug": "judgment",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Sanctification",
+        "description": "After 0.5 seconds create a field of holy energy that makes allied Heroes Invulnerable. Lasts 3 seconds.",
+        "id": "TyraelSanctificationStationary",
+        "video": "",
+        "slug": "sanctification",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "defaultMount": {
+      "name": "Horse",
+      "id": "HorseCommon"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "otherAbilities": [
+
+    ],
+    "slug": "tyrael",
+    "franchise": "Diablo",
+    "stanceSlug": "",
+    "difficulty": "Medium",
+    "stats": {
+      "damage": 6,
+      "utility": 6,
+      "survivability": 8,
+      "complexity": 5
+    },
+    "skins": [
+      {
+        "name": "Archangel of Justice",
+        "description": "Among the angels it is the Archangel of Justice Tyrael who is humanity's greatest defender. Wielding his sword El'druin against the Burning Hells, the Prime Evils would have enslaved humanity long ago if Tyrael had not intervened.",
+        "id": "TyraelCommon",
+        "analyticsName": "Tyrael | archangel-of-justice",
+        "slug": "archangel-of-justice"
+      },
+      {
+        "name": "Archangel Tyrael",
+        "description": "Each archangel's armor is a manifestation of their spirit. While his appearance had changed during his battles within the Nexus, his dedication to justice remained steadfast.",
+        "id": "TyraelUltimate",
+        "analyticsName": "Tyrael | archangel-tyrael",
+        "slug": "archangel-tyrael"
+      },
+      {
+        "name": "Demonic Tyrael",
+        "description": "Of all the Aspects of Sin, Tyrael, the Lord of Pride, is the most ruthless. His every action and every thought serves only to fulfill the desires of his true master: himself.",
+        "id": "TyraelDemonic",
+        "analyticsName": "Tyrael | demonic-tyrael",
+        "slug": "demonic-tyrael"
+      },
+      {
+        "name": "Seraphim Tyrael",
+        "description": "With tired eyes the newly appointed High Seraph Tyrael looked across Sanctuary... after the fall of the High Heavens, this world was the last bastion against Imperius's wrath.",
+        "id": "TyraelSeraphim",
+        "analyticsName": "Tyrael | seraphim-tyrael",
+        "slug": "seraphim-tyrael"
+      }
+    ],
+    "releaseDate": {
+      "year": 2014,
+      "month": 1,
+      "day": 1
+    },
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "tyrael",
+    "revealed": true,
+    "video": "0TR6MXdfzLg",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
+  }
+}

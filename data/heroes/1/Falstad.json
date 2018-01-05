@@ -1,0 +1,304 @@
+{
+  "name": "Falstad",
+  "slug": "falstad",
+  "title": "Wildhammer Thane",
+  "description": "Assassin Slayers of Heroes and bringers of pain.",
+  "role": {
+    "name": "Assassin",
+    "slug": "assassin",
+    "description": "Assassin Slayers of Heroes and bringers of pain."
+  },
+  "type_of_hero": "Ranged",
+  "franchise": "Warcraft",
+  "difficulty": "Medium",
+  "live": true,
+  "poster_image": "http://media.blizzard.com/heroes/falstad/bust.jpg",
+  "stat": {
+    "damage": 8,
+    "utility": 4,
+    "survivability": 4,
+    "complexity": 5
+  },
+  "thumb": "http://media.blizzard.com/heroes/falstad/skins/thumbnails/wildhammer-thane.jpg",
+  "trait": {
+    "name": "Tailwind",
+    "description": "Tailwind",
+    "slug": "tailwind",
+    "image": ""
+  },
+  "abilities": [
+    {
+      "name": "Hammerang",
+      "description": "Throw out a Hammer that returns to Falstad, dealing 121 damage and slowing enemies by 25% for 2 seconds.",
+      "slug": "hammerang",
+      "image": ""
+    },
+    {
+      "name": "Lightning Rod",
+      "description": "Deal 107 damage to an enemy, and an additional 75 damage per second for 4 seconds while close to the target.",
+      "slug": "lightning-rod",
+      "image": ""
+    },
+    {
+      "name": "Barrel Roll",
+      "description": "Dashes forward and grants a 171 point Shield for 3 seconds.",
+      "slug": "barrel-roll",
+      "image": ""
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Hinterland Blast",
+      "description": "After 1 second, deal 475 damage to enemies within a long line. The cooldown is reduced by 25 seconds for every enemy Hero hit.",
+      "slug": "hinterland-blast",
+      "image": ""
+    },
+    {
+      "name": "Mighty Gust",
+      "description": "Push enemies away, and slow their Movement Speed by 40% decaying over 4 seconds.",
+      "slug": "mighty-gust",
+      "image": ""
+    }
+  ],
+  "original": {
+    "id": "Falstad",
+    "name": "Falstad",
+    "title": "Wildhammer Thane",
+    "description": "Falstad is the High Thane of the Wildhammer Clan and a founding member of the Council of Three Hammers that presides over Ironforge. Despite speculation, Falstad has never been dead and anyone who claims such is a liar.",
+    "shortDescription": "An Assassin that can fly large distances, excelling on large battlegrounds.",
+    "baseHeroInfo": {
+      "name": "Falstad",
+      "title": "Wildhammer Thane",
+      "description": "Falstad is the High Thane of the Wildhammer Clan and a founding member of the Council of Three Hammers that presides over Ironforge. Despite speculation, Falstad has never been dead and anyone who claims such is a liar.",
+      "shortDescription": "An Assassin that can fly large distances, excelling on large battlegrounds.",
+      "slug": "falstad",
+      "role": {
+        "name": "Assassin",
+        "slug": "assassin",
+        "description": "Assassin Slayers of Heroes and bringers of pain."
+      },
+      "skins": [
+
+      ],
+      "type": {
+        "name": "Ranged",
+        "slug": "ranged"
+      },
+      "trait": {
+        "name": "Tailwind",
+        "description": "Gain 15% increased Movement Speed after not taking damage for 6 seconds.",
+        "id": "FalstadTailwind",
+        "slug": "tailwind"
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+        {
+          "name": "Hammerang",
+          "description": "Throw out a Hammer that returns to Falstad, dealing 121 damage and slowing enemies by 25% for 2 seconds.",
+          "id": "FalstadHammerang",
+          "video": "",
+          "slug": "hammerang",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Lightning Rod",
+          "description": "Deal 107 damage to an enemy, and an additional 75 damage per second for 4 seconds while close to the target.",
+          "id": "FalstadLightningRod",
+          "video": "",
+          "slug": "lightning-rod",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Barrel Roll",
+          "description": "Dashes forward and grants a 171 point Shield for 3 seconds.",
+          "id": "FalstadBarrelRoll",
+          "video": "",
+          "slug": "barrel-roll",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Flight",
+          "description": "Instead of mounting, Falstad can fly a great distance over terrain.",
+          "id": "FalstadFlight",
+          "video": "",
+          "slug": "flight",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "heroicAbilities": [
+        {
+          "name": "Hinterland Blast",
+          "description": "After 1 second, deal 475 damage to enemies within a long line. The cooldown is reduced by 25 seconds for every enemy Hero hit.",
+          "id": "FalstadHinterlandBlast",
+          "video": "",
+          "slug": "hinterland-blast",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Mighty Gust",
+          "description": "Push enemies away, and slow their Movement Speed by 40% decaying over 4 seconds.",
+          "id": "FalstadMightyGust",
+          "video": "",
+          "slug": "mighty-gust",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+    },
+    "roleSecondary": {
+    },
+    "type": {
+    },
+    "trait": {
+      "name": "Tailwind",
+      "description": "Gain 15% increased Movement Speed after not taking damage for 6 seconds.",
+      "id": "FalstadTailwind",
+      "slug": "tailwind"
+    },
+    "abilities": [
+      {
+        "name": "Hammerang",
+        "description": "Throw out a Hammer that returns to Falstad, dealing 121 damage and slowing enemies by 25% for 2 seconds.",
+        "id": "FalstadHammerang",
+        "video": "",
+        "slug": "hammerang",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Lightning Rod",
+        "description": "Deal 107 damage to an enemy, and an additional 75 damage per second for 4 seconds while close to the target.",
+        "id": "FalstadLightningRod",
+        "video": "",
+        "slug": "lightning-rod",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Barrel Roll",
+        "description": "Dashes forward and grants a 171 point Shield for 3 seconds.",
+        "id": "FalstadBarrelRoll",
+        "video": "",
+        "slug": "barrel-roll",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "heroicAbilities": [
+      {
+        "name": "Hinterland Blast",
+        "description": "After 1 second, deal 475 damage to enemies within a long line. The cooldown is reduced by 25 seconds for every enemy Hero hit.",
+        "id": "FalstadHinterlandBlast",
+        "video": "",
+        "slug": "hinterland-blast",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Mighty Gust",
+        "description": "Push enemies away, and slow their Movement Speed by 40% decaying over 4 seconds.",
+        "id": "FalstadMightyGust",
+        "video": "",
+        "slug": "mighty-gust",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "defaultMount": {
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "otherAbilities": [
+
+    ],
+    "slug": "falstad",
+    "franchise": "Warcraft",
+    "stanceSlug": "",
+    "difficulty": "Medium",
+    "stats": {
+      "damage": 8,
+      "utility": 4,
+      "survivability": 4,
+      "complexity": 5
+    },
+    "skins": [
+      {
+        "name": "Wildhammer Thane",
+        "description": "Falstad is the High Thane of the Wildhammer Clan and a founding member of the Council of Three Hammers that presides over Ironforge. Despite speculation, Falstad has never been dead and anyone who claims such is a liar.",
+        "id": "FalstadCommon",
+        "analyticsName": "Falstad | wildhammer-thane",
+        "slug": "wildhammer-thane"
+      },
+      {
+        "name": "Gryphon Master Falstad",
+        "description": "Much like other clans and races will don warpaint as they head into battle, the Wildhammer Dwarves will adorn themselves with their gryphon's feathers.",
+        "id": "FalstadUltimate",
+        "analyticsName": "Falstad | gryphon-master-falstad",
+        "slug": "gryphon-master-falstad"
+      },
+      {
+        "name": "Buccaneer Falstad",
+        "description": "To this day, Captain Falstad and the crew of the Wildhammer honor the pirate's code set by Mistharbour's Council of Three Anchors. Of course, some say those rules are merely guidelines…",
+        "id": "FalstadPirate",
+        "analyticsName": "Falstad | buccaneer-falstad",
+        "slug": "buccaneer-falstad"
+      },
+      {
+        "name": "Storm Lord Falstad",
+        "description": "During the War of Three Hammers, no Wildhammer was as feared as the Storm Lords. Their stormhammers forced the Bronzebeards to adopt new weapons and strategies.",
+        "id": "FalstadStormLord",
+        "analyticsName": "Falstad | storm-lord-falstad",
+        "slug": "storm-lord-falstad"
+      }
+    ],
+    "releaseDate": {
+      "year": 2014,
+      "month": 1,
+      "day": 1
+    },
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "falstad",
+    "revealed": true,
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
+  }
+}

@@ -1,0 +1,369 @@
+{
+  "name": "Alexstrasza",
+  "slug": "alexstrasza",
+  "title": "The Life-Binder",
+  "description": "Support Healers, buffers, and everyone’s best friends.",
+  "role": {
+    "name": "Support",
+    "slug": "support",
+    "description": "Support Healers, buffers, and everyone’s best friends."
+  },
+  "type_of_hero": "Ranged",
+  "franchise": "Warcraft",
+  "difficulty": "Medium",
+  "live": true,
+  "poster_image": "http://localhost:3000/images/alexstrasza/bust.jpg",
+  "stat": {
+    "damage": 3,
+    "utility": 6,
+    "survivability": 4,
+    "complexity": 6
+  },
+  "thumb": "http://localhost:3000/images/alexstrasza/the-life-binder.jpg",
+  "trait": {
+    "name": "Dragonqueen",
+    "description": "Dragonqueen",
+    "slug": "dragonqueen",
+    "image": ""
+  },
+  "abilities": [
+    {
+      "name": "Gift of Life",
+      "description": "Sacrifice 15% of Alexstrasza's current Health, healing an ally for 150% of that amount. Dragonqueen: Breath of Life Cooldown greatly reduced and does not cost Health.",
+      "slug": "gift-of-life",
+      "image": ""
+    },
+    {
+      "name": "Abundance",
+      "description": "Plant a seed of healing that blooms after 3 seconds, healing nearby allied Heroes for 20% of their maximum Health. Dragonqueen: Preservation Heal area and amount greatly increased.",
+      "slug": "abundance",
+      "image": ""
+    },
+    {
+      "name": "Flame Buffet",
+      "description": "Launch a fireball, Burning enemies hit for 75 damage over 5.5 seconds. Hitting enemies that are already Burning deals 125 bonus damage upon impact, Slows them by 40% decaying over 2 seconds, and refunds the Mana cost. Dragonqueen: Wing Buffet Damage and Knockback enemies in an arc.",
+      "slug": "flame-buffet",
+      "image": ""
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Life-Binder",
+      "description": "Bind Alexstrasa's life force with an allied Hero. After 2 seconds, the Hero with a lower percentage of Health is set to the same Health percentage as the other Hero.",
+      "slug": "life-binder",
+      "image": ""
+    },
+    {
+      "name": "Cleansing Flame",
+      "description": "After 1.25 seconds, take to the sky and drop 5 fireballs over 6 seconds at the position of the mouse cursor. Fireballs deal 135 damage to enemies and heal allied Heroes for 300 Health. 2 seconds after dropping all fireballs, Alexstrasza lands at the position of the mouse cursor.",
+      "slug": "cleansing-flame",
+      "image": ""
+    }
+  ],
+  "original": {
+    "id": "Alexstrasza",
+    "name": "Alexstrasza",
+    "title": "The Life-Binder",
+    "description": "Alexstrasza, the queen of dragons, was empowered by the titans to be the guardian of all life on Azeroth. She has aided mortals time and again, even at great personal cost. Now, she soars across the Nexus, protecting life wherever she finds it.",
+    "shortDescription": "A Healer who shares her Health with allies and can transform into a Dragon to empower her Abilities.",
+    "baseHeroInfo": {
+      "name": "Alexstrasza",
+      "title": "The Life-Binder",
+      "description": "Alexstrasza, the queen of dragons, was empowered by the titans to be the guardian of all life on Azeroth. She has aided mortals time and again, even at great personal cost. Now, she soars across the Nexus, protecting life wherever she finds it.",
+      "shortDescription": "A Healer who shares her Health with allies and can transform into a Dragon to empower her Abilities.",
+      "slug": "alexstrasza",
+      "role": {
+        "name": "Support",
+        "slug": "support",
+        "description": "Support Healers, buffers, and everyone’s best friends."
+      },
+      "skins": [
+
+      ],
+      "type": {
+        "name": "Ranged",
+        "slug": "ranged"
+      },
+      "trait": {
+        "name": "Dragonqueen",
+        "description": "After 1.25 seconds, transform into a dragon and gain 500 Health. While Dragonqueen is active, Alexstrasza's Abilities are empowered, and her Basic Attacks deal 143 damage and heal allied Heroes for 43 in an arc in front of her. Additionally, the duration of incoming Stuns, Roots, Slows, and Blinds is reduced by 50%. Lasts 15 seconds.",
+        "id": "AlexstraszaDragonqueen",
+        "slug": "dragonqueen"
+      },
+      "defaultMount": {
+        "name": "Horse",
+        "id": "HorseCommon"
+      },
+      "abilities": [
+        {
+          "name": "Gift of Life",
+          "description": "Sacrifice 15% of Alexstrasza's current Health, healing an ally for 150% of that amount. Dragonqueen: Breath of Life Cooldown greatly reduced and does not cost Health.",
+          "id": "AlexstraszaGiftOfLife",
+          "video": "",
+          "slug": "gift-of-life",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Abundance",
+          "description": "Plant a seed of healing that blooms after 3 seconds, healing nearby allied Heroes for 20% of their maximum Health. Dragonqueen: Preservation Heal area and amount greatly increased.",
+          "id": "AlexstraszaAbundance",
+          "video": "",
+          "slug": "abundance",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Flame Buffet",
+          "description": "Launch a fireball, Burning enemies hit for 75 damage over 5.5 seconds. Hitting enemies that are already Burning deals 125 bonus damage upon impact, Slows them by 40% decaying over 2 seconds, and refunds the Mana cost. Dragonqueen: Wing Buffet Damage and Knockback enemies in an arc.",
+          "id": "AlexstraszaFlameBuffet",
+          "video": "",
+          "slug": "flame-buffet",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "heroicAbilities": [
+        {
+          "name": "Life-Binder",
+          "description": "Bind Alexstrasa's life force with an allied Hero. After 2 seconds, the Hero with a lower percentage of Health is set to the same Health percentage as the other Hero.",
+          "id": "AlexstraszaLifebinder",
+          "video": "",
+          "slug": "life-binder",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Cleansing Flame",
+          "description": "After 1.25 seconds, take to the sky and drop 5 fireballs over 6 seconds at the position of the mouse cursor. Fireballs deal 135 damage to enemies and heal allied Heroes for 300 Health. 2 seconds after dropping all fireballs, Alexstrasza lands at the position of the mouse cursor.",
+          "id": "AlexstraszaCleansingFlame",
+          "video": "",
+          "slug": "cleansing-flame",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+        {
+          "name": "Breath of Life",
+          "description": "Heal an ally for 20% of Alexstrasza's current Health.",
+          "id": "AlexstraszaBreathOfLife",
+          "video": "",
+          "slug": "breath-of-life",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Preservation",
+          "description": "Plant a seed of healing that blooms after 3 seconds, healing nearby allied Heroes for 30% of their maximum Health.",
+          "id": "AlexstraszaPreservation",
+          "video": "",
+          "slug": "preservation",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Wing Buffet",
+          "description": "Deal 150 damage to enemies in an area, knocking them back and Slowing them by 50% for 3 seconds.",
+          "id": "AlexstraszaWingBuffet",
+          "video": "",
+          "slug": "wing-buffet",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Cleansing Flame",
+          "description": "Take to the sky and drop 5 fireballs over 6 seconds at the position of the mouse cursor. Fireballs deal 135 damage to enemies and heal allied Heroes for 300 Health. 2 seconds after dropping all fireballs, Alexstrasza lands at the position of the mouse cursor.",
+          "id": "AlexstraszaCleansingFlameDragonqueen",
+          "video": "",
+          "slug": "cleansing-flame",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+    },
+    "roleSecondary": {
+    },
+    "type": {
+    },
+    "trait": {
+      "name": "Dragonqueen",
+      "description": "After 1.25 seconds, transform into a dragon and gain 500 Health. While Dragonqueen is active, Alexstrasza's Abilities are empowered, and her Basic Attacks deal 143 damage and heal allied Heroes for 43 in an arc in front of her. Additionally, the duration of incoming Stuns, Roots, Slows, and Blinds is reduced by 50%. Lasts 15 seconds.",
+      "id": "AlexstraszaDragonqueen",
+      "slug": "dragonqueen"
+    },
+    "abilities": [
+      {
+        "name": "Gift of Life",
+        "description": "Sacrifice 15% of Alexstrasza's current Health, healing an ally for 150% of that amount. Dragonqueen: Breath of Life Cooldown greatly reduced and does not cost Health.",
+        "id": "AlexstraszaGiftOfLife",
+        "video": "",
+        "slug": "gift-of-life",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Abundance",
+        "description": "Plant a seed of healing that blooms after 3 seconds, healing nearby allied Heroes for 20% of their maximum Health. Dragonqueen: Preservation Heal area and amount greatly increased.",
+        "id": "AlexstraszaAbundance",
+        "video": "",
+        "slug": "abundance",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Flame Buffet",
+        "description": "Launch a fireball, Burning enemies hit for 75 damage over 5.5 seconds. Hitting enemies that are already Burning deals 125 bonus damage upon impact, Slows them by 40% decaying over 2 seconds, and refunds the Mana cost. Dragonqueen: Wing Buffet Damage and Knockback enemies in an arc.",
+        "id": "AlexstraszaFlameBuffet",
+        "video": "",
+        "slug": "flame-buffet",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "heroicAbilities": [
+      {
+        "name": "Life-Binder",
+        "description": "Bind Alexstrasa's life force with an allied Hero. After 2 seconds, the Hero with a lower percentage of Health is set to the same Health percentage as the other Hero.",
+        "id": "AlexstraszaLifebinder",
+        "video": "",
+        "slug": "life-binder",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Cleansing Flame",
+        "description": "After 1.25 seconds, take to the sky and drop 5 fireballs over 6 seconds at the position of the mouse cursor. Fireballs deal 135 damage to enemies and heal allied Heroes for 300 Health. 2 seconds after dropping all fireballs, Alexstrasza lands at the position of the mouse cursor.",
+        "id": "AlexstraszaCleansingFlame",
+        "video": "",
+        "slug": "cleansing-flame",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "defaultMount": {
+      "name": "Horse",
+      "id": "HorseCommon"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "otherAbilities": [
+      {
+        "name": "Breath of Life",
+        "description": "Heal an ally for 20% of Alexstrasza's current Health.",
+        "id": "AlexstraszaBreathOfLife",
+        "video": "",
+        "slug": "breath-of-life",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Preservation",
+        "description": "Plant a seed of healing that blooms after 3 seconds, healing nearby allied Heroes for 30% of their maximum Health.",
+        "id": "AlexstraszaPreservation",
+        "video": "",
+        "slug": "preservation",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Wing Buffet",
+        "description": "Deal 150 damage to enemies in an area, knocking them back and Slowing them by 50% for 3 seconds.",
+        "id": "AlexstraszaWingBuffet",
+        "video": "",
+        "slug": "wing-buffet",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Cleansing Flame",
+        "description": "Take to the sky and drop 5 fireballs over 6 seconds at the position of the mouse cursor. Fireballs deal 135 damage to enemies and heal allied Heroes for 300 Health. 2 seconds after dropping all fireballs, Alexstrasza lands at the position of the mouse cursor.",
+        "id": "AlexstraszaCleansingFlameDragonqueen",
+        "video": "",
+        "slug": "cleansing-flame",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "slug": "alexstrasza",
+    "franchise": "Warcraft",
+    "stanceSlug": "",
+    "difficulty": "Medium",
+    "stats": {
+      "damage": 3,
+      "utility": 6,
+      "survivability": 4,
+      "complexity": 6
+    },
+    "skins": [
+      {
+        "name": "The Life-Binder",
+        "description": "Alexstrasza, the queen of dragons, was empowered by the titans to be the guardian of all life on Azeroth. She has aided mortals time and again, even at great personal cost. Now, she soars across the Nexus, protecting life wherever she finds it.",
+        "id": "AlexstraszaBaseCommon",
+        "analyticsName": "Alexstrasza | the-life-binder",
+        "slug": "the-life-binder"
+      },
+      {
+        "name": "Dragon Aspect Alexstrasza",
+        "description": "The many realms of the Nexus teem with myriad living beings who both empower Alexstrasza and beseech her for protection. The Aspect of Life stands ready to safeguard them all.",
+        "id": "AlexstraszaCowl",
+        "analyticsName": "Alexstrasza | dragon-aspect-alexstrasza",
+        "slug": "dragon-aspect-alexstrasza"
+      },
+      {
+        "name": "Dark Queen Alexstrasza",
+        "description": "Sealed away by the Star Princesses millennia ago, the Dark Queen of the Dragons has finally broken free of her imprisonment. At long last, she will have her revenge on the people of Earth.",
+        "id": "AlexstraszaDark",
+        "analyticsName": "Alexstrasza | dark-queen-alexstrasza",
+        "slug": "dark-queen-alexstrasza"
+      }
+    ],
+    "releaseDate": {
+      "year": 2017,
+      "month": 11,
+      "day": 14
+    },
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "alexstrasza",
+    "revealed": true,
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
+  }
+}

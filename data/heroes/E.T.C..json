@@ -1,0 +1,298 @@
+{
+  "name": "E.T.C.",
+  "slug": "etc",
+  "title": "Rock God",
+  "description": "Warrior Front-line defenders and bruisers.",
+  "role": {
+    "name": "Warrior",
+    "slug": "warrior",
+    "description": "Warrior Front-line defenders and bruisers."
+  },
+  "type_of_hero": "Melee",
+  "franchise": "Warcraft",
+  "difficulty": "Easy",
+  "live": true,
+  "poster_image": "http://localhost:3000/images/etc/bust.jpg",
+  "stat": {
+    "damage": 4,
+    "utility": 6,
+    "survivability": 9,
+    "complexity": 3
+  },
+  "thumb": "http://localhost:3000/images/etc/rock-god.jpg",
+  "trait": {
+    "name": "Rockstar",
+    "description": "Rockstar",
+    "slug": "rockstar",
+    "image": ""
+  },
+  "abilities": [
+    {
+      "name": "Powerslide",
+      "description": "Slide to a location dealing 91 damage and stunning enemies hit for 1.25 second.",
+      "slug": "powerslide",
+      "image": ""
+    },
+    {
+      "name": "Face Melt",
+      "description": "Deals 68 damage to nearby enemies, knocking them back.",
+      "slug": "face-melt",
+      "image": ""
+    },
+    {
+      "name": "Guitar Solo",
+      "description": "Regenerate 66 Health per second for 4 seconds.",
+      "slug": "guitar-solo",
+      "image": ""
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Mosh Pit",
+      "description": "After 0.75 seconds, channel to stun nearby enemies for 4 seconds.",
+      "slug": "mosh-pit",
+      "image": ""
+    },
+    {
+      "name": "Stage Dive",
+      "description": "Leap to target location, landing after 2.75 seconds, dealing 330 damage to enemies in the area, and slowing them by 50% for 3 seconds.",
+      "slug": "stage-dive",
+      "image": ""
+    }
+  ],
+  "original": {
+    "id": "L90ETC",
+    "name": "E.T.C.",
+    "title": "Rock God",
+    "description": "The Power of the Horde incarnated by brutal rhythms and blistering guitar riffs into the most elite tauren chieftain to ever headbang across the surface of Azeroth. Don't bother putting on socks. He's just going to rock them off anyways.",
+    "shortDescription": "A Tank who supplies his team with a good bit of utility.",
+    "baseHeroInfo": {
+      "name": "E.T.C.",
+      "title": "Rock God",
+      "description": "The Power of the Horde incarnated by brutal rhythms and blistering guitar riffs into the most elite tauren chieftain to ever headbang across the surface of Azeroth. Don't bother putting on socks. He's just going to rock them off anyways.",
+      "shortDescription": "A Tank who supplies his team with a good bit of utility.",
+      "slug": "etc",
+      "role": {
+        "name": "Warrior",
+        "slug": "warrior",
+        "description": "Warrior Front-line defenders and bruisers."
+      },
+      "skins": [
+
+      ],
+      "type": {
+        "name": "Melee",
+        "slug": "melee"
+      },
+      "trait": {
+        "name": "Rockstar",
+        "description": "After E.T.C. uses a Basic or Heroic ability, he gains 20 Armor for 2 seconds. This effect does not stack with itself.",
+        "id": "L90ETCRockstar",
+        "slug": "rockstar"
+      },
+      "defaultMount": {
+        "name": "Battle Beast",
+        "id": "BattleBeast"
+      },
+      "abilities": [
+        {
+          "name": "Powerslide",
+          "description": "Slide to a location dealing 91 damage and stunning enemies hit for 1.25 second.",
+          "id": "L90ETCPowerslide",
+          "video": "",
+          "slug": "powerslide",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Face Melt",
+          "description": "Deals 68 damage to nearby enemies, knocking them back.",
+          "id": "L90ETCFaceMelt",
+          "video": "",
+          "slug": "face-melt",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Guitar Solo",
+          "description": "Regenerate 66 Health per second for 4 seconds.",
+          "id": "L90ETCGuitarSolo",
+          "video": "",
+          "slug": "guitar-solo",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "heroicAbilities": [
+        {
+          "name": "Mosh Pit",
+          "description": "After 0.75 seconds, channel to stun nearby enemies for 4 seconds.",
+          "id": "L90ETCMoshPit",
+          "video": "",
+          "slug": "mosh-pit",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Stage Dive",
+          "description": "Leap to target location, landing after 2.75 seconds, dealing 330 damage to enemies in the area, and slowing them by 50% for 3 seconds.",
+          "id": "L90ETCStageDive",
+          "video": "",
+          "slug": "stage-dive",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+    },
+    "roleSecondary": {
+    },
+    "type": {
+    },
+    "trait": {
+      "name": "Rockstar",
+      "description": "After E.T.C. uses a Basic or Heroic ability, he gains 20 Armor for 2 seconds. This effect does not stack with itself.",
+      "id": "L90ETCRockstar",
+      "slug": "rockstar"
+    },
+    "abilities": [
+      {
+        "name": "Powerslide",
+        "description": "Slide to a location dealing 91 damage and stunning enemies hit for 1.25 second.",
+        "id": "L90ETCPowerslide",
+        "video": "",
+        "slug": "powerslide",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Face Melt",
+        "description": "Deals 68 damage to nearby enemies, knocking them back.",
+        "id": "L90ETCFaceMelt",
+        "video": "",
+        "slug": "face-melt",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Guitar Solo",
+        "description": "Regenerate 66 Health per second for 4 seconds.",
+        "id": "L90ETCGuitarSolo",
+        "video": "",
+        "slug": "guitar-solo",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "heroicAbilities": [
+      {
+        "name": "Mosh Pit",
+        "description": "After 0.75 seconds, channel to stun nearby enemies for 4 seconds.",
+        "id": "L90ETCMoshPit",
+        "video": "",
+        "slug": "mosh-pit",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Stage Dive",
+        "description": "Leap to target location, landing after 2.75 seconds, dealing 330 damage to enemies in the area, and slowing them by 50% for 3 seconds.",
+        "id": "L90ETCStageDive",
+        "video": "",
+        "slug": "stage-dive",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "defaultMount": {
+      "name": "Battle Beast",
+      "id": "BattleBeast"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "otherAbilities": [
+
+    ],
+    "slug": "etc",
+    "franchise": "Warcraft",
+    "stanceSlug": "",
+    "difficulty": "Easy",
+    "stats": {
+      "damage": 4,
+      "utility": 6,
+      "survivability": 9,
+      "complexity": 3
+    },
+    "skins": [
+      {
+        "name": "Rock God",
+        "description": "The Power of the Horde incarnated by brutal rhythms and blistering guitar riffs into the most elite tauren chieftain to ever headbang across the surface of Azeroth. Don't bother putting on socks. He's just going to rock them off anyways.",
+        "id": "ETCCommon",
+        "analyticsName": "E.T.C. | rock-god",
+        "slug": "rock-god"
+      },
+      {
+        "name": "Black Metal E.T.C.",
+        "description": "Some bands paint their faces and play death metal. E.T.C. however, IS death metal.",
+        "id": "ETCUltimate",
+        "analyticsName": "E.T.C. | black-metal-etc",
+        "slug": "black-metal-etc"
+      },
+      {
+        "name": "Pure Country E.T.C.",
+        "description": "After E.T.C's pickup truck broke down and his dog died there was really only one thing left for him to do-- go country! Time to bring a whole new meaning to cowboy.",
+        "id": "ETCPureCountry",
+        "analyticsName": "E.T.C. | pure-country-etc",
+        "slug": "pure-country-etc"
+      },
+      {
+        "name": "Glam Metal E.T.C.",
+        "description": "The Elite Tauren Chieftan has been rocking the world for a long time, man. He's seen fashions come and fashions go, but neon pants and feathered hair? Those are forever.",
+        "id": "ETCGlam",
+        "analyticsName": "E.T.C. | glam-metal-etc",
+        "slug": "glam-metal-etc"
+      }
+    ],
+    "releaseDate": {
+      "year": 2014,
+      "month": 1,
+      "day": 1
+    },
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "etc",
+    "revealed": true,
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
+  }
+}

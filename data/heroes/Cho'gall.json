@@ -1,0 +1,1890 @@
+{
+  "name": "Cho'gall",
+  "slug": "chogall",
+  "title": "Twilight's Hammer Chieftain",
+  "description": "Warrior Front-line defenders and bruisers.",
+  "role": {
+    "name": "Warrior",
+    "slug": "warrior",
+    "description": "Warrior Front-line defenders and bruisers."
+  },
+  "type_of_hero": "Melee",
+  "franchise": "Warcraft",
+  "difficulty": "Medium",
+  "live": true,
+  "poster_image": "http://localhost:3000/images/chogall/bust.jpg",
+  "stat": {
+    "damage": 6,
+    "utility": 2,
+    "survivability": 10,
+    "complexity": 7
+  },
+  "thumb": "http://media.blizzard.com/heroes/chogall/skins/thumbnails/twilights-hammer-chieftain.jpg",
+  "trait": {
+    "name": "Ogre Hide",
+    "description": "Ogre Hide",
+    "slug": "ogre-hide",
+    "image": ""
+  },
+  "abilities": [
+    {
+      "name": "Surging Fist",
+      "description": "Activate to begin charging Surging Fist. Activate again to dash forward, knocking aside enemies and dealing 46 damage. The dash range increases by up to 250%, depending on how long it is charged.",
+      "slug": "surging-fist",
+      "image": ""
+    },
+    {
+      "name": "Consuming Blaze",
+      "description": "Ignite nearby enemies, dealing 150 damage over 5 seconds. Basic Attacking burning enemies re-Ignites them. Cho is healed for 40 when an enemy is Ignited.",
+      "slug": "consuming-blaze",
+      "image": ""
+    },
+    {
+      "name": "Rune Bomb",
+      "description": "Roll a bomb dealing 91 damage to enemies in its path. Gall can use Runic Blast to detonate it to deal 233 damage in an area.",
+      "slug": "rune-bomb",
+      "image": ""
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Hammer of Twilight",
+      "description": "Activate to swing the Hammer of Twilight, dealing 150 damage, pushing enemies away, and Stunning them for 0.75 seconds. Passive: Cho's Basic Attacks deal 25% increased damage.",
+      "slug": "hammer-of-twilight",
+      "image": ""
+    },
+    {
+      "name": "Upheaval",
+      "description": "After 1 second, pull enemies towards Cho'gall, slowing them by 25% for 3 seconds and dealing 175 damage.",
+      "slug": "upheaval",
+      "image": ""
+    }
+  ],
+  "original": {
+    "id": "Cho'gall",
+    "name": "Cho'gall",
+    "title": "Twilight's Hammer Chieftain",
+    "description": "Cho’gall is one of the most powerful, intelligent, and insane ogre-magi to have ever lived. As the leader of the Twilight's Hammer the two brothers seek to bring about an age of destruction... whenever they aren’t bickering that is.",
+    "shortDescription": "Head 1 of a 2 Headed Hero, Cho controls the body of Cho'gall.",
+    "baseHeroInfo": {
+      "name": "Cho",
+      "title": "Twilight's Hammer Chieftain",
+      "description": "Cho’gall is one of the most powerful, intelligent, and insane ogre-magi to have ever lived. As the leader of the Twilight's Hammer the two brothers seek to bring about an age of destruction... whenever they aren’t bickering that is.",
+      "shortDescription": "Head 1 of a 2 Headed Hero, Cho controls the body of Cho'gall.",
+      "slug": "cho",
+      "role": {
+        "name": "Warrior",
+        "slug": "warrior",
+        "description": "Warrior Front-line defenders and bruisers."
+      },
+      "skins": [
+
+      ],
+      "type": {
+        "name": "Melee",
+        "slug": "melee"
+      },
+      "trait": {
+        "name": "Ogre Hide",
+        "description": "Activate to gain 25 Armor, but reduce Gall's damage by 25%.",
+        "id": "ChoOgreHideActivated",
+        "slug": "ogre-hide"
+      },
+      "defaultMount": {
+        "name": "Horse (Carried)",
+        "id": "ChoGallRunHorseCommon"
+      },
+      "abilities": [
+        {
+          "name": "Surging Fist",
+          "description": "Activate to begin charging Surging Fist. Activate again to dash forward, knocking aside enemies and dealing 46 damage. The dash range increases by up to 250%, depending on how long it is charged.",
+          "id": "ChoSurgingFist",
+          "video": "",
+          "slug": "surging-fist",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Consuming Blaze",
+          "description": "Ignite nearby enemies, dealing 150 damage over 5 seconds. Basic Attacking burning enemies re-Ignites them. Cho is healed for 40 when an enemy is Ignited.",
+          "id": "ChoConsumingBlaze",
+          "video": "",
+          "slug": "consuming-blaze",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Rune Bomb",
+          "description": "Roll a bomb dealing 91 damage to enemies in its path. Gall can use Runic Blast to detonate it to deal 233 damage in an area.",
+          "id": "ChoRuneBomb",
+          "video": "",
+          "slug": "rune-bomb",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "heroicAbilities": [
+        {
+          "name": "Hammer of Twilight",
+          "description": "Activate to swing the Hammer of Twilight, dealing 150 damage, pushing enemies away, and Stunning them for 0.75 seconds. Passive: Cho's Basic Attacks deal 25% increased damage.",
+          "id": "ChoHammerOfTwilight",
+          "video": "",
+          "slug": "hammer-of-twilight",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Upheaval",
+          "description": "After 1 second, pull enemies towards Cho'gall, slowing them by 25% for 3 seconds and dealing 175 damage.",
+          "id": "ChoUpheaval",
+          "video": "",
+          "slug": "upheaval",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+        {
+          "name": "Surging Fist",
+          "description": "Activate again to dash forward, knocking aside enemies and dealing 46 damage. The dash range increases by up to 250%, depending on how long it is charged.",
+          "id": "ChoSurgingFistTriggerButton",
+          "video": "",
+          "slug": "surging-fist",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Surging Fist",
+          "description": "Activate again to dash forward, knocking aside enemies and dealing 46 damage. The dash range increases by up to 250%, depending on how long it is charged.",
+          "id": "ChoSurgingFistExecute",
+          "video": "",
+          "slug": "surging-fist",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "pairedHeroes": [
+        {
+          "id": "Gall",
+          "name": "Gall",
+          "baseHeroInfo": {
+            "role": {
+            },
+            "skins": [
+
+            ],
+            "type": {
+            },
+            "trait": {
+            },
+            "defaultMount": {
+            },
+            "abilities": [
+
+            ],
+            "heroicAbilities": [
+
+            ],
+            "multiclassRoles": [
+
+            ],
+            "otherAbilities": [
+
+            ],
+            "pairedHeroes": [
+
+            ]
+          },
+          "role": {
+          },
+          "roleSecondary": {
+          },
+          "type": {
+          },
+          "multiclassRoles": [
+
+          ],
+          "pairedHeroes": [
+
+          ],
+          "slug": "gall",
+          "stanceSlug": "",
+          "stats": {
+            "damage": 0,
+            "utility": 0,
+            "survivability": 0,
+            "complexity": 0
+          },
+          "skins": [
+
+          ],
+          "releaseDate": {
+            "year": 0,
+            "month": 0,
+            "day": 0
+          },
+          "alternateHeroInfo": [
+
+          ],
+          "auxiliaryHeroInfo": [
+
+          ],
+          "heroStanceName": "",
+          "revealed": true,
+          "inFreeHeroRotation": false,
+          "freeRotationMinLevel": 0,
+          "unified": false
+        }
+      ]
+    },
+    "role": {
+    },
+    "roleSecondary": {
+      "name": "Assassin",
+      "slug": "assassin",
+      "description": "Assassin Slayers of Heroes and bringers of pain."
+    },
+    "type": {
+    },
+    "trait": {
+      "name": "Ogre Hide",
+      "description": "Activate to gain 25 Armor, but reduce Gall's damage by 25%.",
+      "id": "ChoOgreHideActivated",
+      "slug": "ogre-hide"
+    },
+    "abilities": [
+      {
+        "name": "Surging Fist",
+        "description": "Activate to begin charging Surging Fist. Activate again to dash forward, knocking aside enemies and dealing 46 damage. The dash range increases by up to 250%, depending on how long it is charged.",
+        "id": "ChoSurgingFist",
+        "video": "",
+        "slug": "surging-fist",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Consuming Blaze",
+        "description": "Ignite nearby enemies, dealing 150 damage over 5 seconds. Basic Attacking burning enemies re-Ignites them. Cho is healed for 40 when an enemy is Ignited.",
+        "id": "ChoConsumingBlaze",
+        "video": "",
+        "slug": "consuming-blaze",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Rune Bomb",
+        "description": "Roll a bomb dealing 91 damage to enemies in its path. Gall can use Runic Blast to detonate it to deal 233 damage in an area.",
+        "id": "ChoRuneBomb",
+        "video": "",
+        "slug": "rune-bomb",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "heroicAbilities": [
+      {
+        "name": "Hammer of Twilight",
+        "description": "Activate to swing the Hammer of Twilight, dealing 150 damage, pushing enemies away, and Stunning them for 0.75 seconds. Passive: Cho's Basic Attacks deal 25% increased damage.",
+        "id": "ChoHammerOfTwilight",
+        "video": "",
+        "slug": "hammer-of-twilight",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Upheaval",
+        "description": "After 1 second, pull enemies towards Cho'gall, slowing them by 25% for 3 seconds and dealing 175 damage.",
+        "id": "ChoUpheaval",
+        "video": "",
+        "slug": "upheaval",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "defaultMount": {
+      "name": "Horse (Carried)",
+      "id": "ChoGallRunHorseCommon"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+      {
+        "id": "Gall",
+        "baseHeroInfo": {
+          "name": "Gall",
+          "title": "Twilight's Hammer Chieftain",
+          "description": "Cho’gall is one of the most powerful, intelligent, and insane ogre-magi to have ever lived. As the leader of the Twilight's Hammer the two brothers seek to bring about an age of destruction... whenever they aren’t bickering that is.",
+          "shortDescription": "Head 2 of a 2 Headed Hero, Gall is a powerful Mage stuck to Cho.",
+          "slug": "gall",
+          "role": {
+            "name": "Assassin",
+            "slug": "assassin",
+            "description": "Assassin Slayers of Heroes and bringers of pain."
+          },
+          "skins": [
+
+          ],
+          "type": {
+            "name": "Ranged",
+            "slug": "ranged"
+          },
+          "trait": {
+            "name": "Ogre Rage",
+            "description": "Activate to increase Gall's damage by 25%, but reduce Cho's Armor by 25. Passive: Gall is permanently immune to Stun and Silence effects.",
+            "id": "GallOgreRageActivated",
+            "slug": "ogre-rage"
+          },
+          "defaultMount": {
+            "name": "Horse (Carried)",
+            "id": "ChoGallRunHorseCommon"
+          },
+          "abilities": [
+            {
+              "name": "Shadowflame",
+              "description": "Deal 135 damage to enemies in the area.",
+              "id": "GallShadowflame",
+              "video": "",
+              "slug": "shadowflame",
+              "analyticsName": "",
+              "icon": "",
+              "thumbnail": ""
+            },
+            {
+              "name": "Dread Orb",
+              "description": "Throw a bomb that will bounce three times, dealing 126 damage to enemies.",
+              "id": "GallDreadOrb",
+              "video": "",
+              "slug": "dread-orb",
+              "analyticsName": "",
+              "icon": "",
+              "thumbnail": ""
+            },
+            {
+              "name": "Runic Blast",
+              "description": "Detonate Cho's Rune Bomb, dealing 233 damage around it.",
+              "id": "GallRunicBlast",
+              "video": "",
+              "slug": "runic-blast",
+              "analyticsName": "",
+              "icon": "",
+              "thumbnail": ""
+            },
+            {
+              "name": "Shove",
+              "description": "Nudge Cho a small distance and grant him 25% Movement Speed for 2 seconds.",
+              "id": "GallShoveHotbar",
+              "video": "",
+              "slug": "shove",
+              "analyticsName": "",
+              "icon": "",
+              "thumbnail": ""
+            }
+          ],
+          "heroicAbilities": [
+            {
+              "name": "Shadow Bolt Volley",
+              "description": "After 1 second, unleash 20 Shadow Bolts over 4 seconds, each dealing 87 damage to the first target hit. The bolts fire towards your mouse.",
+              "id": "GallShadowboltVolley",
+              "video": "",
+              "slug": "shadow-bolt-volley",
+              "analyticsName": "",
+              "icon": "",
+              "thumbnail": ""
+            },
+            {
+              "name": "Twisting Nether",
+              "description": "After 1 second, nearby enemies are slowed by 50% while Gall channels, up to 5 seconds. Activate to deal 353 damage.",
+              "id": "GallTwistingNether",
+              "video": "",
+              "slug": "twisting-nether",
+              "analyticsName": "",
+              "icon": "",
+              "thumbnail": ""
+            }
+          ],
+          "multiclassRoles": [
+
+          ],
+          "otherAbilities": [
+            {
+              "name": "Eye of Kilrogg",
+              "description": "Place an eye, granting vision of a large area around it for 45 seconds. The eye can be killed by enemies with 2 Basic Attacks. Stores up to 2 charges.",
+              "id": "GallEyeofKilroggHotbar",
+              "video": "",
+              "slug": "eye-of-kilrogg",
+              "analyticsName": "",
+              "icon": "",
+              "thumbnail": ""
+            },
+            {
+              "name": "Detonate Twisting Nether",
+              "description": "Detonate the Twisting Nether, dealing 353 damage.",
+              "id": "GallTwistingNetherActivated",
+              "video": "",
+              "slug": "detonate-twisting-nether",
+              "analyticsName": "",
+              "icon": "",
+              "thumbnail": ""
+            },
+            {
+              "name": "Twisting Nether",
+              "description": "After 1 second, nearby enemies are slowed by 50% while Gall channels, up to 5 seconds. Activate to deal 353 damage.",
+              "id": "GallTwistingNether",
+              "video": "",
+              "slug": "twisting-nether",
+              "analyticsName": "",
+              "icon": "",
+              "thumbnail": ""
+            }
+          ],
+          "pairedHeroes": [
+            {
+              "id": "Cho",
+              "name": "Cho",
+              "baseHeroInfo": {
+                "role": {
+                },
+                "skins": [
+
+                ],
+                "type": {
+                },
+                "trait": {
+                },
+                "defaultMount": {
+                },
+                "abilities": [
+
+                ],
+                "heroicAbilities": [
+
+                ],
+                "multiclassRoles": [
+
+                ],
+                "otherAbilities": [
+
+                ],
+                "pairedHeroes": [
+
+                ]
+              },
+              "role": {
+              },
+              "roleSecondary": {
+              },
+              "type": {
+              },
+              "multiclassRoles": [
+
+              ],
+              "pairedHeroes": [
+
+              ],
+              "slug": "cho",
+              "stanceSlug": "",
+              "stats": {
+                "damage": 0,
+                "utility": 0,
+                "survivability": 0,
+                "complexity": 0
+              },
+              "skins": [
+
+              ],
+              "releaseDate": {
+                "year": 0,
+                "month": 0,
+                "day": 0
+              },
+              "alternateHeroInfo": [
+
+              ],
+              "auxiliaryHeroInfo": [
+
+              ],
+              "heroStanceName": "",
+              "revealed": true,
+              "inFreeHeroRotation": false,
+              "freeRotationMinLevel": 0,
+              "unified": false
+            }
+          ]
+        },
+        "role": {
+        },
+        "roleSecondary": {
+        },
+        "type": {
+        },
+        "multiclassRoles": [
+
+        ],
+        "pairedHeroes": [
+
+        ],
+        "franchise": "Warcraft",
+        "stanceSlug": "",
+        "difficulty": "Easy",
+        "stats": {
+          "damage": 9,
+          "utility": 4,
+          "survivability": 10,
+          "complexity": 3
+        },
+        "skins": [
+          {
+            "name": "Twilight's Hammer Chieftain",
+            "description": "Twilight's Hammer Chieftain",
+            "id": "ChoBaseCommon",
+            "slug": "twilights-hammer-chieftain"
+          },
+          {
+            "name": "Warlord Cho'gall",
+            "description": "Some Heroes choose to protect themselves with thick plates of armor, others wear intricate magical robes to boost their power. Cho'gall says, \"Why not do both?\"",
+            "id": "ChoUltimate",
+            "slug": "warlord-chogall"
+          },
+          {
+            "name": "Corruptor Cho'gall",
+            "description": "Rumor has it that the Corruptor Raiment was once exclusively worn by the Shadow Council. How the Scryers and the Aldor ever obtained them, the World of Warcraft may never know...",
+            "id": "ChoCorruptor",
+            "slug": "corruptor-chogall"
+          },
+          {
+            "name": "Pump'kin Cho'gall",
+            "description": "Every Hallow's End, Cho'gall makes sure to mock the Headless Horseman. After all, two heads are better than none.",
+            "id": "ChoPumpkin",
+            "slug": "pumpkin-chogall"
+          }
+        ],
+        "releaseDate": {
+          "year": 2015,
+          "month": 11,
+          "day": 17
+        },
+        "alternateHeroInfo": [
+
+        ],
+        "auxiliaryHeroInfo": [
+
+        ],
+        "heroStanceName": "",
+        "revealed": true,
+        "inFreeHeroRotation": false,
+        "freeRotationMinLevel": 0,
+        "unified": false
+      }
+    ],
+    "otherAbilities": [
+      {
+        "name": "Surging Fist",
+        "description": "Activate again to dash forward, knocking aside enemies and dealing 46 damage. The dash range increases by up to 250%, depending on how long it is charged.",
+        "id": "ChoSurgingFistTriggerButton",
+        "video": "",
+        "slug": "surging-fist",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Surging Fist",
+        "description": "Activate again to dash forward, knocking aside enemies and dealing 46 damage. The dash range increases by up to 250%, depending on how long it is charged.",
+        "id": "ChoSurgingFistExecute",
+        "video": "",
+        "slug": "surging-fist",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "slug": "chogall",
+    "franchise": "Warcraft",
+    "stanceSlug": "",
+    "difficulty": "Medium",
+    "stats": {
+      "damage": 6,
+      "utility": 2,
+      "survivability": 10,
+      "complexity": 7
+    },
+    "skins": [
+      {
+        "name": "Twilight's Hammer Chieftain",
+        "description": "Cho’gall is one of the most powerful, intelligent, and insane ogre-magi to have ever lived. As the leader of the Twilight's Hammer the two brothers seek to bring about an age of destruction... whenever they aren’t bickering that is.",
+        "id": "ChoBaseCommon",
+        "analyticsName": "Gall - Gall | twilights-hammer-chieftain",
+        "slug": "twilights-hammer-chieftain"
+      },
+      {
+        "name": "Warlord Cho'gall",
+        "description": "Some Heroes choose to protect themselves with thick plates of armor, others wear intricate magical robes to boost their power. Cho'gall says, \"Why not do both?\"",
+        "id": "ChoUltimate",
+        "analyticsName": "Gall - Gall | warlord-chogall",
+        "slug": "warlord-chogall"
+      },
+      {
+        "name": "Corruptor Cho'gall",
+        "description": "Rumor has it that the Corruptor Raiment was once exclusively worn by the Shadow Council. How the Scryers and the Aldor ever obtained them, the World of Warcraft may never know...",
+        "id": "ChoCorruptor",
+        "analyticsName": "Gall - Gall | corruptor-chogall",
+        "slug": "corruptor-chogall"
+      }
+    ],
+    "releaseDate": {
+      "year": 2015,
+      "month": 11,
+      "day": 17
+    },
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+      {
+        "id": "Cho",
+        "name": "Cho'gall",
+        "title": "Twilight's Hammer Chieftain",
+        "description": "Cho’gall is one of the most powerful, intelligent, and insane ogre-magi to have ever lived. As the leader of the Twilight's Hammer the two brothers seek to bring about an age of destruction... whenever they aren’t bickering that is.",
+        "shortDescription": "Head 1 of a 2 Headed Hero, Cho controls the body of Cho'gall.",
+        "baseHeroInfo": {
+          "name": "Cho",
+          "title": "Twilight's Hammer Chieftain",
+          "description": "Cho’gall is one of the most powerful, intelligent, and insane ogre-magi to have ever lived. As the leader of the Twilight's Hammer the two brothers seek to bring about an age of destruction... whenever they aren’t bickering that is.",
+          "shortDescription": "Head 1 of a 2 Headed Hero, Cho controls the body of Cho'gall.",
+          "slug": "cho",
+          "role": {
+            "name": "Warrior",
+            "slug": "warrior",
+            "description": "Warrior Front-line defenders and bruisers."
+          },
+          "skins": [
+
+          ],
+          "type": {
+            "name": "Melee",
+            "slug": "melee"
+          },
+          "trait": {
+            "name": "Ogre Hide",
+            "description": "Activate to gain 25 Armor, but reduce Gall's damage by 25%.",
+            "id": "ChoOgreHideActivated",
+            "slug": "ogre-hide"
+          },
+          "defaultMount": {
+            "name": "Horse (Carried)",
+            "id": "ChoGallRunHorseCommon"
+          },
+          "abilities": [
+            {
+              "name": "Surging Fist",
+              "description": "Activate to begin charging Surging Fist. Activate again to dash forward, knocking aside enemies and dealing 46 damage. The dash range increases by up to 250%, depending on how long it is charged.",
+              "id": "ChoSurgingFist",
+              "video": "",
+              "slug": "surging-fist",
+              "analyticsName": "",
+              "icon": "",
+              "thumbnail": ""
+            },
+            {
+              "name": "Consuming Blaze",
+              "description": "Ignite nearby enemies, dealing 150 damage over 5 seconds. Basic Attacking burning enemies re-Ignites them. Cho is healed for 40 when an enemy is Ignited.",
+              "id": "ChoConsumingBlaze",
+              "video": "",
+              "slug": "consuming-blaze",
+              "analyticsName": "",
+              "icon": "",
+              "thumbnail": ""
+            },
+            {
+              "name": "Rune Bomb",
+              "description": "Roll a bomb dealing 91 damage to enemies in its path. Gall can use Runic Blast to detonate it to deal 233 damage in an area.",
+              "id": "ChoRuneBomb",
+              "video": "",
+              "slug": "rune-bomb",
+              "analyticsName": "",
+              "icon": "",
+              "thumbnail": ""
+            }
+          ],
+          "heroicAbilities": [
+            {
+              "name": "Hammer of Twilight",
+              "description": "Activate to swing the Hammer of Twilight, dealing 150 damage, pushing enemies away, and Stunning them for 0.75 seconds. Passive: Cho's Basic Attacks deal 25% increased damage.",
+              "id": "ChoHammerOfTwilight",
+              "video": "",
+              "slug": "hammer-of-twilight",
+              "analyticsName": "",
+              "icon": "",
+              "thumbnail": ""
+            },
+            {
+              "name": "Upheaval",
+              "description": "After 1 second, pull enemies towards Cho'gall, slowing them by 25% for 3 seconds and dealing 175 damage.",
+              "id": "ChoUpheaval",
+              "video": "",
+              "slug": "upheaval",
+              "analyticsName": "",
+              "icon": "",
+              "thumbnail": ""
+            }
+          ],
+          "multiclassRoles": [
+
+          ],
+          "otherAbilities": [
+            {
+              "name": "Surging Fist",
+              "description": "Activate again to dash forward, knocking aside enemies and dealing 46 damage. The dash range increases by up to 250%, depending on how long it is charged.",
+              "id": "ChoSurgingFistTriggerButton",
+              "video": "",
+              "slug": "surging-fist",
+              "analyticsName": "",
+              "icon": "",
+              "thumbnail": ""
+            },
+            {
+              "name": "Surging Fist",
+              "description": "Activate again to dash forward, knocking aside enemies and dealing 46 damage. The dash range increases by up to 250%, depending on how long it is charged.",
+              "id": "ChoSurgingFistExecute",
+              "video": "",
+              "slug": "surging-fist",
+              "analyticsName": "",
+              "icon": "",
+              "thumbnail": ""
+            }
+          ],
+          "pairedHeroes": [
+            {
+              "id": "Gall",
+              "name": "Gall",
+              "baseHeroInfo": {
+                "role": {
+                },
+                "skins": [
+
+                ],
+                "type": {
+                },
+                "trait": {
+                },
+                "defaultMount": {
+                },
+                "abilities": [
+
+                ],
+                "heroicAbilities": [
+
+                ],
+                "multiclassRoles": [
+
+                ],
+                "otherAbilities": [
+
+                ],
+                "pairedHeroes": [
+
+                ]
+              },
+              "role": {
+              },
+              "roleSecondary": {
+              },
+              "type": {
+              },
+              "multiclassRoles": [
+
+              ],
+              "pairedHeroes": [
+
+              ],
+              "slug": "gall",
+              "stanceSlug": "",
+              "stats": {
+                "damage": 0,
+                "utility": 0,
+                "survivability": 0,
+                "complexity": 0
+              },
+              "skins": [
+
+              ],
+              "releaseDate": {
+                "year": 0,
+                "month": 0,
+                "day": 0
+              },
+              "alternateHeroInfo": [
+
+              ],
+              "auxiliaryHeroInfo": [
+
+              ],
+              "heroStanceName": "",
+              "revealed": true,
+              "inFreeHeroRotation": false,
+              "freeRotationMinLevel": 0,
+              "unified": false
+            }
+          ]
+        },
+        "role": {
+          "name": "Warrior",
+          "slug": "warrior",
+          "description": "Warrior Front-line defenders and bruisers."
+        },
+        "roleSecondary": {
+          "name": "Assassin",
+          "slug": "assassin",
+          "description": "Assassin Slayers of Heroes and bringers of pain."
+        },
+        "type": {
+          "name": "Melee",
+          "slug": "melee"
+        },
+        "trait": {
+          "name": "Ogre Hide",
+          "description": "Activate to gain 25 Armor, but reduce Gall's damage by 25%.",
+          "id": "ChoOgreHideActivated",
+          "slug": "ogre-hide"
+        },
+        "abilities": [
+          {
+            "name": "Surging Fist",
+            "description": "Activate to begin charging Surging Fist. Activate again to dash forward, knocking aside enemies and dealing 46 damage. The dash range increases by up to 250%, depending on how long it is charged.",
+            "id": "ChoSurgingFist",
+            "video": "",
+            "slug": "surging-fist",
+            "analyticsName": "",
+            "icon": "",
+            "thumbnail": ""
+          },
+          {
+            "name": "Consuming Blaze",
+            "description": "Ignite nearby enemies, dealing 150 damage over 5 seconds. Basic Attacking burning enemies re-Ignites them. Cho is healed for 40 when an enemy is Ignited.",
+            "id": "ChoConsumingBlaze",
+            "video": "",
+            "slug": "consuming-blaze",
+            "analyticsName": "",
+            "icon": "",
+            "thumbnail": ""
+          },
+          {
+            "name": "Rune Bomb",
+            "description": "Roll a bomb dealing 91 damage to enemies in its path. Gall can use Runic Blast to detonate it to deal 233 damage in an area.",
+            "id": "ChoRuneBomb",
+            "video": "",
+            "slug": "rune-bomb",
+            "analyticsName": "",
+            "icon": "",
+            "thumbnail": ""
+          }
+        ],
+        "heroicAbilities": [
+          {
+            "name": "Hammer of Twilight",
+            "description": "Activate to swing the Hammer of Twilight, dealing 150 damage, pushing enemies away, and Stunning them for 0.75 seconds. Passive: Cho's Basic Attacks deal 25% increased damage.",
+            "id": "ChoHammerOfTwilight",
+            "video": "",
+            "slug": "hammer-of-twilight",
+            "analyticsName": "",
+            "icon": "",
+            "thumbnail": ""
+          },
+          {
+            "name": "Upheaval",
+            "description": "After 1 second, pull enemies towards Cho'gall, slowing them by 25% for 3 seconds and dealing 175 damage.",
+            "id": "ChoUpheaval",
+            "video": "",
+            "slug": "upheaval",
+            "analyticsName": "",
+            "icon": "",
+            "thumbnail": ""
+          }
+        ],
+        "multiclassRoles": [
+
+        ],
+        "pairedHeroes": [
+          {
+            "id": "Gall",
+            "baseHeroInfo": {
+              "name": "Gall",
+              "title": "Twilight's Hammer Chieftain",
+              "description": "Cho’gall is one of the most powerful, intelligent, and insane ogre-magi to have ever lived. As the leader of the Twilight's Hammer the two brothers seek to bring about an age of destruction... whenever they aren’t bickering that is.",
+              "shortDescription": "Head 2 of a 2 Headed Hero, Gall is a powerful Mage stuck to Cho.",
+              "slug": "gall",
+              "role": {
+                "name": "Assassin",
+                "slug": "assassin",
+                "description": "Assassin Slayers of Heroes and bringers of pain."
+              },
+              "skins": [
+
+              ],
+              "type": {
+                "name": "Ranged",
+                "slug": "ranged"
+              },
+              "trait": {
+                "name": "Ogre Rage",
+                "description": "Activate to increase Gall's damage by 25%, but reduce Cho's Armor by 25. Passive: Gall is permanently immune to Stun and Silence effects.",
+                "id": "GallOgreRageActivated",
+                "slug": "ogre-rage"
+              },
+              "defaultMount": {
+                "name": "Horse (Carried)",
+                "id": "ChoGallRunHorseCommon"
+              },
+              "abilities": [
+                {
+                  "name": "Shadowflame",
+                  "description": "Deal 135 damage to enemies in the area.",
+                  "id": "GallShadowflame",
+                  "video": "",
+                  "slug": "shadowflame",
+                  "analyticsName": "",
+                  "icon": "",
+                  "thumbnail": ""
+                },
+                {
+                  "name": "Dread Orb",
+                  "description": "Throw a bomb that will bounce three times, dealing 126 damage to enemies.",
+                  "id": "GallDreadOrb",
+                  "video": "",
+                  "slug": "dread-orb",
+                  "analyticsName": "",
+                  "icon": "",
+                  "thumbnail": ""
+                },
+                {
+                  "name": "Runic Blast",
+                  "description": "Detonate Cho's Rune Bomb, dealing 233 damage around it.",
+                  "id": "GallRunicBlast",
+                  "video": "",
+                  "slug": "runic-blast",
+                  "analyticsName": "",
+                  "icon": "",
+                  "thumbnail": ""
+                },
+                {
+                  "name": "Shove",
+                  "description": "Nudge Cho a small distance and grant him 25% Movement Speed for 2 seconds.",
+                  "id": "GallShoveHotbar",
+                  "video": "",
+                  "slug": "shove",
+                  "analyticsName": "",
+                  "icon": "",
+                  "thumbnail": ""
+                }
+              ],
+              "heroicAbilities": [
+                {
+                  "name": "Shadow Bolt Volley",
+                  "description": "After 1 second, unleash 20 Shadow Bolts over 4 seconds, each dealing 87 damage to the first target hit. The bolts fire towards your mouse.",
+                  "id": "GallShadowboltVolley",
+                  "video": "",
+                  "slug": "shadow-bolt-volley",
+                  "analyticsName": "",
+                  "icon": "",
+                  "thumbnail": ""
+                },
+                {
+                  "name": "Twisting Nether",
+                  "description": "After 1 second, nearby enemies are slowed by 50% while Gall channels, up to 5 seconds. Activate to deal 353 damage.",
+                  "id": "GallTwistingNether",
+                  "video": "",
+                  "slug": "twisting-nether",
+                  "analyticsName": "",
+                  "icon": "",
+                  "thumbnail": ""
+                }
+              ],
+              "multiclassRoles": [
+
+              ],
+              "otherAbilities": [
+                {
+                  "name": "Eye of Kilrogg",
+                  "description": "Place an eye, granting vision of a large area around it for 45 seconds. The eye can be killed by enemies with 2 Basic Attacks. Stores up to 2 charges.",
+                  "id": "GallEyeofKilroggHotbar",
+                  "video": "",
+                  "slug": "eye-of-kilrogg",
+                  "analyticsName": "",
+                  "icon": "",
+                  "thumbnail": ""
+                },
+                {
+                  "name": "Detonate Twisting Nether",
+                  "description": "Detonate the Twisting Nether, dealing 353 damage.",
+                  "id": "GallTwistingNetherActivated",
+                  "video": "",
+                  "slug": "detonate-twisting-nether",
+                  "analyticsName": "",
+                  "icon": "",
+                  "thumbnail": ""
+                },
+                {
+                  "name": "Twisting Nether",
+                  "description": "After 1 second, nearby enemies are slowed by 50% while Gall channels, up to 5 seconds. Activate to deal 353 damage.",
+                  "id": "GallTwistingNether",
+                  "video": "",
+                  "slug": "twisting-nether",
+                  "analyticsName": "",
+                  "icon": "",
+                  "thumbnail": ""
+                }
+              ],
+              "pairedHeroes": [
+                {
+                  "id": "Cho",
+                  "name": "Cho",
+                  "baseHeroInfo": {
+                    "role": {
+                    },
+                    "skins": [
+
+                    ],
+                    "type": {
+                    },
+                    "trait": {
+                    },
+                    "defaultMount": {
+                    },
+                    "abilities": [
+
+                    ],
+                    "heroicAbilities": [
+
+                    ],
+                    "multiclassRoles": [
+
+                    ],
+                    "otherAbilities": [
+
+                    ],
+                    "pairedHeroes": [
+
+                    ]
+                  },
+                  "role": {
+                  },
+                  "roleSecondary": {
+                  },
+                  "type": {
+                  },
+                  "multiclassRoles": [
+
+                  ],
+                  "pairedHeroes": [
+
+                  ],
+                  "slug": "cho",
+                  "stanceSlug": "",
+                  "stats": {
+                    "damage": 0,
+                    "utility": 0,
+                    "survivability": 0,
+                    "complexity": 0
+                  },
+                  "skins": [
+
+                  ],
+                  "releaseDate": {
+                    "year": 0,
+                    "month": 0,
+                    "day": 0
+                  },
+                  "alternateHeroInfo": [
+
+                  ],
+                  "auxiliaryHeroInfo": [
+
+                  ],
+                  "heroStanceName": "",
+                  "revealed": true,
+                  "inFreeHeroRotation": false,
+                  "freeRotationMinLevel": 0,
+                  "unified": false
+                }
+              ]
+            },
+            "role": {
+            },
+            "roleSecondary": {
+            },
+            "type": {
+            },
+            "multiclassRoles": [
+
+            ],
+            "pairedHeroes": [
+
+            ],
+            "franchise": "Warcraft",
+            "stanceSlug": "",
+            "difficulty": "Easy",
+            "stats": {
+              "damage": 9,
+              "utility": 4,
+              "survivability": 10,
+              "complexity": 3
+            },
+            "skins": [
+              {
+                "name": "Twilight's Hammer Chieftain",
+                "description": "Twilight's Hammer Chieftain",
+                "id": "ChoBaseCommon",
+                "slug": "twilights-hammer-chieftain"
+              },
+              {
+                "name": "Warlord Cho'gall",
+                "description": "Some Heroes choose to protect themselves with thick plates of armor, others wear intricate magical robes to boost their power. Cho'gall says, \"Why not do both?\"",
+                "id": "ChoUltimate",
+                "slug": "warlord-chogall"
+              },
+              {
+                "name": "Corruptor Cho'gall",
+                "description": "Rumor has it that the Corruptor Raiment was once exclusively worn by the Shadow Council. How the Scryers and the Aldor ever obtained them, the World of Warcraft may never know...",
+                "id": "ChoCorruptor",
+                "slug": "corruptor-chogall"
+              },
+              {
+                "name": "Pump'kin Cho'gall",
+                "description": "Every Hallow's End, Cho'gall makes sure to mock the Headless Horseman. After all, two heads are better than none.",
+                "id": "ChoPumpkin",
+                "slug": "pumpkin-chogall"
+              }
+            ],
+            "releaseDate": {
+              "year": 2015,
+              "month": 11,
+              "day": 17
+            },
+            "alternateHeroInfo": [
+
+            ],
+            "auxiliaryHeroInfo": [
+
+            ],
+            "heroStanceName": "",
+            "revealed": true,
+            "inFreeHeroRotation": false,
+            "freeRotationMinLevel": 0,
+            "unified": false
+          }
+        ],
+        "otherAbilities": [
+          {
+            "name": "Surging Fist",
+            "description": "Activate again to dash forward, knocking aside enemies and dealing 46 damage. The dash range increases by up to 250%, depending on how long it is charged.",
+            "id": "ChoSurgingFistTriggerButton",
+            "video": "",
+            "slug": "surging-fist",
+            "analyticsName": "",
+            "icon": "",
+            "thumbnail": ""
+          },
+          {
+            "name": "Surging Fist",
+            "description": "Activate again to dash forward, knocking aside enemies and dealing 46 damage. The dash range increases by up to 250%, depending on how long it is charged.",
+            "id": "ChoSurgingFistExecute",
+            "video": "",
+            "slug": "surging-fist",
+            "analyticsName": "",
+            "icon": "",
+            "thumbnail": ""
+          }
+        ],
+        "slug": "chogall",
+        "franchise": "Warcraft",
+        "stanceSlug": "cho",
+        "difficulty": "Medium",
+        "stats": {
+          "damage": 6,
+          "utility": 2,
+          "survivability": 10,
+          "complexity": 7
+        },
+        "skins": [
+          {
+            "name": "Twilight's Hammer Chieftain",
+            "description": "Cho’gall is one of the most powerful, intelligent, and insane ogre-magi to have ever lived. As the leader of the Twilight's Hammer the two brothers seek to bring about an age of destruction... whenever they aren’t bickering that is.",
+            "id": "ChoBaseCommon",
+            "analyticsName": "Gall - Gall | twilights-hammer-chieftain",
+            "slug": "twilights-hammer-chieftain"
+          },
+          {
+            "name": "Warlord Cho'gall",
+            "description": "Some Heroes choose to protect themselves with thick plates of armor, others wear intricate magical robes to boost their power. Cho'gall says, \"Why not do both?\"",
+            "id": "ChoUltimate",
+            "analyticsName": "Gall - Gall | warlord-chogall",
+            "slug": "warlord-chogall"
+          },
+          {
+            "name": "Corruptor Cho'gall",
+            "description": "Rumor has it that the Corruptor Raiment was once exclusively worn by the Shadow Council. How the Scryers and the Aldor ever obtained them, the World of Warcraft may never know...",
+            "id": "ChoCorruptor",
+            "analyticsName": "Gall - Gall | corruptor-chogall",
+            "slug": "corruptor-chogall"
+          }
+        ],
+        "releaseDate": {
+          "year": 2015,
+          "month": 11,
+          "day": 17
+        },
+        "alternateHeroInfo": [
+
+        ],
+        "heroStanceName": "Cho",
+        "analyticsName": "chogall",
+        "revealed": true,
+        "video": "qUZvIcydgUY",
+        "inFreeHeroRotation": false,
+        "freeRotationMinLevel": 0,
+        "unified": false
+      },
+      {
+        "id": "Gall",
+        "name": "Gall",
+        "title": "Twilight's Hammer Chieftain",
+        "description": "Cho’gall is one of the most powerful, intelligent, and insane ogre-magi to have ever lived. As the leader of the Twilight's Hammer the two brothers seek to bring about an age of destruction... whenever they aren’t bickering that is.",
+        "shortDescription": "Head 2 of a 2 Headed Hero, Gall is a powerful Mage stuck to Cho.",
+        "baseHeroInfo": {
+          "name": "Cho",
+          "title": "Twilight's Hammer Chieftain",
+          "description": "Cho’gall is one of the most powerful, intelligent, and insane ogre-magi to have ever lived. As the leader of the Twilight's Hammer the two brothers seek to bring about an age of destruction... whenever they aren’t bickering that is.",
+          "shortDescription": "Head 1 of a 2 Headed Hero, Cho controls the body of Cho'gall.",
+          "slug": "cho",
+          "role": {
+            "name": "Warrior",
+            "slug": "warrior",
+            "description": "Warrior Front-line defenders and bruisers."
+          },
+          "skins": [
+
+          ],
+          "type": {
+            "name": "Melee",
+            "slug": "melee"
+          },
+          "trait": {
+            "name": "Ogre Hide",
+            "description": "Activate to gain 25 Armor, but reduce Gall's damage by 25%.",
+            "id": "ChoOgreHideActivated",
+            "slug": "ogre-hide"
+          },
+          "defaultMount": {
+            "name": "Horse (Carried)",
+            "id": "ChoGallRunHorseCommon"
+          },
+          "abilities": [
+            {
+              "name": "Surging Fist",
+              "description": "Activate to begin charging Surging Fist. Activate again to dash forward, knocking aside enemies and dealing 46 damage. The dash range increases by up to 250%, depending on how long it is charged.",
+              "id": "ChoSurgingFist",
+              "video": "",
+              "slug": "surging-fist",
+              "analyticsName": "",
+              "icon": "",
+              "thumbnail": ""
+            },
+            {
+              "name": "Consuming Blaze",
+              "description": "Ignite nearby enemies, dealing 150 damage over 5 seconds. Basic Attacking burning enemies re-Ignites them. Cho is healed for 40 when an enemy is Ignited.",
+              "id": "ChoConsumingBlaze",
+              "video": "",
+              "slug": "consuming-blaze",
+              "analyticsName": "",
+              "icon": "",
+              "thumbnail": ""
+            },
+            {
+              "name": "Rune Bomb",
+              "description": "Roll a bomb dealing 91 damage to enemies in its path. Gall can use Runic Blast to detonate it to deal 233 damage in an area.",
+              "id": "ChoRuneBomb",
+              "video": "",
+              "slug": "rune-bomb",
+              "analyticsName": "",
+              "icon": "",
+              "thumbnail": ""
+            }
+          ],
+          "heroicAbilities": [
+            {
+              "name": "Hammer of Twilight",
+              "description": "Activate to swing the Hammer of Twilight, dealing 150 damage, pushing enemies away, and Stunning them for 0.75 seconds. Passive: Cho's Basic Attacks deal 25% increased damage.",
+              "id": "ChoHammerOfTwilight",
+              "video": "",
+              "slug": "hammer-of-twilight",
+              "analyticsName": "",
+              "icon": "",
+              "thumbnail": ""
+            },
+            {
+              "name": "Upheaval",
+              "description": "After 1 second, pull enemies towards Cho'gall, slowing them by 25% for 3 seconds and dealing 175 damage.",
+              "id": "ChoUpheaval",
+              "video": "",
+              "slug": "upheaval",
+              "analyticsName": "",
+              "icon": "",
+              "thumbnail": ""
+            }
+          ],
+          "multiclassRoles": [
+
+          ],
+          "otherAbilities": [
+            {
+              "name": "Surging Fist",
+              "description": "Activate again to dash forward, knocking aside enemies and dealing 46 damage. The dash range increases by up to 250%, depending on how long it is charged.",
+              "id": "ChoSurgingFistTriggerButton",
+              "video": "",
+              "slug": "surging-fist",
+              "analyticsName": "",
+              "icon": "",
+              "thumbnail": ""
+            },
+            {
+              "name": "Surging Fist",
+              "description": "Activate again to dash forward, knocking aside enemies and dealing 46 damage. The dash range increases by up to 250%, depending on how long it is charged.",
+              "id": "ChoSurgingFistExecute",
+              "video": "",
+              "slug": "surging-fist",
+              "analyticsName": "",
+              "icon": "",
+              "thumbnail": ""
+            }
+          ],
+          "pairedHeroes": [
+            {
+              "id": "Gall",
+              "name": "Gall",
+              "baseHeroInfo": {
+                "role": {
+                },
+                "skins": [
+
+                ],
+                "type": {
+                },
+                "trait": {
+                },
+                "defaultMount": {
+                },
+                "abilities": [
+
+                ],
+                "heroicAbilities": [
+
+                ],
+                "multiclassRoles": [
+
+                ],
+                "otherAbilities": [
+
+                ],
+                "pairedHeroes": [
+
+                ]
+              },
+              "role": {
+              },
+              "roleSecondary": {
+              },
+              "type": {
+              },
+              "multiclassRoles": [
+
+              ],
+              "pairedHeroes": [
+
+              ],
+              "slug": "gall",
+              "stanceSlug": "",
+              "stats": {
+                "damage": 0,
+                "utility": 0,
+                "survivability": 0,
+                "complexity": 0
+              },
+              "skins": [
+
+              ],
+              "releaseDate": {
+                "year": 0,
+                "month": 0,
+                "day": 0
+              },
+              "alternateHeroInfo": [
+
+              ],
+              "auxiliaryHeroInfo": [
+
+              ],
+              "heroStanceName": "",
+              "revealed": true,
+              "inFreeHeroRotation": false,
+              "freeRotationMinLevel": 0,
+              "unified": false
+            }
+          ]
+        },
+        "role": {
+          "name": "Assassin",
+          "slug": "assassin",
+          "description": "Assassin Slayers of Heroes and bringers of pain."
+        },
+        "roleSecondary": {
+          "name": "Assassin",
+          "slug": "assassin",
+          "description": "Assassin Slayers of Heroes and bringers of pain."
+        },
+        "type": {
+          "name": "Ranged",
+          "slug": "ranged"
+        },
+        "trait": {
+          "name": "Ogre Rage",
+          "description": "Activate to increase Gall's damage by 25%, but reduce Cho's Armor by 25. Passive: Gall is permanently immune to Stun and Silence effects.",
+          "id": "GallOgreRageActivated",
+          "slug": "ogre-rage"
+        },
+        "abilities": [
+          {
+            "name": "Shadowflame",
+            "description": "Deal 135 damage to enemies in the area.",
+            "id": "GallShadowflame",
+            "video": "",
+            "slug": "shadowflame",
+            "analyticsName": "",
+            "icon": "",
+            "thumbnail": ""
+          },
+          {
+            "name": "Dread Orb",
+            "description": "Throw a bomb that will bounce three times, dealing 126 damage to enemies.",
+            "id": "GallDreadOrb",
+            "video": "",
+            "slug": "dread-orb",
+            "analyticsName": "",
+            "icon": "",
+            "thumbnail": ""
+          },
+          {
+            "name": "Runic Blast",
+            "description": "Detonate Cho's Rune Bomb, dealing 233 damage around it.",
+            "id": "GallRunicBlast",
+            "video": "",
+            "slug": "runic-blast",
+            "analyticsName": "",
+            "icon": "",
+            "thumbnail": ""
+          }
+        ],
+        "heroicAbilities": [
+          {
+            "name": "Shadow Bolt Volley",
+            "description": "After 1 second, unleash 20 Shadow Bolts over 4 seconds, each dealing 87 damage to the first target hit. The bolts fire towards your mouse.",
+            "id": "GallShadowboltVolley",
+            "video": "",
+            "slug": "shadow-bolt-volley",
+            "analyticsName": "",
+            "icon": "",
+            "thumbnail": ""
+          },
+          {
+            "name": "Twisting Nether",
+            "description": "After 1 second, nearby enemies are slowed by 50% while Gall channels, up to 5 seconds. Activate to deal 353 damage.",
+            "id": "GallTwistingNether",
+            "video": "",
+            "slug": "twisting-nether",
+            "analyticsName": "",
+            "icon": "",
+            "thumbnail": ""
+          }
+        ],
+        "defaultMount": {
+          "name": "Horse (Carried)",
+          "id": "ChoGallRunHorseCommon"
+        },
+        "multiclassRoles": [
+
+        ],
+        "pairedHeroes": [
+          {
+            "id": "Gall",
+            "baseHeroInfo": {
+              "name": "Gall",
+              "title": "Twilight's Hammer Chieftain",
+              "description": "Cho’gall is one of the most powerful, intelligent, and insane ogre-magi to have ever lived. As the leader of the Twilight's Hammer the two brothers seek to bring about an age of destruction... whenever they aren’t bickering that is.",
+              "shortDescription": "Head 2 of a 2 Headed Hero, Gall is a powerful Mage stuck to Cho.",
+              "slug": "gall",
+              "role": {
+                "name": "Assassin",
+                "slug": "assassin",
+                "description": "Assassin Slayers of Heroes and bringers of pain."
+              },
+              "skins": [
+
+              ],
+              "type": {
+                "name": "Ranged",
+                "slug": "ranged"
+              },
+              "trait": {
+                "name": "Ogre Rage",
+                "description": "Activate to increase Gall's damage by 25%, but reduce Cho's Armor by 25. Passive: Gall is permanently immune to Stun and Silence effects.",
+                "id": "GallOgreRageActivated",
+                "slug": "ogre-rage"
+              },
+              "defaultMount": {
+                "name": "Horse (Carried)",
+                "id": "ChoGallRunHorseCommon"
+              },
+              "abilities": [
+                {
+                  "name": "Shadowflame",
+                  "description": "Deal 135 damage to enemies in the area.",
+                  "id": "GallShadowflame",
+                  "video": "",
+                  "slug": "shadowflame",
+                  "analyticsName": "",
+                  "icon": "",
+                  "thumbnail": ""
+                },
+                {
+                  "name": "Dread Orb",
+                  "description": "Throw a bomb that will bounce three times, dealing 126 damage to enemies.",
+                  "id": "GallDreadOrb",
+                  "video": "",
+                  "slug": "dread-orb",
+                  "analyticsName": "",
+                  "icon": "",
+                  "thumbnail": ""
+                },
+                {
+                  "name": "Runic Blast",
+                  "description": "Detonate Cho's Rune Bomb, dealing 233 damage around it.",
+                  "id": "GallRunicBlast",
+                  "video": "",
+                  "slug": "runic-blast",
+                  "analyticsName": "",
+                  "icon": "",
+                  "thumbnail": ""
+                },
+                {
+                  "name": "Shove",
+                  "description": "Nudge Cho a small distance and grant him 25% Movement Speed for 2 seconds.",
+                  "id": "GallShoveHotbar",
+                  "video": "",
+                  "slug": "shove",
+                  "analyticsName": "",
+                  "icon": "",
+                  "thumbnail": ""
+                }
+              ],
+              "heroicAbilities": [
+                {
+                  "name": "Shadow Bolt Volley",
+                  "description": "After 1 second, unleash 20 Shadow Bolts over 4 seconds, each dealing 87 damage to the first target hit. The bolts fire towards your mouse.",
+                  "id": "GallShadowboltVolley",
+                  "video": "",
+                  "slug": "shadow-bolt-volley",
+                  "analyticsName": "",
+                  "icon": "",
+                  "thumbnail": ""
+                },
+                {
+                  "name": "Twisting Nether",
+                  "description": "After 1 second, nearby enemies are slowed by 50% while Gall channels, up to 5 seconds. Activate to deal 353 damage.",
+                  "id": "GallTwistingNether",
+                  "video": "",
+                  "slug": "twisting-nether",
+                  "analyticsName": "",
+                  "icon": "",
+                  "thumbnail": ""
+                }
+              ],
+              "multiclassRoles": [
+
+              ],
+              "otherAbilities": [
+                {
+                  "name": "Eye of Kilrogg",
+                  "description": "Place an eye, granting vision of a large area around it for 45 seconds. The eye can be killed by enemies with 2 Basic Attacks. Stores up to 2 charges.",
+                  "id": "GallEyeofKilroggHotbar",
+                  "video": "",
+                  "slug": "eye-of-kilrogg",
+                  "analyticsName": "",
+                  "icon": "",
+                  "thumbnail": ""
+                },
+                {
+                  "name": "Detonate Twisting Nether",
+                  "description": "Detonate the Twisting Nether, dealing 353 damage.",
+                  "id": "GallTwistingNetherActivated",
+                  "video": "",
+                  "slug": "detonate-twisting-nether",
+                  "analyticsName": "",
+                  "icon": "",
+                  "thumbnail": ""
+                },
+                {
+                  "name": "Twisting Nether",
+                  "description": "After 1 second, nearby enemies are slowed by 50% while Gall channels, up to 5 seconds. Activate to deal 353 damage.",
+                  "id": "GallTwistingNether",
+                  "video": "",
+                  "slug": "twisting-nether",
+                  "analyticsName": "",
+                  "icon": "",
+                  "thumbnail": ""
+                }
+              ],
+              "pairedHeroes": [
+                {
+                  "id": "Cho",
+                  "name": "Cho",
+                  "baseHeroInfo": {
+                    "role": {
+                    },
+                    "skins": [
+
+                    ],
+                    "type": {
+                    },
+                    "trait": {
+                    },
+                    "defaultMount": {
+                    },
+                    "abilities": [
+
+                    ],
+                    "heroicAbilities": [
+
+                    ],
+                    "multiclassRoles": [
+
+                    ],
+                    "otherAbilities": [
+
+                    ],
+                    "pairedHeroes": [
+
+                    ]
+                  },
+                  "role": {
+                  },
+                  "roleSecondary": {
+                  },
+                  "type": {
+                  },
+                  "multiclassRoles": [
+
+                  ],
+                  "pairedHeroes": [
+
+                  ],
+                  "slug": "cho",
+                  "stanceSlug": "",
+                  "stats": {
+                    "damage": 0,
+                    "utility": 0,
+                    "survivability": 0,
+                    "complexity": 0
+                  },
+                  "skins": [
+
+                  ],
+                  "releaseDate": {
+                    "year": 0,
+                    "month": 0,
+                    "day": 0
+                  },
+                  "alternateHeroInfo": [
+
+                  ],
+                  "auxiliaryHeroInfo": [
+
+                  ],
+                  "heroStanceName": "",
+                  "revealed": true,
+                  "inFreeHeroRotation": false,
+                  "freeRotationMinLevel": 0,
+                  "unified": false
+                }
+              ]
+            },
+            "role": {
+            },
+            "roleSecondary": {
+            },
+            "type": {
+            },
+            "multiclassRoles": [
+
+            ],
+            "pairedHeroes": [
+
+            ],
+            "franchise": "Warcraft",
+            "stanceSlug": "",
+            "difficulty": "Easy",
+            "stats": {
+              "damage": 9,
+              "utility": 4,
+              "survivability": 10,
+              "complexity": 3
+            },
+            "skins": [
+              {
+                "name": "Twilight's Hammer Chieftain",
+                "description": "Twilight's Hammer Chieftain",
+                "id": "ChoBaseCommon",
+                "slug": "twilights-hammer-chieftain"
+              },
+              {
+                "name": "Warlord Cho'gall",
+                "description": "Some Heroes choose to protect themselves with thick plates of armor, others wear intricate magical robes to boost their power. Cho'gall says, \"Why not do both?\"",
+                "id": "ChoUltimate",
+                "slug": "warlord-chogall"
+              },
+              {
+                "name": "Corruptor Cho'gall",
+                "description": "Rumor has it that the Corruptor Raiment was once exclusively worn by the Shadow Council. How the Scryers and the Aldor ever obtained them, the World of Warcraft may never know...",
+                "id": "ChoCorruptor",
+                "slug": "corruptor-chogall"
+              },
+              {
+                "name": "Pump'kin Cho'gall",
+                "description": "Every Hallow's End, Cho'gall makes sure to mock the Headless Horseman. After all, two heads are better than none.",
+                "id": "ChoPumpkin",
+                "slug": "pumpkin-chogall"
+              }
+            ],
+            "releaseDate": {
+              "year": 2015,
+              "month": 11,
+              "day": 17
+            },
+            "alternateHeroInfo": [
+
+            ],
+            "auxiliaryHeroInfo": [
+
+            ],
+            "heroStanceName": "",
+            "revealed": true,
+            "inFreeHeroRotation": false,
+            "freeRotationMinLevel": 0,
+            "unified": false
+          }
+        ],
+        "otherAbilities": [
+          {
+            "name": "Eye of Kilrogg",
+            "description": "Place an eye, granting vision of a large area around it for 45 seconds. The eye can be killed by enemies with 2 Basic Attacks. Stores up to 2 charges.",
+            "id": "GallEyeofKilroggHotbar",
+            "video": "",
+            "slug": "eye-of-kilrogg",
+            "analyticsName": "",
+            "icon": "",
+            "thumbnail": ""
+          },
+          {
+            "name": "Detonate Twisting Nether",
+            "description": "Detonate the Twisting Nether, dealing 353 damage.",
+            "id": "GallTwistingNetherActivated",
+            "video": "",
+            "slug": "detonate-twisting-nether",
+            "analyticsName": "",
+            "icon": "",
+            "thumbnail": ""
+          },
+          {
+            "name": "Twisting Nether",
+            "description": "After 1 second, nearby enemies are slowed by 50% while Gall channels, up to 5 seconds. Activate to deal 353 damage.",
+            "id": "GallTwistingNether",
+            "video": "",
+            "slug": "twisting-nether",
+            "analyticsName": "",
+            "icon": "",
+            "thumbnail": ""
+          }
+        ],
+        "slug": "chogall",
+        "franchise": "Warcraft",
+        "stanceSlug": "gall",
+        "difficulty": "Medium",
+        "stats": {
+          "damage": 9,
+          "utility": 4,
+          "survivability": 10,
+          "complexity": 3
+        },
+        "skins": [
+          {
+            "name": "Twilight's Hammer Chieftain",
+            "description": "Cho’gall is one of the most powerful, intelligent, and insane ogre-magi to have ever lived. As the leader of the Twilight's Hammer the two brothers seek to bring about an age of destruction... whenever they aren’t bickering that is.",
+            "id": "ChoBaseCommon",
+            "analyticsName": "Gall - Gall | twilights-hammer-chieftain",
+            "slug": "twilights-hammer-chieftain"
+          },
+          {
+            "name": "Warlord Cho'gall",
+            "description": "Some Heroes choose to protect themselves with thick plates of armor, others wear intricate magical robes to boost their power. Cho'gall says, \"Why not do both?\"",
+            "id": "ChoUltimate",
+            "analyticsName": "Gall - Gall | warlord-chogall",
+            "slug": "warlord-chogall"
+          },
+          {
+            "name": "Corruptor Cho'gall",
+            "description": "Rumor has it that the Corruptor Raiment was once exclusively worn by the Shadow Council. How the Scryers and the Aldor ever obtained them, the World of Warcraft may never know...",
+            "id": "ChoCorruptor",
+            "analyticsName": "Gall - Gall | corruptor-chogall",
+            "slug": "corruptor-chogall"
+          }
+        ],
+        "releaseDate": {
+          "year": 2015,
+          "month": 11,
+          "day": 17
+        },
+        "alternateHeroInfo": [
+
+        ],
+        "heroStanceName": "Gall",
+        "analyticsName": "chogall",
+        "revealed": true,
+        "video": "qUZvIcydgUY",
+        "inFreeHeroRotation": false,
+        "freeRotationMinLevel": 0,
+        "unified": false
+      }
+    ],
+    "heroStanceName": "",
+    "analyticsName": "chogall",
+    "revealed": true,
+    "video": "qUZvIcydgUY",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
+  }
+}

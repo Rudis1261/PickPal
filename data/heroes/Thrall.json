@@ -1,0 +1,299 @@
+{
+  "name": "Thrall",
+  "slug": "thrall",
+  "title": "Warchief of the Horde",
+  "description": "Assassin Slayers of Heroes and bringers of pain.",
+  "role": {
+    "name": "Assassin",
+    "slug": "assassin",
+    "description": "Assassin Slayers of Heroes and bringers of pain."
+  },
+  "type_of_hero": "Melee",
+  "franchise": "Warcraft",
+  "difficulty": "Easy",
+  "live": true,
+  "poster_image": "http://localhost:3000/images/thrall/bust.jpg",
+  "stat": {
+    "damage": 8,
+    "utility": 5,
+    "survivability": 7,
+    "complexity": 6
+  },
+  "thumb": "http://localhost:3000/images/thrall/warchief-of-the-horde.jpg",
+  "trait": {
+    "name": "Frostwolf Resilience",
+    "description": "Frostwolf Resilience",
+    "slug": "frostwolf-resilience",
+    "image": ""
+  },
+  "abilities": [
+    {
+      "name": "Chain Lightning",
+      "description": "Shock an enemy with lightning, dealing 178 damage. The lightning then bounces 3 times to nearby enemies, dealing 89 damage to each enemy hit.",
+      "slug": "chain-lightning",
+      "image": ""
+    },
+    {
+      "name": "Feral Spirit",
+      "description": "Unleash a Feral Spirit that deals 153 damage to enemies in its path and Roots Heroes hit for 1 second. Each Hero hit increases the distance traveled by 25%.",
+      "slug": "feral-spirit",
+      "image": ""
+    },
+    {
+      "name": "Windfury",
+      "description": "Increase Thrall's Movement Speed by 30% for 4 seconds. His next 3 Basic Attacks occur 100% faster and generate stacks of Frostwolf Resilience.",
+      "slug": "windfury",
+      "image": ""
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Sundering",
+      "description": "After 0.5 seconds, sunder the earth in a long line, dealing 290 damage and shoving enemies to the side, Stunning them for 1 second.",
+      "slug": "sundering",
+      "image": ""
+    },
+    {
+      "name": "Earthquake",
+      "description": "After 0.5 seconds, summon a massive Earthquake that pulses every 4 seconds. Each pulse lasts 2 seconds, Slowing all enemies in the area by 50%, and deals 50 damage to enemy Heroes. Does 3 pulses.",
+      "slug": "earthquake",
+      "image": ""
+    }
+  ],
+  "original": {
+    "id": "Thrall",
+    "name": "Thrall",
+    "title": "Warchief of the Horde",
+    "description": "As a child, Thrall served the cruel Aedelas Blackmoore as a slave. After gaining his freedom, he guided the liberated orcs to a land of their own and worked to recover their ancient traditions. Now and forever he is the Warchief of the Horde.",
+    "shortDescription": "A Bruiser who can hold his own in a lane of battle.",
+    "baseHeroInfo": {
+      "name": "Thrall",
+      "title": "Warchief of the Horde",
+      "description": "As a child, Thrall served the cruel Aedelas Blackmoore as a slave. After gaining his freedom, he guided the liberated orcs to a land of their own and worked to recover their ancient traditions. Now and forever he is the Warchief of the Horde.",
+      "shortDescription": "A Bruiser who can hold his own in a lane of battle.",
+      "slug": "thrall",
+      "role": {
+        "name": "Assassin",
+        "slug": "assassin",
+        "description": "Assassin Slayers of Heroes and bringers of pain."
+      },
+      "skins": [
+
+      ],
+      "type": {
+        "name": "Melee",
+        "slug": "melee"
+      },
+      "trait": {
+        "name": "Frostwolf Resilience",
+        "description": "Dealing damage with Abilities grants 1 stack of Frostwolf Resilience. At 5 stacks, Thrall is instantly healed for 223 Health.",
+        "id": "ThrallFrostwolfResilience",
+        "slug": "frostwolf-resilience"
+      },
+      "defaultMount": {
+        "name": "Battle Beast",
+        "id": "BattleBeast"
+      },
+      "abilities": [
+        {
+          "name": "Chain Lightning",
+          "description": "Shock an enemy with lightning, dealing 178 damage. The lightning then bounces 3 times to nearby enemies, dealing 89 damage to each enemy hit.",
+          "id": "ThrallChainLightning",
+          "video": "",
+          "slug": "chain-lightning",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Feral Spirit",
+          "description": "Unleash a Feral Spirit that deals 153 damage to enemies in its path and Roots Heroes hit for 1 second. Each Hero hit increases the distance traveled by 25%.",
+          "id": "ThrallFeralSpirit",
+          "video": "",
+          "slug": "feral-spirit",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Windfury",
+          "description": "Increase Thrall's Movement Speed by 30% for 4 seconds. His next 3 Basic Attacks occur 100% faster and generate stacks of Frostwolf Resilience.",
+          "id": "Windfury",
+          "video": "",
+          "slug": "windfury",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "heroicAbilities": [
+        {
+          "name": "Sundering",
+          "description": "After 0.5 seconds, sunder the earth in a long line, dealing 290 damage and shoving enemies to the side, Stunning them for 1 second.",
+          "id": "Sundering",
+          "video": "",
+          "slug": "sundering",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Earthquake",
+          "description": "After 0.5 seconds, summon a massive Earthquake that pulses every 4 seconds. Each pulse lasts 2 seconds, Slowing all enemies in the area by 50%, and deals 50 damage to enemy Heroes. Does 3 pulses.",
+          "id": "ThrallEarthquake",
+          "video": "",
+          "slug": "earthquake",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+    },
+    "roleSecondary": {
+    },
+    "type": {
+    },
+    "trait": {
+      "name": "Frostwolf Resilience",
+      "description": "Dealing damage with Abilities grants 1 stack of Frostwolf Resilience. At 5 stacks, Thrall is instantly healed for 223 Health.",
+      "id": "ThrallFrostwolfResilience",
+      "slug": "frostwolf-resilience"
+    },
+    "abilities": [
+      {
+        "name": "Chain Lightning",
+        "description": "Shock an enemy with lightning, dealing 178 damage. The lightning then bounces 3 times to nearby enemies, dealing 89 damage to each enemy hit.",
+        "id": "ThrallChainLightning",
+        "video": "",
+        "slug": "chain-lightning",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Feral Spirit",
+        "description": "Unleash a Feral Spirit that deals 153 damage to enemies in its path and Roots Heroes hit for 1 second. Each Hero hit increases the distance traveled by 25%.",
+        "id": "ThrallFeralSpirit",
+        "video": "",
+        "slug": "feral-spirit",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Windfury",
+        "description": "Increase Thrall's Movement Speed by 30% for 4 seconds. His next 3 Basic Attacks occur 100% faster and generate stacks of Frostwolf Resilience.",
+        "id": "Windfury",
+        "video": "",
+        "slug": "windfury",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "heroicAbilities": [
+      {
+        "name": "Sundering",
+        "description": "After 0.5 seconds, sunder the earth in a long line, dealing 290 damage and shoving enemies to the side, Stunning them for 1 second.",
+        "id": "Sundering",
+        "video": "",
+        "slug": "sundering",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Earthquake",
+        "description": "After 0.5 seconds, summon a massive Earthquake that pulses every 4 seconds. Each pulse lasts 2 seconds, Slowing all enemies in the area by 50%, and deals 50 damage to enemy Heroes. Does 3 pulses.",
+        "id": "ThrallEarthquake",
+        "video": "",
+        "slug": "earthquake",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "defaultMount": {
+      "name": "Battle Beast",
+      "id": "BattleBeast"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "otherAbilities": [
+
+    ],
+    "slug": "thrall",
+    "franchise": "Warcraft",
+    "stanceSlug": "",
+    "difficulty": "Easy",
+    "stats": {
+      "damage": 8,
+      "utility": 5,
+      "survivability": 7,
+      "complexity": 6
+    },
+    "skins": [
+      {
+        "name": "Warchief of the Horde",
+        "description": "As a child, Thrall served the cruel Aedelas Blackmoore as a slave. After gaining his freedom, he guided the liberated orcs to a land of their own and worked to recover their ancient traditions. Now and forever he is the Warchief of the Horde.",
+        "id": "Thrall",
+        "analyticsName": "Thrall | warchief-of-the-horde",
+        "slug": "warchief-of-the-horde"
+      },
+      {
+        "name": "World-Shaman Thrall",
+        "description": "The vestments of a shaman should be as simple as the elements themselves. Although, there's no rule about what you wear beneath them.",
+        "id": "ThrallUltimate",
+        "analyticsName": "Thrall | world-shaman-thrall",
+        "slug": "world-shaman-thrall"
+      },
+      {
+        "name": "Earthbreaker Thrall",
+        "description": "The weight of the world hangs upon the Aspect of Earth, a burden no mortal can bear. As Thrall embraced its power, he was consumed by living rock and forever changed.",
+        "id": "ThrallEarthbreaker",
+        "analyticsName": "Thrall | earthbreaker-thrall",
+        "slug": "earthbreaker-thrall"
+      },
+      {
+        "name": "Hellhammer Thrall",
+        "description": "Go'el, the new Warlord of the Ashwolf clan, lifted the shattered Doomhammer from the Blackrock chieftain's corpse. Of his father's betrayers, only Gul'dan remained.",
+        "id": "ThrallHellhammer",
+        "analyticsName": "Thrall | hellhammer-thrall",
+        "slug": "hellhammer-thrall"
+      }
+    ],
+    "releaseDate": {
+      "year": 2015,
+      "month": 1,
+      "day": 13
+    },
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "thrall",
+    "revealed": true,
+    "video": "jqHrQAbbUeA",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
+  }
+}

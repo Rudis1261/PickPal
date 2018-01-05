@@ -1,0 +1,313 @@
+{
+  "name": "Kharazim",
+  "slug": "kharazim",
+  "title": "Veradani Monk",
+  "description": "Support Healers, buffers, and everyone’s best friends.",
+  "role": {
+    "name": "Support",
+    "slug": "support",
+    "description": "Support Healers, buffers, and everyone’s best friends."
+  },
+  "type_of_hero": "Melee",
+  "franchise": "Diablo",
+  "difficulty": "Medium",
+  "live": true,
+  "poster_image": "http://localhost:3000/images/kharazim/bust.jpg",
+  "stat": {
+    "damage": 4,
+    "utility": 9,
+    "survivability": 7,
+    "complexity": 4
+  },
+  "thumb": "http://localhost:3000/images/kharazim/veradani-monk.jpg",
+  "trait": {
+    "name": "Pick Your Trait",
+    "description": "Pick Your Trait",
+    "slug": "pick-your-trait",
+    "image": ""
+  },
+  "abilities": [
+    {
+      "name": "Radiant Dash",
+      "description": "Jump to an allied or enemy unit. Enemies are immediately hit with a Basic Attack. Stores up to 2 charges.",
+      "slug": "radiant-dash",
+      "image": ""
+    },
+    {
+      "name": "Breath of Heaven",
+      "description": "Heal nearby Heroes for 276 and give them 15% Movement Speed for 3 seconds.",
+      "slug": "breath-of-heaven",
+      "image": ""
+    },
+    {
+      "name": "Deadly Reach",
+      "description": "Kharazim's next Basic Attack increases his Attack Speed and Attack Range by 100% for 2 seconds.",
+      "slug": "deadly-reach",
+      "image": ""
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Seven-Sided Strike",
+      "description": "Become Invulnerable and strike 7 times over 2 seconds. Each strike hits the highest Health nearby Hero for 7% of their maximum Health.",
+      "slug": "seven-sided-strike",
+      "image": ""
+    },
+    {
+      "name": "Divine Palm",
+      "description": "Protect an allied Hero from death, causing them to be healed for 1084 if they take fatal damage in the next 3 seconds.",
+      "slug": "divine-palm",
+      "image": ""
+    }
+  ],
+  "original": {
+    "id": "Monk",
+    "name": "Kharazim",
+    "title": "Veradani Monk",
+    "description": "To the monks of Ivgorod, the gods are in all things, and their divine will is proclaimed by the Patriarchs. With unshakable faith, Kharazim carries forth the decrees of the thousand and one gods to the ends of Sanctuary and the realms beyond.",
+    "shortDescription": "A flexible Healer that pairs well with Melee allies who like to dive into the enemy team.",
+    "baseHeroInfo": {
+      "name": "Kharazim",
+      "title": "Veradani Monk",
+      "description": "To the monks of Ivgorod, the gods are in all things, and their divine will is proclaimed by the Patriarchs. With unshakable faith, Kharazim carries forth the decrees of the thousand and one gods to the ends of Sanctuary and the realms beyond.",
+      "shortDescription": "A flexible Healer that pairs well with Melee allies who like to dive into the enemy team.",
+      "slug": "kharazim",
+      "role": {
+        "name": "Support",
+        "slug": "support",
+        "description": "Support Healers, buffers, and everyone’s best friends."
+      },
+      "skins": [
+
+      ],
+      "type": {
+        "name": "Melee",
+        "slug": "melee"
+      },
+      "trait": {
+        "name": "Pick Your Trait",
+        "description": "Choose between Transcendence, Iron Fists, and Insight from the Talents panel.",
+        "id": "MonkBlankTrait",
+        "slug": "pick-your-trait"
+      },
+      "defaultMount": {
+        "name": "Horse",
+        "id": "HorseCommon"
+      },
+      "abilities": [
+        {
+          "name": "Radiant Dash",
+          "description": "Jump to an allied or enemy unit. Enemies are immediately hit with a Basic Attack. Stores up to 2 charges.",
+          "id": "MonkRadiantDash",
+          "video": "",
+          "slug": "radiant-dash",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Breath of Heaven",
+          "description": "Heal nearby Heroes for 276 and give them 15% Movement Speed for 3 seconds.",
+          "id": "MonkBreathOfHeaven",
+          "video": "",
+          "slug": "breath-of-heaven",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Deadly Reach",
+          "description": "Kharazim's next Basic Attack increases his Attack Speed and Attack Range by 100% for 2 seconds.",
+          "id": "MonkDeadlyReach",
+          "video": "",
+          "slug": "deadly-reach",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "heroicAbilities": [
+        {
+          "name": "Seven-Sided Strike",
+          "description": "Become Invulnerable and strike 7 times over 2 seconds. Each strike hits the highest Health nearby Hero for 7% of their maximum Health.",
+          "id": "MonkSevenSidedStrike",
+          "video": "",
+          "slug": "seven-sided-strike",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Divine Palm",
+          "description": "Protect an allied Hero from death, causing them to be healed for 1084 if they take fatal damage in the next 3 seconds.",
+          "id": "MonkDivinePalm",
+          "video": "",
+          "slug": "divine-palm",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+    },
+    "roleSecondary": {
+    },
+    "type": {
+    },
+    "trait": {
+      "name": "Pick Your Trait",
+      "description": "Choose between Transcendence, Iron Fists, and Insight from the Talents panel.",
+      "id": "MonkBlankTrait",
+      "slug": "pick-your-trait"
+    },
+    "abilities": [
+      {
+        "name": "Radiant Dash",
+        "description": "Jump to an allied or enemy unit. Enemies are immediately hit with a Basic Attack. Stores up to 2 charges.",
+        "id": "MonkRadiantDash",
+        "video": "",
+        "slug": "radiant-dash",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Breath of Heaven",
+        "description": "Heal nearby Heroes for 276 and give them 15% Movement Speed for 3 seconds.",
+        "id": "MonkBreathOfHeaven",
+        "video": "",
+        "slug": "breath-of-heaven",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Deadly Reach",
+        "description": "Kharazim's next Basic Attack increases his Attack Speed and Attack Range by 100% for 2 seconds.",
+        "id": "MonkDeadlyReach",
+        "video": "",
+        "slug": "deadly-reach",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "heroicAbilities": [
+      {
+        "name": "Seven-Sided Strike",
+        "description": "Become Invulnerable and strike 7 times over 2 seconds. Each strike hits the highest Health nearby Hero for 7% of their maximum Health.",
+        "id": "MonkSevenSidedStrike",
+        "video": "",
+        "slug": "seven-sided-strike",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Divine Palm",
+        "description": "Protect an allied Hero from death, causing them to be healed for 1084 if they take fatal damage in the next 3 seconds.",
+        "id": "MonkDivinePalm",
+        "video": "",
+        "slug": "divine-palm",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "defaultMount": {
+      "name": "Horse",
+      "id": "HorseCommon"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "otherAbilities": [
+
+    ],
+    "slug": "kharazim",
+    "franchise": "Diablo",
+    "stanceSlug": "",
+    "difficulty": "Medium",
+    "stats": {
+      "damage": 4,
+      "utility": 9,
+      "survivability": 7,
+      "complexity": 4
+    },
+    "skins": [
+      {
+        "name": "Veradani Monk",
+        "description": "To the monks of Ivgorod, the gods are in all things, and their divine will is proclaimed by the Patriarchs. With unshakable faith, Kharazim carries forth the decrees of the thousand and one gods to the ends of Sanctuary and the realms beyond.",
+        "id": "MonkCommon",
+        "analyticsName": "Kharazim | veradani-monk",
+        "slug": "veradani-monk"
+      },
+      {
+        "name": "Patriarch Kharazim",
+        "description": "To the Veradani, the distinction between armor and weaponry is open to interpretation. What can provide defense, can provide offense, if the application is right.",
+        "id": "MonkMaster",
+        "analyticsName": "Kharazim | patriarch-kharazim",
+        "slug": "patriarch-kharazim"
+      },
+      {
+        "name": "Berserker Kharazim",
+        "description": "Though his memories elude him, Kharazim knows that his past is marked by his feral rage. Thankfully, the Hellfire Cabal provides the perfect target for his aggression.",
+        "id": "MonkClaws",
+        "analyticsName": "Kharazim | berserker-kharazim",
+        "slug": "berserker-kharazim"
+      },
+      {
+        "name": "Winter Veil Kharazim",
+        "description": "The God of Winter is one of the Veradani's most important deities. He is sometimes associated with the God of Gifts, to the delight of all.",
+        "id": "MonkWinter17",
+        "analyticsName": "Kharazim | winter-veil-kharazim",
+        "slug": "winter-veil-kharazim"
+      },
+      {
+        "name": "Bronze Tiger Kharazim",
+        "description": "For centuries, the Order of the Bronze Tiger has trained its disciples for the return of the Scorpid Swarm. Now, at long last, the time has come to put their skills to the test.",
+        "id": "MonkTiger",
+        "analyticsName": "Kharazim | bronze-tiger-kharazim",
+        "slug": "bronze-tiger-kharazim"
+      },
+      {
+        "name": "Jade Dragon Kharazim",
+        "description": "Wielding Shi'ron's Sacred Flames is an honor given only to the Grandmaster of the Jade Dragon order. In martial combat, Kharazim has no equal in all of the Onyx Empire.",
+        "id": "MonkJade",
+        "analyticsName": "Kharazim | jade-dragon-kharazim",
+        "slug": "jade-dragon-kharazim"
+      }
+    ],
+    "releaseDate": {
+      "year": 2015,
+      "month": 8,
+      "day": 18
+    },
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "kharazim",
+    "revealed": true,
+    "video": "2YCBM3tGGSI",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
+  }
+}

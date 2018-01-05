@@ -1,0 +1,298 @@
+{
+  "name": "Tassadar",
+  "slug": "tassadar",
+  "title": "Savior of the Templar",
+  "description": "Support Healers, buffers, and everyone’s best friends.",
+  "role": {
+    "name": "Support",
+    "slug": "support",
+    "description": "Support Healers, buffers, and everyone’s best friends."
+  },
+  "type_of_hero": "Ranged",
+  "franchise": "StarCraft",
+  "difficulty": "Medium",
+  "live": true,
+  "poster_image": "http://media.blizzard.com/heroes/tassadar/bust.jpg",
+  "stat": {
+    "damage": 6,
+    "utility": 7,
+    "survivability": 7,
+    "complexity": 4
+  },
+  "thumb": "http://media.blizzard.com/heroes/tassadar/skins/thumbnails/savior-of-the-templar.jpg",
+  "trait": {
+    "name": "Oracle",
+    "description": "Oracle",
+    "slug": "oracle",
+    "image": ""
+  },
+  "abilities": [
+    {
+      "name": "Plasma Shield",
+      "description": "Grant a Shield that absorbs 455 damage over 4 seconds. If the target is a Hero, they heal for 40% of their Basic Attack damage done while Shielded.",
+      "slug": "plasma-shield",
+      "image": ""
+    },
+    {
+      "name": "Psionic Storm",
+      "description": "Deal 82 damage per second to enemies in target area for 3 seconds. Damage increases by 12% for each consecutive instance of damage, up to 60%.",
+      "slug": "psionic-storm",
+      "image": ""
+    },
+    {
+      "name": "Dimensional Shift",
+      "description": "Tassadar becomes Invulnerable and Unrevealable for 2 seconds. While shifted, he has 25% increased Movement Speed.",
+      "slug": "dimensional-shift",
+      "image": ""
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Archon",
+      "description": "Tassadar transforms into an Archon and gains a Plasma Shield. His Basic Attacks deal 158 damage, slow the target by 30% for 1 second and splash for 79 damage to enemies within 2.5 range. Lasts for 10 seconds. Passive: Archon refreshes the cooldown of Dimensional Shift.",
+      "slug": "archon",
+      "image": ""
+    },
+    {
+      "name": "Force Wall",
+      "description": "Create a wall that blocks all units from moving through it for 2 seconds. Passive: Increases the slow amount of Distortion Beam to 30%.",
+      "slug": "force-wall",
+      "image": ""
+    }
+  ],
+  "original": {
+    "id": "Tassadar",
+    "name": "Tassadar",
+    "title": "Savior of the Templar",
+    "description": "An Executor without equal, Tassadar has fought tirelessly to purify the Koprulu sector of zerg infestation. Only now, after learning to wield the power of the void, is Tassadar finally ready to face the Overmind and its all-consuming Swarm.",
+    "shortDescription": "A Support who can enable damage dealers who like to dive the enemy team.",
+    "baseHeroInfo": {
+      "name": "Tassadar",
+      "title": "Savior of the Templar",
+      "description": "An Executor without equal, Tassadar has fought tirelessly to purify the Koprulu sector of zerg infestation. Only now, after learning to wield the power of the void, is Tassadar finally ready to face the Overmind and its all-consuming Swarm.",
+      "shortDescription": "A Support who can enable damage dealers who like to dive the enemy team.",
+      "slug": "tassadar",
+      "role": {
+        "name": "Support",
+        "slug": "support",
+        "description": "Support Healers, buffers, and everyone’s best friends."
+      },
+      "skins": [
+
+      ],
+      "type": {
+        "name": "Ranged",
+        "slug": "ranged"
+      },
+      "trait": {
+        "name": "Oracle",
+        "description": "Activate to greatly increase Tassadar's vision radius, allow him to see over obstacles, and detect stealthed units. Lasts for 5 seconds. Distortion Beam Tassadar's Basic Attack is a beam that slows enemy units by 20%.",
+        "id": "TassadarOracle",
+        "slug": "oracle"
+      },
+      "defaultMount": {
+        "name": "Horse",
+        "id": "HorseCommon"
+      },
+      "abilities": [
+        {
+          "name": "Plasma Shield",
+          "description": "Grant a Shield that absorbs 455 damage over 4 seconds. If the target is a Hero, they heal for 40% of their Basic Attack damage done while Shielded.",
+          "id": "TassadarPlasmaShield",
+          "video": "",
+          "slug": "plasma-shield",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Psionic Storm",
+          "description": "Deal 82 damage per second to enemies in target area for 3 seconds. Damage increases by 12% for each consecutive instance of damage, up to 60%.",
+          "id": "TassadarPsionicStorm",
+          "video": "",
+          "slug": "psionic-storm",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Dimensional Shift",
+          "description": "Tassadar becomes Invulnerable and Unrevealable for 2 seconds. While shifted, he has 25% increased Movement Speed.",
+          "id": "TassadarDimensionalShift",
+          "video": "",
+          "slug": "dimensional-shift",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "heroicAbilities": [
+        {
+          "name": "Archon",
+          "description": "Tassadar transforms into an Archon and gains a Plasma Shield. His Basic Attacks deal 158 damage, slow the target by 30% for 1 second and splash for 79 damage to enemies within 2.5 range. Lasts for 10 seconds. Passive: Archon refreshes the cooldown of Dimensional Shift.",
+          "id": "TassadarArchon",
+          "video": "",
+          "slug": "archon",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Force Wall",
+          "description": "Create a wall that blocks all units from moving through it for 2 seconds. Passive: Increases the slow amount of Distortion Beam to 30%.",
+          "id": "TassadarForceWall",
+          "video": "",
+          "slug": "force-wall",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+    },
+    "roleSecondary": {
+    },
+    "type": {
+    },
+    "trait": {
+      "name": "Oracle",
+      "description": "Activate to greatly increase Tassadar's vision radius, allow him to see over obstacles, and detect stealthed units. Lasts for 5 seconds. Distortion Beam Tassadar's Basic Attack is a beam that slows enemy units by 20%.",
+      "id": "TassadarOracle",
+      "slug": "oracle"
+    },
+    "abilities": [
+      {
+        "name": "Plasma Shield",
+        "description": "Grant a Shield that absorbs 455 damage over 4 seconds. If the target is a Hero, they heal for 40% of their Basic Attack damage done while Shielded.",
+        "id": "TassadarPlasmaShield",
+        "video": "",
+        "slug": "plasma-shield",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Psionic Storm",
+        "description": "Deal 82 damage per second to enemies in target area for 3 seconds. Damage increases by 12% for each consecutive instance of damage, up to 60%.",
+        "id": "TassadarPsionicStorm",
+        "video": "",
+        "slug": "psionic-storm",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Dimensional Shift",
+        "description": "Tassadar becomes Invulnerable and Unrevealable for 2 seconds. While shifted, he has 25% increased Movement Speed.",
+        "id": "TassadarDimensionalShift",
+        "video": "",
+        "slug": "dimensional-shift",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "heroicAbilities": [
+      {
+        "name": "Archon",
+        "description": "Tassadar transforms into an Archon and gains a Plasma Shield. His Basic Attacks deal 158 damage, slow the target by 30% for 1 second and splash for 79 damage to enemies within 2.5 range. Lasts for 10 seconds. Passive: Archon refreshes the cooldown of Dimensional Shift.",
+        "id": "TassadarArchon",
+        "video": "",
+        "slug": "archon",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Force Wall",
+        "description": "Create a wall that blocks all units from moving through it for 2 seconds. Passive: Increases the slow amount of Distortion Beam to 30%.",
+        "id": "TassadarForceWall",
+        "video": "",
+        "slug": "force-wall",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "defaultMount": {
+      "name": "Horse",
+      "id": "HorseCommon"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "otherAbilities": [
+
+    ],
+    "slug": "tassadar",
+    "franchise": "StarCraft",
+    "stanceSlug": "",
+    "difficulty": "Medium",
+    "stats": {
+      "damage": 6,
+      "utility": 7,
+      "survivability": 7,
+      "complexity": 4
+    },
+    "skins": [
+      {
+        "name": "Savior of the Templar",
+        "description": "An Executor without equal, Tassadar has fought tirelessly to purify the Koprulu sector of zerg infestation. Only now, after learning to wield the power of the void, is Tassadar finally ready to face the Overmind and its all-consuming Swarm.",
+        "id": "TassadarCommon",
+        "analyticsName": "Tassadar | savior-of-the-templar",
+        "slug": "savior-of-the-templar"
+      },
+      {
+        "name": "Executor Tassadar",
+        "description": "Executors rarely command from the field of battle, but their Regalia is fitted with meticulously crafted khaydarin crystals to amplify their psionic powers should the need arise.",
+        "id": "TassadarUltimate",
+        "analyticsName": "Tassadar | executor-tassadar",
+        "slug": "executor-tassadar"
+      },
+      {
+        "name": "Crypt King Tassadar",
+        "description": "Pharaoh Ta-sadar knew the power of the darkworld would consume his realm, but Luxoria would still survive... Better the Nexus devour his kingdom than the Scorpid Swarm.",
+        "id": "TassadarPharaoh",
+        "analyticsName": "Tassadar | crypt-king-tassadar",
+        "slug": "crypt-king-tassadar"
+      },
+      {
+        "name": "Mecha Tassadar",
+        "description": "The Kaijo Diablo could not be contained; cities worldwide had been reduced to cinders. Now humanity's survival hangs upon the untested mecha, Tassadar.",
+        "id": "TassadarMecha",
+        "analyticsName": "Tassadar | mecha-tassadar",
+        "slug": "mecha-tassadar"
+      }
+    ],
+    "releaseDate": {
+      "year": 2014,
+      "month": 1,
+      "day": 1
+    },
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "tassadar",
+    "revealed": true,
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
+  }
+}

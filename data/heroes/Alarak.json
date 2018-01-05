@@ -1,0 +1,292 @@
+{
+  "name": "Alarak",
+  "slug": "alarak",
+  "title": "Highlord of the Tal'darim",
+  "description": "Assassin Slayers of Heroes and bringers of pain.",
+  "role": {
+    "name": "Assassin",
+    "slug": "assassin",
+    "description": "Assassin Slayers of Heroes and bringers of pain."
+  },
+  "type_of_hero": "Melee",
+  "franchise": "StarCraft",
+  "difficulty": "Hard",
+  "live": true,
+  "poster_image": "http://localhost:3000/images/alarak/bust.jpg",
+  "stat": {
+    "damage": 7,
+    "utility": 7,
+    "survivability": 6,
+    "complexity": 8
+  },
+  "thumb": "http://localhost:3000/images/alarak/highlord-of-the-taldarim.jpg",
+  "trait": {
+    "name": "Sadism",
+    "description": "Sadism",
+    "slug": "sadism",
+    "image": ""
+  },
+  "abilities": [
+    {
+      "name": "Discord Strike",
+      "description": "After a 0.5 second delay, enemies in front of Alarak take 175 damage and are silenced for 1.5 seconds. ",
+      "slug": "discord-strike",
+      "image": ""
+    },
+    {
+      "name": "Telekinesis",
+      "description": "Vector Targeting Create a force, pushing Alarak and all enemies hit from the targeted point towards the targeted direction. Deals 48 damage to enemies.",
+      "slug": "telekinesis",
+      "image": ""
+    },
+    {
+      "name": "Lightning Surge",
+      "description": "Deal 62 damage to an enemy and an additional 100% damage to enemies between Alarak and the target. Restore 70 health for each Hero hit.",
+      "slug": "lightning-surge",
+      "image": ""
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Counter-Strike",
+      "description": "Alarak targets an area and channels for 1 second, becoming Protected and Unstoppable. After, if he took damage from an enemy Hero, he sends a shockwave that deals 275 damage.",
+      "slug": "counter-strike",
+      "image": ""
+    },
+    {
+      "name": "Deadly Charge",
+      "description": "After channeling, Alarak charges forward dealing 200 damage to all enemies in his path. Distance is increased based on the amount of time channeled, up to 1.6 seconds. Issuing a Move order while this is channeling will cancel it at no cost. Taking damage will interrupt the channeling.",
+      "slug": "deadly-charge",
+      "image": ""
+    }
+  ],
+  "original": {
+    "id": "Alarak",
+    "name": "Alarak",
+    "title": "Highlord of the Tal'darim",
+    "description": "Not all heroes are born of altruism... some, like Alarak, simply desire vengeance. As the new Highlord of the Tal'darim, Alarak leads his people to a destiny free of the corrupt influence of the fallen xel'naga, Amon.",
+    "shortDescription": "A combo Assassin that can move enemies around and punish mistakes.",
+    "baseHeroInfo": {
+      "name": "Alarak",
+      "title": "Highlord of the Tal'darim",
+      "description": "Not all heroes are born of altruism... some, like Alarak, simply desire vengeance. As the new Highlord of the Tal'darim, Alarak leads his people to a destiny free of the corrupt influence of the fallen xel'naga, Amon.",
+      "shortDescription": "A combo Assassin that can move enemies around and punish mistakes.",
+      "slug": "alarak",
+      "role": {
+        "name": "Assassin",
+        "slug": "assassin",
+        "description": "Assassin Slayers of Heroes and bringers of pain."
+      },
+      "skins": [
+
+      ],
+      "type": {
+        "name": "Melee",
+        "slug": "melee"
+      },
+      "trait": {
+        "name": "Sadism",
+        "description": "Alarak's Ability damage and self-healing are increased by 100% against enemy Heroes. Takedowns increase Sadism by 3%, up to 30%. Sadism gained from Takedowns is lost on death.",
+        "id": "AlarakSadism",
+        "slug": "sadism"
+      },
+      "defaultMount": {
+        "name": "Highlord's Ascent",
+        "id": "AlarakTaldarimMarch"
+      },
+      "abilities": [
+        {
+          "name": "Discord Strike",
+          "description": "After a 0.5 second delay, enemies in front of Alarak take 175 damage and are silenced for 1.5 seconds. ",
+          "id": "AlarakDiscordStrike",
+          "video": "",
+          "slug": "discord-strike",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Telekinesis",
+          "description": "Vector Targeting Create a force, pushing Alarak and all enemies hit from the targeted point towards the targeted direction. Deals 48 damage to enemies.",
+          "id": "AlarakTelekinesis",
+          "video": "",
+          "slug": "telekinesis",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Lightning Surge",
+          "description": "Deal 62 damage to an enemy and an additional 100% damage to enemies between Alarak and the target. Restore 70 health for each Hero hit.",
+          "id": "AlarakLightningSurge",
+          "video": "",
+          "slug": "lightning-surge",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "heroicAbilities": [
+        {
+          "name": "Counter-Strike",
+          "description": "Alarak targets an area and channels for 1 second, becoming Protected and Unstoppable. After, if he took damage from an enemy Hero, he sends a shockwave that deals 275 damage.",
+          "id": "AlarakCounterStrikeTargeted",
+          "video": "",
+          "slug": "counter-strike",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Deadly Charge",
+          "description": "After channeling, Alarak charges forward dealing 200 damage to all enemies in his path. Distance is increased based on the amount of time channeled, up to 1.6 seconds. Issuing a Move order while this is channeling will cancel it at no cost. Taking damage will interrupt the channeling.",
+          "id": "AlarakDeadlyCharge",
+          "video": "",
+          "slug": "deadly-charge",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+    },
+    "roleSecondary": {
+    },
+    "type": {
+    },
+    "trait": {
+      "name": "Sadism",
+      "description": "Alarak's Ability damage and self-healing are increased by 100% against enemy Heroes. Takedowns increase Sadism by 3%, up to 30%. Sadism gained from Takedowns is lost on death.",
+      "id": "AlarakSadism",
+      "slug": "sadism"
+    },
+    "abilities": [
+      {
+        "name": "Discord Strike",
+        "description": "After a 0.5 second delay, enemies in front of Alarak take 175 damage and are silenced for 1.5 seconds. ",
+        "id": "AlarakDiscordStrike",
+        "video": "",
+        "slug": "discord-strike",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Telekinesis",
+        "description": "Vector Targeting Create a force, pushing Alarak and all enemies hit from the targeted point towards the targeted direction. Deals 48 damage to enemies.",
+        "id": "AlarakTelekinesis",
+        "video": "",
+        "slug": "telekinesis",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Lightning Surge",
+        "description": "Deal 62 damage to an enemy and an additional 100% damage to enemies between Alarak and the target. Restore 70 health for each Hero hit.",
+        "id": "AlarakLightningSurge",
+        "video": "",
+        "slug": "lightning-surge",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "heroicAbilities": [
+      {
+        "name": "Counter-Strike",
+        "description": "Alarak targets an area and channels for 1 second, becoming Protected and Unstoppable. After, if he took damage from an enemy Hero, he sends a shockwave that deals 275 damage.",
+        "id": "AlarakCounterStrikeTargeted",
+        "video": "",
+        "slug": "counter-strike",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Deadly Charge",
+        "description": "After channeling, Alarak charges forward dealing 200 damage to all enemies in his path. Distance is increased based on the amount of time channeled, up to 1.6 seconds. Issuing a Move order while this is channeling will cancel it at no cost. Taking damage will interrupt the channeling.",
+        "id": "AlarakDeadlyCharge",
+        "video": "",
+        "slug": "deadly-charge",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "defaultMount": {
+      "name": "Highlord's Ascent",
+      "id": "AlarakTaldarimMarch"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "otherAbilities": [
+
+    ],
+    "slug": "alarak",
+    "franchise": "StarCraft",
+    "stanceSlug": "",
+    "difficulty": "Hard",
+    "stats": {
+      "damage": 7,
+      "utility": 7,
+      "survivability": 6,
+      "complexity": 8
+    },
+    "skins": [
+      {
+        "name": "Highlord of the Tal'darim",
+        "description": "Not all heroes are born of altruism... some, like Alarak, simply desire vengeance. As the new Highlord of the Tal'darim, Alarak leads his people to a destiny free of the corrupt influence of the fallen xel'naga, Amon.",
+        "id": "AlarakBaseCommon",
+        "analyticsName": "Alarak | highlord-of-the-taldarim",
+        "slug": "highlord-of-the-taldarim"
+      },
+      {
+        "name": "Highlord Alarak",
+        "description": "The Highlord's armor serves as both ceremonial adornment and as a conduit of raw power. Adorned with blood shards and fueled by terrazine, it channels Alarak's fury directly into his blades.",
+        "id": "AlarakUltimate",
+        "analyticsName": "Alarak | highlord-alarak",
+        "slug": "highlord-alarak"
+      },
+      {
+        "name": "Herald of N'Zoth Alarak",
+        "description": "The God of the Deep writhes within his prison, thrashing endlessly. Alarak, the Corruptor's Herald, brings word of the Old God's return, preparing all realities for the coming change.",
+        "id": "AlarakHunter",
+        "analyticsName": "Alarak | herald-of-nzoth-alarak",
+        "slug": "herald-of-nzoth-alarak"
+      }
+    ],
+    "releaseDate": {
+      "year": 2016,
+      "month": 9,
+      "day": 13
+    },
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "alarak",
+    "revealed": true,
+    "video": "_w4vcO8Z-FY",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
+  }
+}

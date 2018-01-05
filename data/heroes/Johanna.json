@@ -1,0 +1,299 @@
+{
+  "name": "Johanna",
+  "slug": "johanna",
+  "title": "Crusader of Zakarum",
+  "description": "Warrior Front-line defenders and bruisers.",
+  "role": {
+    "name": "Warrior",
+    "slug": "warrior",
+    "description": "Warrior Front-line defenders and bruisers."
+  },
+  "type_of_hero": "Melee",
+  "franchise": "Diablo",
+  "difficulty": "Medium",
+  "live": true,
+  "poster_image": "http://localhost:3000/images/johanna/bust.jpg",
+  "stat": {
+    "damage": 3,
+    "utility": 6,
+    "survivability": 10,
+    "complexity": 4
+  },
+  "thumb": "http://localhost:3000/images/johanna/crusader-of-zakarum.jpg",
+  "trait": {
+    "name": "Iron Skin",
+    "description": "Iron Skin",
+    "slug": "iron-skin",
+    "image": ""
+  },
+  "abilities": [
+    {
+      "name": "Punish",
+      "description": "Step forward dealing 113 damage and Slowing enemies by 60% decaying over 2 seconds.",
+      "slug": "punish",
+      "image": ""
+    },
+    {
+      "name": "Condemn",
+      "description": "After 1 second, Johanna pulls nearby enemies toward her, stunning them for 0.25 seconds and dealing 55 damage. Deals 200% increased damage to Minions and Mercenaries.",
+      "slug": "condemn",
+      "image": ""
+    },
+    {
+      "name": "Shield Glare",
+      "description": "Deal 59 damage to enemies and Blind them for 1.5 seconds.",
+      "slug": "shield-glare",
+      "image": ""
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Falling Sword",
+      "description": "Johanna leaps towards an area. While in the air, she can steer the landing location by moving. After 2 seconds Johanna lands, dealing 183 damage to nearby enemies, Stunning them for 0.2 seconds, and Slowing them by 50% for 3 seconds.",
+      "slug": "falling-sword",
+      "image": ""
+    },
+    {
+      "name": "Blessed Shield",
+      "description": "Deal 114 damage and Stun the first enemy hit for 1.5 seconds. Blessed Shield then bounces to 2 nearby enemies, dealing 57 damage and Stunning them for 0.75 seconds.",
+      "slug": "blessed-shield",
+      "image": ""
+    }
+  ],
+  "original": {
+    "id": "Crusader",
+    "name": "Johanna",
+    "title": "Crusader of Zakarum",
+    "description": "There have been many women who have borne the name Johanna in service of the crusade, and each has given her life to purify her faith. Johanna carries on their legacy as she searches the kingdom of Khanduras for the fallen star.",
+    "shortDescription": "A Tank who shines against Physical Attackers and can effectively clear groups of minions. 0 Physical Armor",
+    "baseHeroInfo": {
+      "name": "Johanna",
+      "title": "Crusader of Zakarum",
+      "description": "There have been many women who have borne the name Johanna in service of the crusade, and each has given her life to purify her faith. Johanna carries on their legacy as she searches the kingdom of Khanduras for the fallen star.",
+      "shortDescription": "A Tank who shines against Physical Attackers and can effectively clear groups of minions. 0 Physical Armor",
+      "slug": "johanna",
+      "role": {
+        "name": "Warrior",
+        "slug": "warrior",
+        "description": "Warrior Front-line defenders and bruisers."
+      },
+      "skins": [
+
+      ],
+      "type": {
+        "name": "Melee",
+        "slug": "melee"
+      },
+      "trait": {
+        "name": "Iron Skin",
+        "description": "Activate to grant Johanna a Shield that absorbs 674 damage for 4 seconds. While this Shield is active, Johanna is Unstoppable.",
+        "id": "CrusaderIronSkin",
+        "slug": "iron-skin"
+      },
+      "defaultMount": {
+        "name": "Horse",
+        "id": "HorseCommon"
+      },
+      "abilities": [
+        {
+          "name": "Punish",
+          "description": "Step forward dealing 113 damage and Slowing enemies by 60% decaying over 2 seconds.",
+          "id": "CrusaderPunish",
+          "video": "",
+          "slug": "punish",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Condemn",
+          "description": "After 1 second, Johanna pulls nearby enemies toward her, stunning them for 0.25 seconds and dealing 55 damage. Deals 200% increased damage to Minions and Mercenaries.",
+          "id": "CrusaderCondemn",
+          "video": "",
+          "slug": "condemn",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Shield Glare",
+          "description": "Deal 59 damage to enemies and Blind them for 1.5 seconds.",
+          "id": "CrusaderShieldGlare",
+          "video": "",
+          "slug": "shield-glare",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "heroicAbilities": [
+        {
+          "name": "Falling Sword",
+          "description": "Johanna leaps towards an area. While in the air, she can steer the landing location by moving. After 2 seconds Johanna lands, dealing 183 damage to nearby enemies, Stunning them for 0.2 seconds, and Slowing them by 50% for 3 seconds.",
+          "id": "CrusaderFallingSword",
+          "video": "",
+          "slug": "falling-sword",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Blessed Shield",
+          "description": "Deal 114 damage and Stun the first enemy hit for 1.5 seconds. Blessed Shield then bounces to 2 nearby enemies, dealing 57 damage and Stunning them for 0.75 seconds.",
+          "id": "CrusaderBlessedShield",
+          "video": "",
+          "slug": "blessed-shield",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+    },
+    "roleSecondary": {
+    },
+    "type": {
+    },
+    "trait": {
+      "name": "Iron Skin",
+      "description": "Activate to grant Johanna a Shield that absorbs 674 damage for 4 seconds. While this Shield is active, Johanna is Unstoppable.",
+      "id": "CrusaderIronSkin",
+      "slug": "iron-skin"
+    },
+    "abilities": [
+      {
+        "name": "Punish",
+        "description": "Step forward dealing 113 damage and Slowing enemies by 60% decaying over 2 seconds.",
+        "id": "CrusaderPunish",
+        "video": "",
+        "slug": "punish",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Condemn",
+        "description": "After 1 second, Johanna pulls nearby enemies toward her, stunning them for 0.25 seconds and dealing 55 damage. Deals 200% increased damage to Minions and Mercenaries.",
+        "id": "CrusaderCondemn",
+        "video": "",
+        "slug": "condemn",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Shield Glare",
+        "description": "Deal 59 damage to enemies and Blind them for 1.5 seconds.",
+        "id": "CrusaderShieldGlare",
+        "video": "",
+        "slug": "shield-glare",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "heroicAbilities": [
+      {
+        "name": "Falling Sword",
+        "description": "Johanna leaps towards an area. While in the air, she can steer the landing location by moving. After 2 seconds Johanna lands, dealing 183 damage to nearby enemies, Stunning them for 0.2 seconds, and Slowing them by 50% for 3 seconds.",
+        "id": "CrusaderFallingSword",
+        "video": "",
+        "slug": "falling-sword",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Blessed Shield",
+        "description": "Deal 114 damage and Stun the first enemy hit for 1.5 seconds. Blessed Shield then bounces to 2 nearby enemies, dealing 57 damage and Stunning them for 0.75 seconds.",
+        "id": "CrusaderBlessedShield",
+        "video": "",
+        "slug": "blessed-shield",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "defaultMount": {
+      "name": "Horse",
+      "id": "HorseCommon"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "otherAbilities": [
+
+    ],
+    "slug": "johanna",
+    "franchise": "Diablo",
+    "stanceSlug": "",
+    "difficulty": "Medium",
+    "stats": {
+      "damage": 3,
+      "utility": 6,
+      "survivability": 10,
+      "complexity": 4
+    },
+    "skins": [
+      {
+        "name": "Crusader of Zakarum",
+        "description": "There have been many women who have borne the name Johanna in service of the crusade, and each has given her life to purify her faith. Johanna carries on their legacy as she searches the kingdom of Khanduras for the fallen star.",
+        "id": "CrusaderCommon",
+        "analyticsName": "Johanna | crusader-of-zakarum",
+        "slug": "crusader-of-zakarum"
+      },
+      {
+        "name": "Sacred Oath Johanna",
+        "description": "The crusader's armor is an emblem of their identity. Over the centuries it is constantly molded and reshaped to fit the needs and personality of its current master.",
+        "id": "UltimateCrusader",
+        "analyticsName": "Johanna | sacred-oath-johanna",
+        "slug": "sacred-oath-johanna"
+      },
+      {
+        "name": "Spellbreaker Johanna",
+        "description": "While most spellbreakers serve in defense of Quel’Thalas, Johanna has embarked on a crusade to purify the lands of Lordaeron, instead. She will not rest until her homeland is restored.",
+        "id": "CrusaderSpell",
+        "analyticsName": "Johanna | spellbreaker-johanna",
+        "slug": "spellbreaker-johanna"
+      },
+      {
+        "name": "Centurion Johanna",
+        "description": "At Emperor Severus's command, an entire legion marched against the portal of the gods. All but one returned home, a single centurion taken as punishment for man's hubris.",
+        "id": "CrusaderCenturion",
+        "analyticsName": "Johanna | centurion-johanna",
+        "slug": "centurion-johanna"
+      }
+    ],
+    "releaseDate": {
+      "year": 2015,
+      "month": 6,
+      "day": 2
+    },
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "johanna",
+    "revealed": true,
+    "video": "1DbJak1NT5o",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
+  }
+}

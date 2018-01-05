@@ -1,0 +1,303 @@
+{
+  "name": "Blaze",
+  "slug": "blaze",
+  "title": "Veteran Firebat",
+  "description": "Warrior Front-line defenders and bruisers.",
+  "role": {
+    "name": "Warrior",
+    "slug": "warrior",
+    "description": "Warrior Front-line defenders and bruisers."
+  },
+  "type_of_hero": "Ranged",
+  "franchise": "StarCraft",
+  "difficulty": "Medium",
+  "live": true,
+  "poster_image": "http://localhost:3000/images/blaze/bust.jpg",
+  "stat": {
+    "damage": 6,
+    "utility": 7,
+    "survivability": 9,
+    "complexity": 7
+  },
+  "thumb": "http://localhost:3000/images/blaze/veteran-firebat.jpg",
+  "trait": {
+    "name": "Pyromania",
+    "description": "Pyromania",
+    "slug": "pyromania",
+    "image": ""
+  },
+  "abilities": [
+    {
+      "name": "Flame Stream",
+      "description": "Fire two streams that deal 83 damage to enemies hit. Flame Stream Ignites Oil Spills it comes in contact with.",
+      "slug": "flame-stream",
+      "image": ""
+    },
+    {
+      "name": "Oil Spill",
+      "description": "Vector Targeting Dispense a slick of oil that lasts for 5 seconds and Slows enemies that come in contact with it by 40%. Oil Spills are Ignited for 2.5 seconds when hit by Flame Stream. Ignited Oil Spills no longer Slow enemies, but instead deal 18 damage to them every 0.3 seconds. Additionally, Blaze is healed for 49 Health every 0.3 seconds while standing in Ignited Oil Spills. Stores up to 2 charges.",
+      "slug": "oil-spill",
+      "image": ""
+    },
+    {
+      "name": "Jet Propulsion",
+      "description": "After 0.5 seconds, charge forward. Colliding with an enemy Hero deals 52 damage to all nearby enemy Heroes and Stuns them for 1.25 seconds.",
+      "slug": "jet-propulsion",
+      "image": ""
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Bunker Drop",
+      "description": "After 0.5 seconds, deploy and enter a Bunker with 1305 Health. Blaze and his allies can enter and exit the Bunker at will. While in the Bunker, occupants gain access to Flamethrower, dealing 179 damage to enemies in a line. Exiting the Bunker grants 25 Armor for 2 seconds. Bunkers last 10 seconds, or until destroyed.",
+      "slug": "bunker-drop",
+      "image": ""
+    },
+    {
+      "name": "Combustion",
+      "description": "Channel for up to 2.6 seconds. Upon ending, Slow nearby enemies by 60% and deal 48 damage to them every 0.5 seconds. Combustion's Slow and damage over time duration is extend the longer Blaze Channels, from 1 second up to 5 seconds. Blaze's Movement Speed is reduced by 50% while Channeling.",
+      "slug": "combustion",
+      "image": ""
+    }
+  ],
+  "original": {
+    "id": "Firebat",
+    "name": "Blaze",
+    "title": "Veteran Firebat",
+    "description": "Cpl. Miles \"Blaze\" Lewis has always been drawn to the flame, but it wasn't until he joined up with Raynor's Raiders that he put his pyromania to good use. He's seen his fair share of battles since then, and has never failed to bring the heat.",
+    "shortDescription": "Blaze is a ranged Tank who specializes in initiating fights and dealing area damage by spreading his flames",
+    "baseHeroInfo": {
+      "name": "Blaze",
+      "title": "Veteran Firebat",
+      "description": "Cpl. Miles \"Blaze\" Lewis has always been drawn to the flame, but it wasn't until he joined up with Raynor's Raiders that he put his pyromania to good use. He's seen his fair share of battles since then, and has never failed to bring the heat.",
+      "shortDescription": "Blaze is a ranged Tank who specializes in initiating fights and dealing area damage by spreading his flames",
+      "slug": "blaze",
+      "role": {
+        "name": "Warrior",
+        "slug": "warrior",
+        "description": "Warrior Front-line defenders and bruisers."
+      },
+      "skins": [
+
+      ],
+      "type": {
+        "name": "Ranged",
+        "slug": "ranged"
+      },
+      "trait": {
+        "name": "Pyromania",
+        "description": "Gain 25 Armor and deal 40 damage to nearby enemies every 0.5 seconds for 4 seconds. Each Hero hit by Flame Stream reduces Pyromania's cooldown by 5 seconds.",
+        "id": "FirebatIgnite",
+        "slug": "pyromania"
+      },
+      "defaultMount": {
+        "name": "Horse",
+        "id": "HorseCommon"
+      },
+      "abilities": [
+        {
+          "name": "Flame Stream",
+          "description": "Fire two streams that deal 83 damage to enemies hit. Flame Stream Ignites Oil Spills it comes in contact with.",
+          "id": "FirebatFlameStream",
+          "video": "",
+          "slug": "flame-stream",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Oil Spill",
+          "description": "Vector Targeting Dispense a slick of oil that lasts for 5 seconds and Slows enemies that come in contact with it by 40%. Oil Spills are Ignited for 2.5 seconds when hit by Flame Stream. Ignited Oil Spills no longer Slow enemies, but instead deal 18 damage to them every 0.3 seconds. Additionally, Blaze is healed for 49 Health every 0.3 seconds while standing in Ignited Oil Spills. Stores up to 2 charges.",
+          "id": "FirebatOilSpill",
+          "video": "",
+          "slug": "oil-spill",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Jet Propulsion",
+          "description": "After 0.5 seconds, charge forward. Colliding with an enemy Hero deals 52 damage to all nearby enemy Heroes and Stuns them for 1.25 seconds.",
+          "id": "FirebatJetPropulsion",
+          "video": "",
+          "slug": "jet-propulsion",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "heroicAbilities": [
+        {
+          "name": "Bunker Drop",
+          "description": "After 0.5 seconds, deploy and enter a Bunker with 1305 Health. Blaze and his allies can enter and exit the Bunker at will. While in the Bunker, occupants gain access to Flamethrower, dealing 179 damage to enemies in a line. Exiting the Bunker grants 25 Armor for 2 seconds. Bunkers last 10 seconds, or until destroyed.",
+          "id": "FirebatBunkerDrop",
+          "video": "",
+          "slug": "bunker-drop",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Combustion",
+          "description": "Channel for up to 2.6 seconds. Upon ending, Slow nearby enemies by 60% and deal 48 damage to them every 0.5 seconds. Combustion's Slow and damage over time duration is extend the longer Blaze Channels, from 1 second up to 5 seconds. Blaze's Movement Speed is reduced by 50% while Channeling.",
+          "id": "FirebatCombustion",
+          "video": "",
+          "slug": "combustion",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+        {
+          "name": "Exit Bunker",
+          "description": "Exit Bunker.",
+          "id": "FirebatBunkerDropExitBunker",
+          "video": "",
+          "slug": "exit-bunker",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+    },
+    "roleSecondary": {
+    },
+    "type": {
+    },
+    "trait": {
+      "name": "Pyromania",
+      "description": "Gain 25 Armor and deal 40 damage to nearby enemies every 0.5 seconds for 4 seconds. Each Hero hit by Flame Stream reduces Pyromania's cooldown by 5 seconds.",
+      "id": "FirebatIgnite",
+      "slug": "pyromania"
+    },
+    "abilities": [
+      {
+        "name": "Flame Stream",
+        "description": "Fire two streams that deal 83 damage to enemies hit. Flame Stream Ignites Oil Spills it comes in contact with.",
+        "id": "FirebatFlameStream",
+        "video": "",
+        "slug": "flame-stream",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Oil Spill",
+        "description": "Vector Targeting Dispense a slick of oil that lasts for 5 seconds and Slows enemies that come in contact with it by 40%. Oil Spills are Ignited for 2.5 seconds when hit by Flame Stream. Ignited Oil Spills no longer Slow enemies, but instead deal 18 damage to them every 0.3 seconds. Additionally, Blaze is healed for 49 Health every 0.3 seconds while standing in Ignited Oil Spills. Stores up to 2 charges.",
+        "id": "FirebatOilSpill",
+        "video": "",
+        "slug": "oil-spill",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Jet Propulsion",
+        "description": "After 0.5 seconds, charge forward. Colliding with an enemy Hero deals 52 damage to all nearby enemy Heroes and Stuns them for 1.25 seconds.",
+        "id": "FirebatJetPropulsion",
+        "video": "",
+        "slug": "jet-propulsion",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "heroicAbilities": [
+      {
+        "name": "Bunker Drop",
+        "description": "After 0.5 seconds, deploy and enter a Bunker with 1305 Health. Blaze and his allies can enter and exit the Bunker at will. While in the Bunker, occupants gain access to Flamethrower, dealing 179 damage to enemies in a line. Exiting the Bunker grants 25 Armor for 2 seconds. Bunkers last 10 seconds, or until destroyed.",
+        "id": "FirebatBunkerDrop",
+        "video": "",
+        "slug": "bunker-drop",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Combustion",
+        "description": "Channel for up to 2.6 seconds. Upon ending, Slow nearby enemies by 60% and deal 48 damage to them every 0.5 seconds. Combustion's Slow and damage over time duration is extend the longer Blaze Channels, from 1 second up to 5 seconds. Blaze's Movement Speed is reduced by 50% while Channeling.",
+        "id": "FirebatCombustion",
+        "video": "",
+        "slug": "combustion",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "defaultMount": {
+      "name": "Horse",
+      "id": "HorseCommon"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "otherAbilities": [
+      {
+        "name": "Exit Bunker",
+        "description": "Exit Bunker.",
+        "id": "FirebatBunkerDropExitBunker",
+        "video": "",
+        "slug": "exit-bunker",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "slug": "blaze",
+    "franchise": "StarCraft",
+    "stanceSlug": "",
+    "difficulty": "Medium",
+    "stats": {
+      "damage": 6,
+      "utility": 7,
+      "survivability": 9,
+      "complexity": 7
+    },
+    "skins": [
+      {
+        "name": "Veteran Firebat",
+        "description": "Cpl. Miles \"Blaze\" Lewis has always been drawn to the flame, but it wasn't until he joined up with Raynor's Raiders that he put his pyromania to good use. He's seen his fair share of battles since then, and has never failed to bring the heat.",
+        "id": "FirebatBaseCommon",
+        "analyticsName": "Blaze | veteran-firebat",
+        "slug": "veteran-firebat"
+      },
+      {
+        "name": "Fel Reaver Blaze",
+        "description": "After much experimentation, mo'arg engineers have succeeded in miniaturizing the fel reaver's design and fusing it with a captive sentient soul. The results are quite promising.",
+        "id": "FirebatFelReaver",
+        "analyticsName": "Blaze | fel-reaver-blaze",
+        "slug": "fel-reaver-blaze"
+      }
+    ],
+    "releaseDate": {
+      "year": 2018,
+      "month": 1,
+      "day": 9
+    },
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "blaze",
+    "revealed": true,
+    "video": "erJuo79itKs",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
+  }
+}

@@ -1,0 +1,312 @@
+{
+  "name": "Tyrande",
+  "slug": "tyrande",
+  "title": "High Priestess of Elune",
+  "description": "Support Healers, buffers, and everyone’s best friends.",
+  "role": {
+    "name": "Support",
+    "slug": "support",
+    "description": "Support Healers, buffers, and everyone’s best friends."
+  },
+  "type_of_hero": "Ranged",
+  "franchise": "Warcraft",
+  "difficulty": "Medium",
+  "live": true,
+  "poster_image": "http://localhost:3000/images/tyrande/bust.jpg",
+  "stat": {
+    "damage": 5,
+    "utility": 7,
+    "survivability": 4,
+    "complexity": 7
+  },
+  "thumb": "http://localhost:3000/images/tyrande/high-priestess-of-elune.jpg",
+  "trait": {
+    "name": "Hunter's Mark",
+    "description": "Hunter's Mark",
+    "slug": "hunters-mark",
+    "image": ""
+  },
+  "abilities": [
+    {
+      "name": "Light of Elune",
+      "description": "Heal target ally for 270 Health. Basic Attacks reduce the cooldown of this Ability by 2 seconds.",
+      "slug": "light-of-elune",
+      "image": ""
+    },
+    {
+      "name": "Sentinel",
+      "description": "Send an Owl that travels across the battleground revealing its path. Deals 165 damage to the first enemy Hero hit and reveals them for 5 seconds. Repeatable Quest: Every 8 Heroes hit by Sentinel decrease its Mana cost by 10 and cause it to pierce an additional target.",
+      "slug": "sentinel",
+      "image": ""
+    },
+    {
+      "name": "Lunar Flare",
+      "description": "After 0.75 seconds, deal 195 damage and Stun enemies in the target area for 0.75 seconds.",
+      "slug": "lunar-flare",
+      "image": ""
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Starfall",
+      "description": "Deal 88 damage per second and slow enemies by 20% in an area. Lasts 6 seconds.",
+      "slug": "starfall",
+      "image": ""
+    },
+    {
+      "name": "Shadowstalk",
+      "description": "Stealth and gain 30% Movement Speed. Remaining stationary for at least 1.5 seconds while Stealthed grants Invisible. When Shadowstalk's Stealth is broken, gain 50% Attack Speed and retain its Movement Speed bonus for 5 seconds.",
+      "slug": "shadowstalk",
+      "image": ""
+    }
+  ],
+  "original": {
+    "id": "Tyrande",
+    "name": "Tyrande",
+    "title": "High Priestess of Elune",
+    "description": "Tyrande Whisperwind strikes fear into all who wish ill of the Kaldorei. As the highest ranking Sentinel and High Priestess of Elune, she is not only the night elves' most deadly warrior, but also their most cunning leader.",
+    "shortDescription": "A Support who helps her allies lockdown and finish off enemies.",
+    "baseHeroInfo": {
+      "name": "Tyrande",
+      "title": "High Priestess of Elune",
+      "description": "Tyrande Whisperwind strikes fear into all who wish ill of the Kaldorei. As the highest ranking Sentinel and High Priestess of Elune, she is not only the night elves' most deadly warrior, but also their most cunning leader.",
+      "shortDescription": "A Support who helps her allies lockdown and finish off enemies.",
+      "slug": "tyrande",
+      "role": {
+        "name": "Support",
+        "slug": "support",
+        "description": "Support Healers, buffers, and everyone’s best friends."
+      },
+      "skins": [
+
+      ],
+      "type": {
+        "name": "Ranged",
+        "slug": "ranged"
+      },
+      "trait": {
+        "name": "Hunter's Mark",
+        "description": "Reveal a target enemy and lower their Armor by 25 for 4 seconds, increasing all damage taken by 25%. Cannot be used on Structures.",
+        "id": "TyrandeHuntersMark",
+        "slug": "hunters-mark"
+      },
+      "defaultMount": {
+        "name": "Horse",
+        "id": "HorseCommon"
+      },
+      "abilities": [
+        {
+          "name": "Light of Elune",
+          "description": "Heal target ally for 270 Health. Basic Attacks reduce the cooldown of this Ability by 2 seconds.",
+          "id": "TyrandeLightOfElune",
+          "video": "",
+          "slug": "light-of-elune",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Sentinel",
+          "description": "Send an Owl that travels across the battleground revealing its path. Deals 165 damage to the first enemy Hero hit and reveals them for 5 seconds. Repeatable Quest: Every 8 Heroes hit by Sentinel decrease its Mana cost by 10 and cause it to pierce an additional target.",
+          "id": "TyrandeSentinel",
+          "video": "",
+          "slug": "sentinel",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Lunar Flare",
+          "description": "After 0.75 seconds, deal 195 damage and Stun enemies in the target area for 0.75 seconds.",
+          "id": "TyrandeLunarFlare",
+          "video": "",
+          "slug": "lunar-flare",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "heroicAbilities": [
+        {
+          "name": "Starfall",
+          "description": "Deal 88 damage per second and slow enemies by 20% in an area. Lasts 6 seconds.",
+          "id": "TyrandeStarfall",
+          "video": "",
+          "slug": "starfall",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Shadowstalk",
+          "description": "Stealth and gain 30% Movement Speed. Remaining stationary for at least 1.5 seconds while Stealthed grants Invisible. When Shadowstalk's Stealth is broken, gain 50% Attack Speed and retain its Movement Speed bonus for 5 seconds.",
+          "id": "TyrandeShadowstalk",
+          "video": "",
+          "slug": "shadowstalk",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+    },
+    "roleSecondary": {
+    },
+    "type": {
+    },
+    "trait": {
+      "name": "Hunter's Mark",
+      "description": "Reveal a target enemy and lower their Armor by 25 for 4 seconds, increasing all damage taken by 25%. Cannot be used on Structures.",
+      "id": "TyrandeHuntersMark",
+      "slug": "hunters-mark"
+    },
+    "abilities": [
+      {
+        "name": "Light of Elune",
+        "description": "Heal target ally for 270 Health. Basic Attacks reduce the cooldown of this Ability by 2 seconds.",
+        "id": "TyrandeLightOfElune",
+        "video": "",
+        "slug": "light-of-elune",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Sentinel",
+        "description": "Send an Owl that travels across the battleground revealing its path. Deals 165 damage to the first enemy Hero hit and reveals them for 5 seconds. Repeatable Quest: Every 8 Heroes hit by Sentinel decrease its Mana cost by 10 and cause it to pierce an additional target.",
+        "id": "TyrandeSentinel",
+        "video": "",
+        "slug": "sentinel",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Lunar Flare",
+        "description": "After 0.75 seconds, deal 195 damage and Stun enemies in the target area for 0.75 seconds.",
+        "id": "TyrandeLunarFlare",
+        "video": "",
+        "slug": "lunar-flare",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "heroicAbilities": [
+      {
+        "name": "Starfall",
+        "description": "Deal 88 damage per second and slow enemies by 20% in an area. Lasts 6 seconds.",
+        "id": "TyrandeStarfall",
+        "video": "",
+        "slug": "starfall",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Shadowstalk",
+        "description": "Stealth and gain 30% Movement Speed. Remaining stationary for at least 1.5 seconds while Stealthed grants Invisible. When Shadowstalk's Stealth is broken, gain 50% Attack Speed and retain its Movement Speed bonus for 5 seconds.",
+        "id": "TyrandeShadowstalk",
+        "video": "",
+        "slug": "shadowstalk",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "defaultMount": {
+      "name": "Horse",
+      "id": "HorseCommon"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "otherAbilities": [
+
+    ],
+    "slug": "tyrande",
+    "franchise": "Warcraft",
+    "stanceSlug": "",
+    "difficulty": "Medium",
+    "stats": {
+      "damage": 5,
+      "utility": 7,
+      "survivability": 4,
+      "complexity": 7
+    },
+    "skins": [
+      {
+        "name": "High Priestess of Elune",
+        "description": "Tyrande Whisperwind strikes fear into all who wish ill of the Kaldorei. As the highest ranking Sentinel and High Priestess of Elune, she is not only the night elves' most deadly warrior, but also their most cunning leader.",
+        "id": "TyrandeCommon",
+        "analyticsName": "Tyrande | high-priestess-of-elune",
+        "slug": "high-priestess-of-elune"
+      },
+      {
+        "name": "High Priestess Tyrande",
+        "description": "The vestments of the Sentinel General were blessed by Elune herself. Like the night elves before the World Tree's fall, they do not age and remain as pristine as when they were blessed.",
+        "id": "TyrandeUltimate",
+        "analyticsName": "Tyrande | high-priestess-tyrande",
+        "slug": "high-priestess-tyrande"
+      },
+      {
+        "name": "Love Goddess Tyrande",
+        "description": "With her enchanted arrows and her keen insight into the hearts of mortals, the Love Goddess is responsible for more than one match made in heaven.",
+        "id": "TyrandeLove",
+        "analyticsName": "Tyrande | love-goddess-tyrande",
+        "slug": "love-goddess-tyrande"
+      },
+      {
+        "name": "Eagle Eye Tyrande",
+        "description": "When the Eternal Empire destroyed her home planet, Tyrande Solarwind swore to avenge her fallen people. Now, her quest to eliminate her mortal enemy has led her to the city of New York.",
+        "id": "TyrandeSuper",
+        "analyticsName": "Tyrande | eagle-eye-tyrande",
+        "slug": "eagle-eye-tyrande"
+      },
+      {
+        "name": "Blood Elf Tyrande",
+        "description": "Named for her ancestor, the first Sun Queen, Tyrande Windrunner serves the blood elves as their Ranger General, preparing them for their pilgrimage into Outland.",
+        "id": "TyrandeBloodElfBase",
+        "analyticsName": "Tyrande | blood-elf-tyrande",
+        "slug": "blood-elf-tyrande"
+      },
+      {
+        "name": "Warden Tyrande",
+        "description": "Ever since they were children, Tyrande had known her fate was bound to that of Malfurion's. Now, she would serve as his warden, and for his betrayal the sentence would be eternal.",
+        "id": "TyrandeWarden",
+        "analyticsName": "Tyrande | warden-tyrande",
+        "slug": "warden-tyrande"
+      }
+    ],
+    "releaseDate": {
+      "year": 2014,
+      "month": 1,
+      "day": 1
+    },
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "tyrande",
+    "revealed": true,
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
+  }
+}

@@ -1,0 +1,330 @@
+{
+  "name": "Malfurion",
+  "slug": "malfurion",
+  "title": "Archdruid",
+  "description": "Support Healers, buffers, and everyone’s best friends.",
+  "role": {
+    "name": "Support",
+    "slug": "support",
+    "description": "Support Healers, buffers, and everyone’s best friends."
+  },
+  "type_of_hero": "Ranged",
+  "franchise": "Warcraft",
+  "difficulty": "Easy",
+  "live": true,
+  "poster_image": "http://localhost:3000/images/malfurion/bust.jpg",
+  "stat": {
+    "damage": 4,
+    "utility": 7,
+    "survivability": 5,
+    "complexity": 5
+  },
+  "thumb": "http://localhost:3000/images/malfurion/archdruid.jpg",
+  "trait": {
+    "name": "Innervate",
+    "description": "Innervate",
+    "slug": "innervate",
+    "image": ""
+  },
+  "abilities": [
+    {
+      "name": "Regrowth",
+      "description": "Heal target ally for 142 Health instantly and an additional 405 Health over 15 seconds.",
+      "slug": "regrowth",
+      "image": ""
+    },
+    {
+      "name": "Moonfire",
+      "description": "Deal 100 damage to enemies within target area and reveals them for 2 seconds.",
+      "slug": "moonfire",
+      "image": ""
+    },
+    {
+      "name": "Entangling Roots",
+      "description": "Root enemies within the target area for 1.25 seconds, and deals 111 damage over the duration. Affected area grows over 3 seconds.",
+      "slug": "entangling-roots",
+      "image": ""
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Tranquility",
+      "description": "Heals 76 Health per second to nearby allied Heroes over 10 seconds.",
+      "slug": "tranquility",
+      "image": ""
+    },
+    {
+      "name": "Twilight Dream",
+      "description": "After 0.5 seconds, deal 355 damage in a large area around Malfurion, Silencing enemies making them unable to use Abilities for 3 seconds.",
+      "slug": "twilight-dream",
+      "image": ""
+    }
+  ],
+  "original": {
+    "id": "Malfurion",
+    "name": "Malfurion",
+    "title": "Archdruid",
+    "description": "Malfurion Stormrage is the greatest druid on Azeroth, and a student of the demi-god Cenarius. Communing with nature and Cenarius through the Emerald dream, Malfurion protects the wilds from demonic influences.",
+    "shortDescription": "A strong sustained Healer who can help lockdown enemies to secure takedowns.",
+    "baseHeroInfo": {
+      "name": "Malfurion",
+      "title": "Archdruid",
+      "description": "Malfurion Stormrage is the greatest druid on Azeroth, and a student of the demi-god Cenarius. Communing with nature and Cenarius through the Emerald dream, Malfurion protects the wilds from demonic influences.",
+      "shortDescription": "A strong sustained Healer who can help lockdown enemies to secure takedowns.",
+      "slug": "malfurion",
+      "role": {
+        "name": "Support",
+        "slug": "support",
+        "description": "Support Healers, buffers, and everyone’s best friends."
+      },
+      "skins": [
+
+      ],
+      "type": {
+        "name": "Ranged",
+        "slug": "ranged"
+      },
+      "trait": {
+        "name": "Innervate",
+        "description": "Grant an allied Hero 20% of their maximum Mana over 5 seconds. While affected by Innervate, their Basic Ability cooldowns recharge 50% faster. Cannot be used on Heroes that do not use Mana",
+        "id": "MalfurionInnervate",
+        "slug": "innervate"
+      },
+      "defaultMount": {
+        "name": "Horse",
+        "id": "HorseCommon"
+      },
+      "abilities": [
+        {
+          "name": "Regrowth",
+          "description": "Heal target ally for 142 Health instantly and an additional 405 Health over 15 seconds.",
+          "id": "MalfurionRegrowth",
+          "video": "",
+          "slug": "regrowth",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Moonfire",
+          "description": "Deal 100 damage to enemies within target area and reveals them for 2 seconds.",
+          "id": "MalfurionMoonfire",
+          "video": "",
+          "slug": "moonfire",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Entangling Roots",
+          "description": "Root enemies within the target area for 1.25 seconds, and deals 111 damage over the duration. Affected area grows over 3 seconds.",
+          "id": "MalfurionEntanglingRoots",
+          "video": "",
+          "slug": "entangling-roots",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "heroicAbilities": [
+        {
+          "name": "Tranquility",
+          "description": "Heals 76 Health per second to nearby allied Heroes over 10 seconds.",
+          "id": "MalfurionTranquility",
+          "video": "",
+          "slug": "tranquility",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Twilight Dream",
+          "description": "After 0.5 seconds, deal 355 damage in a large area around Malfurion, Silencing enemies making them unable to use Abilities for 3 seconds.",
+          "id": "MalfurionTwilightDream",
+          "video": "",
+          "slug": "twilight-dream",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+        {
+          "name": "Astral Communion",
+          "description": "Activate to Channel for 1 second, and then instantly teleport and cast Twilight Dream at the targeted location. Cooldown is shared with Twilight Dream. Passive: Increase Twilight Dream's Silence duration to 4 seconds.",
+          "id": "MalfurionAstralCommunion",
+          "video": "",
+          "slug": "astral-communion",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+    },
+    "roleSecondary": {
+    },
+    "type": {
+    },
+    "trait": {
+      "name": "Innervate",
+      "description": "Grant an allied Hero 20% of their maximum Mana over 5 seconds. While affected by Innervate, their Basic Ability cooldowns recharge 50% faster. Cannot be used on Heroes that do not use Mana",
+      "id": "MalfurionInnervate",
+      "slug": "innervate"
+    },
+    "abilities": [
+      {
+        "name": "Regrowth",
+        "description": "Heal target ally for 142 Health instantly and an additional 405 Health over 15 seconds.",
+        "id": "MalfurionRegrowth",
+        "video": "",
+        "slug": "regrowth",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Moonfire",
+        "description": "Deal 100 damage to enemies within target area and reveals them for 2 seconds.",
+        "id": "MalfurionMoonfire",
+        "video": "",
+        "slug": "moonfire",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Entangling Roots",
+        "description": "Root enemies within the target area for 1.25 seconds, and deals 111 damage over the duration. Affected area grows over 3 seconds.",
+        "id": "MalfurionEntanglingRoots",
+        "video": "",
+        "slug": "entangling-roots",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "heroicAbilities": [
+      {
+        "name": "Tranquility",
+        "description": "Heals 76 Health per second to nearby allied Heroes over 10 seconds.",
+        "id": "MalfurionTranquility",
+        "video": "",
+        "slug": "tranquility",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Twilight Dream",
+        "description": "After 0.5 seconds, deal 355 damage in a large area around Malfurion, Silencing enemies making them unable to use Abilities for 3 seconds.",
+        "id": "MalfurionTwilightDream",
+        "video": "",
+        "slug": "twilight-dream",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "defaultMount": {
+      "name": "Horse",
+      "id": "HorseCommon"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "otherAbilities": [
+      {
+        "name": "Astral Communion",
+        "description": "Activate to Channel for 1 second, and then instantly teleport and cast Twilight Dream at the targeted location. Cooldown is shared with Twilight Dream. Passive: Increase Twilight Dream's Silence duration to 4 seconds.",
+        "id": "MalfurionAstralCommunion",
+        "video": "",
+        "slug": "astral-communion",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "slug": "malfurion",
+    "franchise": "Warcraft",
+    "stanceSlug": "",
+    "difficulty": "Easy",
+    "stats": {
+      "damage": 4,
+      "utility": 7,
+      "survivability": 5,
+      "complexity": 5
+    },
+    "skins": [
+      {
+        "name": "Archdruid",
+        "description": "Malfurion Stormrage is the greatest druid on Azeroth, and a student of the demi-god Cenarius. Communing with nature and Cenarius through the Emerald dream, Malfurion protects the wilds from demonic influences.",
+        "id": "MalfurionBaseCommon",
+        "analyticsName": "Malfurion | archdruid",
+        "slug": "archdruid"
+      },
+      {
+        "name": "Waywatcher Malfurion",
+        "description": "Malorne the Waywatcher's power transcends death itself. Those who dedicate their lives to fighting for nature carry on his great work.",
+        "id": "MalfurionUltimate",
+        "analyticsName": "Malfurion | waywatcher-malfurion",
+        "slug": "waywatcher-malfurion"
+      },
+      {
+        "name": "Greatfather Winter Malfurion",
+        "description": "With little else to do once the creatures of the wild begin their long hibernation, Malfurion has taken to celebrating the Feast of Winter Veil as the jolliest shan'do of all.",
+        "id": "MalfurionWinter",
+        "analyticsName": "Malfurion | greatfather-winter-malfurion",
+        "slug": "greatfather-winter-malfurion"
+      },
+      {
+        "name": "Druid of the Flame Malfurion",
+        "description": "Majordomo Stormrage felt the change instantly. Though only a small spark, it was enough to signify his incantations had finally broken through. When the Firelord arrived, the Nexus would burn.",
+        "id": "MalfurionFlame",
+        "analyticsName": "Malfurion | druid-of-the-flame-malfurion",
+        "slug": "druid-of-the-flame-malfurion"
+      },
+      {
+        "name": "Betrayer Malfurion",
+        "description": "Sargeras's whispers of power were impossible for the broken Malfurion to resist. She had called him \"Betrayer\"... Soon, they would all call him Master.",
+        "id": "MalfurionBetrayer",
+        "analyticsName": "Malfurion | betrayer-malfurion",
+        "slug": "betrayer-malfurion"
+      },
+      {
+        "name": "Storm Mantle Malfurion",
+        "description": "Although Broll Bearmantle had saved the Archdruid's life, it had cost him his own. Even now, Malfurion wears his armor to remind himself of the sacrifices that saved Hyjal.",
+        "id": "MalfurionStormrageRed",
+        "analyticsName": "Malfurion | storm-mantle-malfurion",
+        "slug": "storm-mantle-malfurion"
+      }
+    ],
+    "releaseDate": {
+      "year": 2014,
+      "month": 1,
+      "day": 1
+    },
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "malfurion",
+    "revealed": true,
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
+  }
+}

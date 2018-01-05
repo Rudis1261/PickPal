@@ -1,0 +1,306 @@
+{
+  "name": "Kael'thas",
+  "slug": "kaelthas",
+  "title": "The Sun King",
+  "description": "Assassin Slayers of Heroes and bringers of pain.",
+  "role": {
+    "name": "Assassin",
+    "slug": "assassin",
+    "description": "Assassin Slayers of Heroes and bringers of pain."
+  },
+  "type_of_hero": "Ranged",
+  "franchise": "Warcraft",
+  "difficulty": "Hard",
+  "live": true,
+  "poster_image": "http://media.blizzard.com/heroes/kaelthas/bust.jpg",
+  "stat": {
+    "damage": 9,
+    "utility": 5,
+    "survivability": 3,
+    "complexity": 7
+  },
+  "thumb": "http://media.blizzard.com/heroes/kaelthas/skins/thumbnails/the-sun-king.jpg",
+  "trait": {
+    "name": "Verdant Spheres",
+    "description": "Verdant Spheres",
+    "slug": "verdant-spheres",
+    "image": ""
+  },
+  "abilities": [
+    {
+      "name": "Flamestrike",
+      "description": "After 1 second, deal 320 damage in an area. Verdant Spheres increases the radius by 50%.",
+      "slug": "flamestrike",
+      "image": ""
+    },
+    {
+      "name": "Living Bomb",
+      "description": "Deal 120 damage over 3 seconds to an enemy, then they explode dealing 200 damage to all nearby enemies. Other Heroes damaged by this explosion are also affected by Living Bomb, though the secondary explosions cannot spread. Verdant Spheres makes this Ability cost no Mana and have no cooldown.",
+      "slug": "living-bomb",
+      "image": ""
+    },
+    {
+      "name": "Gravity Lapse",
+      "description": "Stun the first enemy hit for 1 second. Verdant Spheres causes Gravity Lapse to stun the first 3 enemies hit and increases the stun duration by 50%.",
+      "slug": "gravity-lapse",
+      "image": ""
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Phoenix",
+      "description": "Launch a Phoenix to an area, dealing 78 damage to enemies along the way. The Phoenix persists for 7 seconds, attacking enemies for 78 damage and splashing for 50%.",
+      "slug": "phoenix",
+      "image": ""
+    },
+    {
+      "name": "Pyroblast",
+      "description": "After 1.5 seconds, cast a slow-moving fireball that deals 810 damage to an enemy Hero and 405 damage to enemies nearby.",
+      "slug": "pyroblast",
+      "image": ""
+    }
+  ],
+  "original": {
+    "id": "Kaelthas",
+    "name": "Kael'thas",
+    "title": "The Sun King",
+    "description": "Like all Blood Elves, Prince Kael'thas was transformed by the fall of Quel'Thalas. Desperate to save his people from being consumed by their magical addiction, he joined forces with the Burning Legion and now lords over Tempest Keep.",
+    "shortDescription": "A fire Mage that punishes enemies that stay close together.",
+    "baseHeroInfo": {
+      "name": "Kael'thas",
+      "title": "The Sun King",
+      "description": "Like all Blood Elves, Prince Kael'thas was transformed by the fall of Quel'Thalas. Desperate to save his people from being consumed by their magical addiction, he joined forces with the Burning Legion and now lords over Tempest Keep.",
+      "shortDescription": "A fire Mage that punishes enemies that stay close together.",
+      "slug": "kaelthas",
+      "role": {
+        "name": "Assassin",
+        "slug": "assassin",
+        "description": "Assassin Slayers of Heroes and bringers of pain."
+      },
+      "skins": [
+
+      ],
+      "type": {
+        "name": "Ranged",
+        "slug": "ranged"
+      },
+      "trait": {
+        "name": "Verdant Spheres",
+        "description": "Activate to make Kael'thas's next Basic Ability more powerful.",
+        "id": "KaelthasVerdantSpheres",
+        "slug": "verdant-spheres"
+      },
+      "defaultMount": {
+        "name": "Horse",
+        "id": "HorseCommon"
+      },
+      "abilities": [
+        {
+          "name": "Flamestrike",
+          "description": "After 1 second, deal 320 damage in an area. Verdant Spheres increases the radius by 50%.",
+          "id": "KaelthasFlamestrike",
+          "video": "",
+          "slug": "flamestrike",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Living Bomb",
+          "description": "Deal 120 damage over 3 seconds to an enemy, then they explode dealing 200 damage to all nearby enemies. Other Heroes damaged by this explosion are also affected by Living Bomb, though the secondary explosions cannot spread. Verdant Spheres makes this Ability cost no Mana and have no cooldown.",
+          "id": "KaelthasLivingBomb",
+          "video": "",
+          "slug": "living-bomb",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Gravity Lapse",
+          "description": "Stun the first enemy hit for 1 second. Verdant Spheres causes Gravity Lapse to stun the first 3 enemies hit and increases the stun duration by 50%.",
+          "id": "KaelthasGravityLapse",
+          "video": "",
+          "slug": "gravity-lapse",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "heroicAbilities": [
+        {
+          "name": "Phoenix",
+          "description": "Launch a Phoenix to an area, dealing 78 damage to enemies along the way. The Phoenix persists for 7 seconds, attacking enemies for 78 damage and splashing for 50%.",
+          "id": "KaelthasPhoenix",
+          "video": "",
+          "slug": "phoenix",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Pyroblast",
+          "description": "After 1.5 seconds, cast a slow-moving fireball that deals 810 damage to an enemy Hero and 405 damage to enemies nearby.",
+          "id": "KaelthasPyroblast",
+          "video": "",
+          "slug": "pyroblast",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+    },
+    "roleSecondary": {
+    },
+    "type": {
+    },
+    "trait": {
+      "name": "Verdant Spheres",
+      "description": "Activate to make Kael'thas's next Basic Ability more powerful.",
+      "id": "KaelthasVerdantSpheres",
+      "slug": "verdant-spheres"
+    },
+    "abilities": [
+      {
+        "name": "Flamestrike",
+        "description": "After 1 second, deal 320 damage in an area. Verdant Spheres increases the radius by 50%.",
+        "id": "KaelthasFlamestrike",
+        "video": "",
+        "slug": "flamestrike",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Living Bomb",
+        "description": "Deal 120 damage over 3 seconds to an enemy, then they explode dealing 200 damage to all nearby enemies. Other Heroes damaged by this explosion are also affected by Living Bomb, though the secondary explosions cannot spread. Verdant Spheres makes this Ability cost no Mana and have no cooldown.",
+        "id": "KaelthasLivingBomb",
+        "video": "",
+        "slug": "living-bomb",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Gravity Lapse",
+        "description": "Stun the first enemy hit for 1 second. Verdant Spheres causes Gravity Lapse to stun the first 3 enemies hit and increases the stun duration by 50%.",
+        "id": "KaelthasGravityLapse",
+        "video": "",
+        "slug": "gravity-lapse",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "heroicAbilities": [
+      {
+        "name": "Phoenix",
+        "description": "Launch a Phoenix to an area, dealing 78 damage to enemies along the way. The Phoenix persists for 7 seconds, attacking enemies for 78 damage and splashing for 50%.",
+        "id": "KaelthasPhoenix",
+        "video": "",
+        "slug": "phoenix",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Pyroblast",
+        "description": "After 1.5 seconds, cast a slow-moving fireball that deals 810 damage to an enemy Hero and 405 damage to enemies nearby.",
+        "id": "KaelthasPyroblast",
+        "video": "",
+        "slug": "pyroblast",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "defaultMount": {
+      "name": "Horse",
+      "id": "HorseCommon"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "otherAbilities": [
+
+    ],
+    "slug": "kaelthas",
+    "franchise": "Warcraft",
+    "stanceSlug": "",
+    "difficulty": "Hard",
+    "stats": {
+      "damage": 9,
+      "utility": 5,
+      "survivability": 3,
+      "complexity": 7
+    },
+    "skins": [
+      {
+        "name": "The Sun King",
+        "description": "Like all Blood Elves, Prince Kael'thas was transformed by the fall of Quel'Thalas. Desperate to save his people from being consumed by their magical addiction, he joined forces with the Burning Legion and now lords over Tempest Keep.",
+        "id": "KaelthasCommon",
+        "analyticsName": "Kael'thas | the-sun-king",
+        "slug": "the-sun-king"
+      },
+      {
+        "name": "Sovereign Kael'thas",
+        "description": "Only the finest of robes and armor may adorn the Sun King. His majesty and brilliance must shine forth like the sun itself.",
+        "id": "KaelthasUltimate",
+        "analyticsName": "Kael'thas | sovereign-kaelthas",
+        "slug": "sovereign-kaelthas"
+      },
+      {
+        "name": "Cyberhawk Kael'thas",
+        "description": "Sunstrider Industries CEO Mikael Thoss uses his company's vast wealth and cutting-edge technology to protect the innocent as Cyberhawk, the Avian Avenger!",
+        "id": "KaelthasSuper",
+        "analyticsName": "Kael'thas | cyberhawk-kaelthas",
+        "slug": "cyberhawk-kaelthas"
+      },
+      {
+        "name": "Stormbot Kael'thas",
+        "description": "Originally constructed to be a magician’s assistant, Kael’thas’s preprogrammed aptitude for sorcery soon catapulted him past the expertise of his own creators.",
+        "id": "KaelthasRobot",
+        "analyticsName": "Kael'thas | stormbot-kaelthas",
+        "slug": "stormbot-kaelthas"
+      },
+      {
+        "name": "StormPunk Kael'thas",
+        "description": "On some worlds, technology and magic are not so different. Those who master both, like Lord Kael'thas, can create both wonders and terrors beyond your imagination.",
+        "id": "StormPunkKaelthas",
+        "analyticsName": "Kael'thas | stormpunk-kaelthas",
+        "slug": "stormpunk-kaelthas"
+      }
+    ],
+    "releaseDate": {
+      "year": 2015,
+      "month": 5,
+      "day": 12
+    },
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "kaelthas",
+    "revealed": true,
+    "video": "EkmgRlDEVRA",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
+  }
+}

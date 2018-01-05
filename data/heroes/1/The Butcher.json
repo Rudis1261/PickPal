@@ -1,0 +1,299 @@
+{
+  "name": "The Butcher",
+  "slug": "the-butcher",
+  "title": "Flesh Carver",
+  "description": "Assassin Slayers of Heroes and bringers of pain.",
+  "role": {
+    "name": "Assassin",
+    "slug": "assassin",
+    "description": "Assassin Slayers of Heroes and bringers of pain."
+  },
+  "type_of_hero": "Melee",
+  "franchise": "Diablo",
+  "difficulty": "Medium",
+  "live": true,
+  "poster_image": "http://media.blizzard.com/heroes/the-butcher/bust.jpg",
+  "stat": {
+    "damage": 9,
+    "utility": 4,
+    "survivability": 5,
+    "complexity": 3
+  },
+  "thumb": "http://media.blizzard.com/heroes/the-butcher/skins/thumbnails/flesh-carver.jpg",
+  "trait": {
+    "name": "Fresh Meat",
+    "description": "Fresh Meat",
+    "slug": "fresh-meat",
+    "image": ""
+  },
+  "abilities": [
+    {
+      "name": "Hamstring",
+      "description": "Deal 110 damage and slow enemies by 50% fading over 2 seconds. The Butcher's next Basic Attack will strike immediately.",
+      "slug": "hamstring",
+      "image": ""
+    },
+    {
+      "name": "Butcher's Brand",
+      "description": "Deal 37 damage to an enemy and Brand them for 4 seconds. The Butcher's Basic Attacks against the Branded target heal him for 75% of the damage done. Basic Attacks against Branded Heroes heal for double and extend the duration of the Brand by 0.5 seconds.",
+      "slug": "butchers-brand",
+      "image": ""
+    },
+    {
+      "name": "Ruthless Onslaught",
+      "description": "Charge at an enemy, becoming Unstoppable and gaining Movement Speed. If The Butcher reaches the target, they are stunned for 1 second and take 119 damage.",
+      "slug": "ruthless-onslaught",
+      "image": ""
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Lamb to the Slaughter",
+      "description": "Throw a hitching post that attaches to the nearest enemy Hero after a 1 second delay. This deals 171 damage and causes the enemy to be chained to the post and Silenced for 3 seconds.",
+      "slug": "lamb-to-the-slaughter",
+      "image": ""
+    },
+    {
+      "name": "Furnace Blast",
+      "description": "After a 3 second delay, fire explodes around The Butcher dealing 500 damage to enemies. Can be cast while using Ruthless Onslaught.",
+      "slug": "furnace-blast",
+      "image": ""
+    }
+  ],
+  "original": {
+    "id": "Butcher",
+    "name": "The Butcher",
+    "title": "Flesh Carver",
+    "description": "An unrelenting hacking echoed off the walls of the Cathedral and as Prince Aidan made his way through its depths, the sound only grew louder. There were no screams; just that dreadful sound... over and over.",
+    "shortDescription": "An Assassin who starts slow, but deals extreme damage after collecting enough Meat.",
+    "baseHeroInfo": {
+      "name": "The Butcher",
+      "title": "Flesh Carver",
+      "description": "An unrelenting hacking echoed off the walls of the Cathedral and as Prince Aidan made his way through its depths, the sound only grew louder. There were no screams; just that dreadful sound... over and over.",
+      "shortDescription": "An Assassin who starts slow, but deals extreme damage after collecting enough Meat.",
+      "slug": "the-butcher",
+      "role": {
+        "name": "Assassin",
+        "slug": "assassin",
+        "description": "Assassin Slayers of Heroes and bringers of pain."
+      },
+      "skins": [
+
+      ],
+      "type": {
+        "name": "Melee",
+        "slug": "melee"
+      },
+      "trait": {
+        "name": "Fresh Meat",
+        "description": "Upon dying, nearby enemy Minions drop 1 Fresh Meat and enemy Heroes drop 20 Fresh Meat. Fresh Meat can be picked up to gain 0.5 Attack Damage per Meat. The Butcher loses 15 Fresh Meat upon dying. Quest: Collect 200 Fresh Meat. Reward: Gain an additional 125 Attack Damage and 25% increased Attack Speed. Heroes continue to drop 10 Fresh Meat, Minions no longer drop Fresh Meat, and Fresh Meat is no longer lost on death.",
+        "id": "ButcherFreshMeat",
+        "slug": "fresh-meat"
+      },
+      "defaultMount": {
+        "name": "Battle Beast",
+        "id": "BattleBeast"
+      },
+      "abilities": [
+        {
+          "name": "Hamstring",
+          "description": "Deal 110 damage and slow enemies by 50% fading over 2 seconds. The Butcher's next Basic Attack will strike immediately.",
+          "id": "ButcherHamstring",
+          "video": "",
+          "slug": "hamstring",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Butcher's Brand",
+          "description": "Deal 37 damage to an enemy and Brand them for 4 seconds. The Butcher's Basic Attacks against the Branded target heal him for 75% of the damage done. Basic Attacks against Branded Heroes heal for double and extend the duration of the Brand by 0.5 seconds.",
+          "id": "ButcherButchersBrand",
+          "video": "",
+          "slug": "butchers-brand",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Ruthless Onslaught",
+          "description": "Charge at an enemy, becoming Unstoppable and gaining Movement Speed. If The Butcher reaches the target, they are stunned for 1 second and take 119 damage.",
+          "id": "ButcherRuthlessOnslaught",
+          "video": "",
+          "slug": "ruthless-onslaught",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "heroicAbilities": [
+        {
+          "name": "Lamb to the Slaughter",
+          "description": "Throw a hitching post that attaches to the nearest enemy Hero after a 1 second delay. This deals 171 damage and causes the enemy to be chained to the post and Silenced for 3 seconds.",
+          "id": "ButcherLambToTheSlaughter",
+          "video": "",
+          "slug": "lamb-to-the-slaughter",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Furnace Blast",
+          "description": "After a 3 second delay, fire explodes around The Butcher dealing 500 damage to enemies. Can be cast while using Ruthless Onslaught.",
+          "id": "ButcherFurnaceBlast",
+          "video": "",
+          "slug": "furnace-blast",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+    },
+    "roleSecondary": {
+    },
+    "type": {
+    },
+    "trait": {
+      "name": "Fresh Meat",
+      "description": "Upon dying, nearby enemy Minions drop 1 Fresh Meat and enemy Heroes drop 20 Fresh Meat. Fresh Meat can be picked up to gain 0.5 Attack Damage per Meat. The Butcher loses 15 Fresh Meat upon dying. Quest: Collect 200 Fresh Meat. Reward: Gain an additional 125 Attack Damage and 25% increased Attack Speed. Heroes continue to drop 10 Fresh Meat, Minions no longer drop Fresh Meat, and Fresh Meat is no longer lost on death.",
+      "id": "ButcherFreshMeat",
+      "slug": "fresh-meat"
+    },
+    "abilities": [
+      {
+        "name": "Hamstring",
+        "description": "Deal 110 damage and slow enemies by 50% fading over 2 seconds. The Butcher's next Basic Attack will strike immediately.",
+        "id": "ButcherHamstring",
+        "video": "",
+        "slug": "hamstring",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Butcher's Brand",
+        "description": "Deal 37 damage to an enemy and Brand them for 4 seconds. The Butcher's Basic Attacks against the Branded target heal him for 75% of the damage done. Basic Attacks against Branded Heroes heal for double and extend the duration of the Brand by 0.5 seconds.",
+        "id": "ButcherButchersBrand",
+        "video": "",
+        "slug": "butchers-brand",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Ruthless Onslaught",
+        "description": "Charge at an enemy, becoming Unstoppable and gaining Movement Speed. If The Butcher reaches the target, they are stunned for 1 second and take 119 damage.",
+        "id": "ButcherRuthlessOnslaught",
+        "video": "",
+        "slug": "ruthless-onslaught",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "heroicAbilities": [
+      {
+        "name": "Lamb to the Slaughter",
+        "description": "Throw a hitching post that attaches to the nearest enemy Hero after a 1 second delay. This deals 171 damage and causes the enemy to be chained to the post and Silenced for 3 seconds.",
+        "id": "ButcherLambToTheSlaughter",
+        "video": "",
+        "slug": "lamb-to-the-slaughter",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Furnace Blast",
+        "description": "After a 3 second delay, fire explodes around The Butcher dealing 500 damage to enemies. Can be cast while using Ruthless Onslaught.",
+        "id": "ButcherFurnaceBlast",
+        "video": "",
+        "slug": "furnace-blast",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "defaultMount": {
+      "name": "Battle Beast",
+      "id": "BattleBeast"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "otherAbilities": [
+
+    ],
+    "slug": "the-butcher",
+    "franchise": "Diablo",
+    "stanceSlug": "",
+    "difficulty": "Medium",
+    "stats": {
+      "damage": 9,
+      "utility": 4,
+      "survivability": 5,
+      "complexity": 3
+    },
+    "skins": [
+      {
+        "name": "Flesh Carver",
+        "description": "An unrelenting hacking echoed off the walls of the Cathedral and as Prince Aidan made his way through its depths, the sound only grew louder. There were no screams; just that dreadful sound... over and over.",
+        "id": "ButcherCommon",
+        "analyticsName": "The Butcher | flesh-carver",
+        "slug": "flesh-carver"
+      },
+      {
+        "name": "Executioner Butcher",
+        "description": "An executioner's hood hides their identity and discourages offended parties from seeking revenge. Of course, that won't be a problem for the Butcher. ",
+        "id": "ButcherUltimate",
+        "analyticsName": "The Butcher | executioner-butcher",
+        "slug": "executioner-butcher"
+      },
+      {
+        "name": "The Butcherlisk",
+        "description": "Abathur's newest creation was inspired by the tenacity of the hellish abominations he encountered in the Nexus. Its instructions were simple: Acquire fresh essence. Evolve.",
+        "id": "ButcherButcherlisk",
+        "analyticsName": "The Butcher | the-butcherlisk",
+        "slug": "the-butcherlisk"
+      },
+      {
+        "name": "Iron Butcher",
+        "description": "There are many Butchers within the Burning Hells, but only those who serve Duriel, the Lord of Pain, bolt plates of burning iron to their flesh.",
+        "id": "ButcherIron",
+        "analyticsName": "The Butcher | iron-butcher",
+        "slug": "iron-butcher"
+      }
+    ],
+    "releaseDate": {
+      "year": 2015,
+      "month": 6,
+      "day": 30
+    },
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "the-butcher",
+    "revealed": true,
+    "video": "neCJljdxuPk",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
+  }
+}

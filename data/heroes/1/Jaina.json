@@ -1,0 +1,324 @@
+{
+  "name": "Jaina",
+  "slug": "jaina",
+  "title": "Archmage",
+  "description": "Assassin Slayers of Heroes and bringers of pain.",
+  "role": {
+    "name": "Assassin",
+    "slug": "assassin",
+    "description": "Assassin Slayers of Heroes and bringers of pain."
+  },
+  "type_of_hero": "Ranged",
+  "franchise": "Warcraft",
+  "difficulty": "Easy",
+  "live": true,
+  "poster_image": "http://media.blizzard.com/heroes/jaina/bust.jpg",
+  "stat": {
+    "damage": 10,
+    "utility": 4,
+    "survivability": 2,
+    "complexity": 4
+  },
+  "thumb": "http://media.blizzard.com/heroes/jaina/skins/thumbnails/archmage.jpg",
+  "trait": {
+    "name": "Frostbite",
+    "description": "Frostbite",
+    "slug": "frostbite",
+    "image": ""
+  },
+  "abilities": [
+    {
+      "name": "Frostbolt",
+      "description": "Deal 190 damage and Chill the target.",
+      "slug": "frostbolt",
+      "image": ""
+    },
+    {
+      "name": "Blizzard",
+      "description": "Bombard an area with 3 waves of ice, dealing 142 damage each. Damaged enemies are Chilled.",
+      "slug": "blizzard",
+      "image": ""
+    },
+    {
+      "name": "Cone of Cold",
+      "description": "Deal 230 damage and Chill targets.",
+      "slug": "cone-of-cold",
+      "image": ""
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Ring of Frost",
+      "description": "After a 1.5 second delay, create a Ring of Frost in an area that deals 310 damage and Roots enemies for 3 seconds. The ring persists for 3 seconds afterward, Chilling any enemies who touch it.",
+      "slug": "ring-of-frost",
+      "image": ""
+    },
+    {
+      "name": "Summon Water Elemental",
+      "description": "Summon a Water Elemental at target location. The Water Elemental's Basic Attacks deal 78 damage, splash for 25% damage and Chill. The Ability can be reactivated to retarget the Water Elemental. Lasts 20 seconds.",
+      "slug": "summon-water-elemental",
+      "image": ""
+    }
+  ],
+  "original": {
+    "id": "Jaina",
+    "name": "Jaina",
+    "title": "Archmage",
+    "description": "Once the apprentice of the Archmage Antonidas, Jaina Proudmoore led the survivors of Lordaeron to Kalimdor and founded the city of Theramore. Now, she serves the Alliance as a powerful voice fighting for reason and diplomacy.",
+    "shortDescription": "A frost Mage that can slow the entire enemy team.",
+    "baseHeroInfo": {
+      "name": "Jaina",
+      "title": "Archmage",
+      "description": "Once the apprentice of the Archmage Antonidas, Jaina Proudmoore led the survivors of Lordaeron to Kalimdor and founded the city of Theramore. Now, she serves the Alliance as a powerful voice fighting for reason and diplomacy.",
+      "shortDescription": "A frost Mage that can slow the entire enemy team.",
+      "slug": "jaina",
+      "role": {
+        "name": "Assassin",
+        "slug": "assassin",
+        "description": "Assassin Slayers of Heroes and bringers of pain."
+      },
+      "skins": [
+
+      ],
+      "type": {
+        "name": "Ranged",
+        "slug": "ranged"
+      },
+      "trait": {
+        "name": "Frostbite",
+        "description": "Jaina's Abilities Chill targets, Slowing them by 25% and amplifying damage taken from her Abilities by 50%. Lasts 4 seconds. Quest: Deal 15,000 Ability damage to Chilled Heroes. Reward: Unlock the Improved Ice Block Ability, allowing Jaina to become temporarily Invulnerable.",
+        "id": "JainaTraitFrostbite",
+        "slug": "frostbite"
+      },
+      "defaultMount": {
+        "name": "Horse",
+        "id": "HorseCommon"
+      },
+      "abilities": [
+        {
+          "name": "Frostbolt",
+          "description": "Deal 190 damage and Chill the target.",
+          "id": "JainaFrostbolt",
+          "video": "",
+          "slug": "frostbolt",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Blizzard",
+          "description": "Bombard an area with 3 waves of ice, dealing 142 damage each. Damaged enemies are Chilled.",
+          "id": "JainaBlizzard",
+          "video": "",
+          "slug": "blizzard",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Cone of Cold",
+          "description": "Deal 230 damage and Chill targets.",
+          "id": "JainaConeOfCold",
+          "video": "",
+          "slug": "cone-of-cold",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "heroicAbilities": [
+        {
+          "name": "Ring of Frost",
+          "description": "After a 1.5 second delay, create a Ring of Frost in an area that deals 310 damage and Roots enemies for 3 seconds. The ring persists for 3 seconds afterward, Chilling any enemies who touch it.",
+          "id": "JainaRingOfFrost",
+          "video": "",
+          "slug": "ring-of-frost",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Summon Water Elemental",
+          "description": "Summon a Water Elemental at target location. The Water Elemental's Basic Attacks deal 78 damage, splash for 25% damage and Chill. The Ability can be reactivated to retarget the Water Elemental. Lasts 20 seconds.",
+          "id": "JainaSummonWaterElemental",
+          "video": "",
+          "slug": "summon-water-elemental",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+        {
+          "name": "Ice Blink",
+          "description": "Activate to teleport a short distance and Chill all nearby enemies.",
+          "id": "JainaFrigidTransmission",
+          "video": "",
+          "slug": "ice-blink",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+    },
+    "roleSecondary": {
+    },
+    "type": {
+    },
+    "trait": {
+      "name": "Frostbite",
+      "description": "Jaina's Abilities Chill targets, Slowing them by 25% and amplifying damage taken from her Abilities by 50%. Lasts 4 seconds. Quest: Deal 15,000 Ability damage to Chilled Heroes. Reward: Unlock the Improved Ice Block Ability, allowing Jaina to become temporarily Invulnerable.",
+      "id": "JainaTraitFrostbite",
+      "slug": "frostbite"
+    },
+    "abilities": [
+      {
+        "name": "Frostbolt",
+        "description": "Deal 190 damage and Chill the target.",
+        "id": "JainaFrostbolt",
+        "video": "",
+        "slug": "frostbolt",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Blizzard",
+        "description": "Bombard an area with 3 waves of ice, dealing 142 damage each. Damaged enemies are Chilled.",
+        "id": "JainaBlizzard",
+        "video": "",
+        "slug": "blizzard",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Cone of Cold",
+        "description": "Deal 230 damage and Chill targets.",
+        "id": "JainaConeOfCold",
+        "video": "",
+        "slug": "cone-of-cold",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "heroicAbilities": [
+      {
+        "name": "Ring of Frost",
+        "description": "After a 1.5 second delay, create a Ring of Frost in an area that deals 310 damage and Roots enemies for 3 seconds. The ring persists for 3 seconds afterward, Chilling any enemies who touch it.",
+        "id": "JainaRingOfFrost",
+        "video": "",
+        "slug": "ring-of-frost",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Summon Water Elemental",
+        "description": "Summon a Water Elemental at target location. The Water Elemental's Basic Attacks deal 78 damage, splash for 25% damage and Chill. The Ability can be reactivated to retarget the Water Elemental. Lasts 20 seconds.",
+        "id": "JainaSummonWaterElemental",
+        "video": "",
+        "slug": "summon-water-elemental",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "defaultMount": {
+      "name": "Horse",
+      "id": "HorseCommon"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "otherAbilities": [
+      {
+        "name": "Ice Blink",
+        "description": "Activate to teleport a short distance and Chill all nearby enemies.",
+        "id": "JainaFrigidTransmission",
+        "video": "",
+        "slug": "ice-blink",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "slug": "jaina",
+    "franchise": "Warcraft",
+    "stanceSlug": "",
+    "difficulty": "Easy",
+    "stats": {
+      "damage": 10,
+      "utility": 4,
+      "survivability": 2,
+      "complexity": 4
+    },
+    "skins": [
+      {
+        "name": "Archmage",
+        "description": "Once the apprentice of the Archmage Antonidas, Jaina Proudmoore led the survivors of Lordaeron to Kalimdor and founded the city of Theramore. Now, she serves the Alliance as a powerful voice fighting for reason and diplomacy.",
+        "id": "JainaCommon",
+        "analyticsName": "Jaina | archmage",
+        "slug": "archmage"
+      },
+      {
+        "name": "Arcanist Jaina",
+        "description": "First worn by the great champions who ventured into the Molten Core to defeat Ragnaros, the Arcanist Regalia has become a symbol of mages who have mastered the Arcane.",
+        "id": "JainaUltimate",
+        "analyticsName": "Jaina | arcanist-jaina",
+        "slug": "arcanist-jaina"
+      },
+      {
+        "name": "Lunar Jaina",
+        "description": "In recent years, all of Azeroth has celebrated the yearly Lunar Festival in honor of their elders. Jaina is no exception. In times when the future is uncertain, it's important to honor the past.",
+        "id": "LunarJaina",
+        "analyticsName": "Jaina | lunar-jaina",
+        "slug": "lunar-jaina"
+      },
+      {
+        "name": "Tempest Regalia Jaina",
+        "description": "The Tempest Regalia's origins have been lost to time, but rumor has it Tydormu of the Bronze Dragonflight may impart its secrets... for the right price.",
+        "id": "JainaTempest",
+        "analyticsName": "Jaina | tempest-regalia-jaina",
+        "slug": "tempest-regalia-jaina"
+      },
+      {
+        "name": "Winter Veil Jaina",
+        "description": "The weather outside is frightful. Although, to be fair, Jaina has been casting Blizzard a LOT out there.",
+        "id": "JainaClaus",
+        "analyticsName": "Jaina | winter-veil-jaina",
+        "slug": "winter-veil-jaina"
+      }
+    ],
+    "releaseDate": {
+      "year": 2014,
+      "month": 12,
+      "day": 2
+    },
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "jaina",
+    "revealed": true,
+    "video": "kApNBrmH-vU",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
+  }
+}

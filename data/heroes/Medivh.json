@@ -1,0 +1,346 @@
+{
+  "name": "Medivh",
+  "slug": "medivh",
+  "title": "The Last Guardian",
+  "description": "Specialist Rule breakers and masters of unconventional warfare.",
+  "role": {
+    "name": "Specialist",
+    "slug": "specialist",
+    "description": "Specialist Rule breakers and masters of unconventional warfare."
+  },
+  "type_of_hero": "Ranged",
+  "franchise": "Warcraft",
+  "difficulty": "Very Hard",
+  "live": true,
+  "poster_image": "http://localhost:3000/images/medivh/bust.jpg",
+  "stat": {
+    "damage": 2,
+    "utility": 10,
+    "survivability": 6,
+    "complexity": 8
+  },
+  "thumb": "http://localhost:3000/images/medivh/the-last-guardian.jpg",
+  "trait": {
+    "name": "Raven Form",
+    "description": "Raven Form",
+    "slug": "raven-form",
+    "image": ""
+  },
+  "abilities": [
+    {
+      "name": "Arcane Rift",
+      "description": "Launch a rift that deals 200 damage to enemies in its path. If an enemy Hero is hit, reduce its cooldown by 5 seconds and refund 50 Mana.",
+      "slug": "arcane-rift",
+      "image": ""
+    },
+    {
+      "name": "Force of Will",
+      "description": "Protect an allied Hero from all damage for 1.5 seconds.",
+      "slug": "force-of-will",
+      "image": ""
+    },
+    {
+      "name": "Portal",
+      "description": "Create a set of portals between Medivh and the target location, allowing allies to teleport between both. The portals last 6 seconds.",
+      "slug": "portal",
+      "image": ""
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Poly Bomb",
+      "description": "Polymorph an enemy Hero for 2 seconds, Silencing them and making them unable to attack. On expiration, Poly Bomb spreads to other nearby enemy Heroes.",
+      "slug": "poly-bomb",
+      "image": ""
+    },
+    {
+      "name": "Ley Line Seal",
+      "description": "After 0.5 seconds, unleash a wave of energy that places enemy Heroes in Time Stop for 3 seconds.",
+      "slug": "ley-line-seal",
+      "image": ""
+    }
+  ],
+  "original": {
+    "id": "Medivh",
+    "name": "Medivh",
+    "title": "The Last Guardian",
+    "description": "Under the demon lord Sargeras's influence, Medivh opened the Dark Portal and unleashed the Horde upon Azeroth. To atone for this sin, he rallied a new generation of heroes to stand against the Burning Legion. Now, he takes his place amongst legends.",
+    "shortDescription": "A Support who can negate burst damage and allow his allies to teleport.",
+    "baseHeroInfo": {
+      "name": "Medivh",
+      "title": "The Last Guardian",
+      "description": "Under the demon lord Sargeras's influence, Medivh opened the Dark Portal and unleashed the Horde upon Azeroth. To atone for this sin, he rallied a new generation of heroes to stand against the Burning Legion. Now, he takes his place amongst legends.",
+      "shortDescription": "A Support who can negate burst damage and allow his allies to teleport.",
+      "slug": "medivh",
+      "role": {
+        "name": "Specialist",
+        "slug": "specialist",
+        "description": "Specialist Rule breakers and masters of unconventional warfare."
+      },
+      "skins": [
+
+      ],
+      "type": {
+        "name": "Ranged",
+        "slug": "ranged"
+      },
+      "trait": {
+        "name": "Raven Form",
+        "description": "Instead of mounting, Medivh can transform into a raven, increasing Movement Speed by 20%. While transformed, Medivh can see and fly over all terrain and is immune to all effects.",
+        "id": "MedivhRavenForm",
+        "slug": "raven-form"
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+        {
+          "name": "Arcane Rift",
+          "description": "Launch a rift that deals 200 damage to enemies in its path. If an enemy Hero is hit, reduce its cooldown by 5 seconds and refund 50 Mana.",
+          "id": "MedivhArcaneRift",
+          "video": "",
+          "slug": "arcane-rift",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Force of Will",
+          "description": "Protect an allied Hero from all damage for 1.5 seconds.",
+          "id": "MedivhForceOfWill",
+          "video": "",
+          "slug": "force-of-will",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Portal",
+          "description": "Create a set of portals between Medivh and the target location, allowing allies to teleport between both. The portals last 6 seconds.",
+          "id": "MedivhPortal",
+          "video": "",
+          "slug": "portal",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "heroicAbilities": [
+        {
+          "name": "Poly Bomb",
+          "description": "Polymorph an enemy Hero for 2 seconds, Silencing them and making them unable to attack. On expiration, Poly Bomb spreads to other nearby enemy Heroes.",
+          "id": "MedivhPolyBomb",
+          "video": "",
+          "slug": "poly-bomb",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Ley Line Seal",
+          "description": "After 0.5 seconds, unleash a wave of energy that places enemy Heroes in Time Stop for 3 seconds.",
+          "id": "MedivhLeyLineSeal",
+          "video": "",
+          "slug": "ley-line-seal",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+        {
+          "name": "Portal",
+          "description": "Create a set of portals between Medivh and the target location, allowing allies to teleport between both. The portals last 6 seconds.",
+          "id": "MedivhPortal",
+          "video": "",
+          "slug": "portal",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Portal",
+          "description": "Create a set of portals between Medivh and the target location, allowing allies to teleport between both. The portals last 6 seconds.",
+          "id": "MedivhPortal",
+          "video": "",
+          "slug": "portal",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Raven Form",
+          "description": "Transform into a raven, increasing Movement Speed by 20%. While transformed, Medivh can see and fly over terrain and is immune to all effects.",
+          "id": "MedivhTransformRaven",
+          "video": "",
+          "slug": "raven-form",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+    },
+    "roleSecondary": {
+    },
+    "type": {
+    },
+    "trait": {
+      "name": "Raven Form",
+      "description": "Instead of mounting, Medivh can transform into a raven, increasing Movement Speed by 20%. While transformed, Medivh can see and fly over all terrain and is immune to all effects.",
+      "id": "MedivhRavenForm",
+      "slug": "raven-form"
+    },
+    "abilities": [
+      {
+        "name": "Arcane Rift",
+        "description": "Launch a rift that deals 200 damage to enemies in its path. If an enemy Hero is hit, reduce its cooldown by 5 seconds and refund 50 Mana.",
+        "id": "MedivhArcaneRift",
+        "video": "",
+        "slug": "arcane-rift",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Force of Will",
+        "description": "Protect an allied Hero from all damage for 1.5 seconds.",
+        "id": "MedivhForceOfWill",
+        "video": "",
+        "slug": "force-of-will",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Portal",
+        "description": "Create a set of portals between Medivh and the target location, allowing allies to teleport between both. The portals last 6 seconds.",
+        "id": "MedivhPortal",
+        "video": "",
+        "slug": "portal",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "heroicAbilities": [
+      {
+        "name": "Poly Bomb",
+        "description": "Polymorph an enemy Hero for 2 seconds, Silencing them and making them unable to attack. On expiration, Poly Bomb spreads to other nearby enemy Heroes.",
+        "id": "MedivhPolyBomb",
+        "video": "",
+        "slug": "poly-bomb",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Ley Line Seal",
+        "description": "After 0.5 seconds, unleash a wave of energy that places enemy Heroes in Time Stop for 3 seconds.",
+        "id": "MedivhLeyLineSeal",
+        "video": "",
+        "slug": "ley-line-seal",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "defaultMount": {
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "otherAbilities": [
+      {
+        "name": "Portal",
+        "description": "Create a set of portals between Medivh and the target location, allowing allies to teleport between both. The portals last 6 seconds.",
+        "id": "MedivhPortal",
+        "video": "",
+        "slug": "portal",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Portal",
+        "description": "Create a set of portals between Medivh and the target location, allowing allies to teleport between both. The portals last 6 seconds.",
+        "id": "MedivhPortal",
+        "video": "",
+        "slug": "portal",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Raven Form",
+        "description": "Transform into a raven, increasing Movement Speed by 20%. While transformed, Medivh can see and fly over terrain and is immune to all effects.",
+        "id": "MedivhTransformRaven",
+        "video": "",
+        "slug": "raven-form",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "slug": "medivh",
+    "franchise": "Warcraft",
+    "stanceSlug": "",
+    "difficulty": "Very Hard",
+    "stats": {
+      "damage": 2,
+      "utility": 10,
+      "survivability": 6,
+      "complexity": 8
+    },
+    "skins": [
+      {
+        "name": "The Last Guardian",
+        "description": "Under the demon lord Sargeras's influence, Medivh opened the Dark Portal and unleashed the Horde upon Azeroth. To atone for this sin, he rallied a new generation of heroes to stand against the Burning Legion. Now, he takes his place amongst legends.",
+        "id": "MedivhBaseCommon",
+        "analyticsName": "Medivh | the-last-guardian",
+        "slug": "the-last-guardian"
+      },
+      {
+        "name": "Magus Medivh",
+        "description": "For ages, Atiesh has been passed down from one Guardian of Tirisfal to the next. Medivh has attuned himself to Atiesh like none before him, and the line between Greatstaff and Guardian has begun to blur.",
+        "id": "MedivhUltimate",
+        "analyticsName": "Medivh | magus-medivh",
+        "slug": "magus-medivh"
+      },
+      {
+        "name": "Knight Owl Medivh",
+        "description": "The Prophets of Kharazania forsaw the Eternal Empire's invasion, but their warning came too late. Medivh, the last Knight Owl, has sworn to prevent the Earth from suffering a similar fate.",
+        "id": "MedivhKnightOwl",
+        "analyticsName": "Medivh | knight-owl-medivh",
+        "slug": "knight-owl-medivh"
+      }
+    ],
+    "releaseDate": {
+      "year": 2016,
+      "month": 6,
+      "day": 14
+    },
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "medivh",
+    "revealed": true,
+    "video": "eDIHAJnrG3M",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
+  }
+}

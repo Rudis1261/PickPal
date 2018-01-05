@@ -1,0 +1,320 @@
+{
+  "name": "Lunara",
+  "slug": "lunara",
+  "title": "First Daughter of Cenarius",
+  "description": "Assassin Slayers of Heroes and bringers of pain.",
+  "role": {
+    "name": "Assassin",
+    "slug": "assassin",
+    "description": "Assassin Slayers of Heroes and bringers of pain."
+  },
+  "type_of_hero": "Ranged",
+  "franchise": "Warcraft",
+  "difficulty": "Medium",
+  "live": true,
+  "poster_image": "http://media.blizzard.com/heroes/lunara/bust.jpg",
+  "stat": {
+    "damage": 8,
+    "utility": 5,
+    "survivability": 4,
+    "complexity": 5
+  },
+  "thumb": "http://media.blizzard.com/heroes/lunara/skins/thumbnails/first-daughter-of-cenarius.jpg",
+  "trait": {
+    "name": "Nature's Toxin",
+    "description": "Nature's Toxin",
+    "slug": "natures-toxin",
+    "image": ""
+  },
+  "abilities": [
+    {
+      "name": "Noxious Blossom",
+      "description": "After 0.5 seconds, cause an area to explode with pollen dealing 160 damage.",
+      "slug": "noxious-blossom",
+      "image": ""
+    },
+    {
+      "name": "Crippling Spores",
+      "description": "Enemies currently afflicted by Nature's Toxin have its duration increased by 3 seconds and are slowed by 40% decaying over 3 seconds. ",
+      "slug": "crippling-spores",
+      "image": ""
+    },
+    {
+      "name": "Wisp",
+      "description": "Spawn a Wisp to scout an area. Can be redirected once active. Lasts 45 seconds.",
+      "slug": "wisp",
+      "image": ""
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Thornwood Vine",
+      "description": "Send forth vines that deal 164 damage to all enemies in a line. Stores up to 3 charges.",
+      "slug": "thornwood-vine",
+      "image": ""
+    },
+    {
+      "name": "Leaping Strike",
+      "description": "Leap over an enemy, slowing them by 80% for 0.35 seconds and dealing 271 damage. Stores up to 2 charges.",
+      "slug": "leaping-strike",
+      "image": ""
+    }
+  ],
+  "original": {
+    "id": "Dryad",
+    "name": "Lunara",
+    "title": "First Daughter of Cenarius",
+    "description": "While her younger sisters frolicked in idyllic forests, Lunara watched as mortals exploited nature’s splendor. On Azeroth, her father Cenarius forbade her from retaliating. But this is the Nexus, and it’s time for nature to take its revenge.",
+    "shortDescription": "A sustained Assassin who can wear down her enemies from afar with her poison.",
+    "baseHeroInfo": {
+      "name": "Lunara",
+      "title": "First Daughter of Cenarius",
+      "description": "While her younger sisters frolicked in idyllic forests, Lunara watched as mortals exploited nature’s splendor. On Azeroth, her father Cenarius forbade her from retaliating. But this is the Nexus, and it’s time for nature to take its revenge.",
+      "shortDescription": "A sustained Assassin who can wear down her enemies from afar with her poison.",
+      "slug": "lunara",
+      "role": {
+        "name": "Assassin",
+        "slug": "assassin",
+        "description": "Assassin Slayers of Heroes and bringers of pain."
+      },
+      "skins": [
+
+      ],
+      "type": {
+        "name": "Ranged",
+        "slug": "ranged"
+      },
+      "trait": {
+        "name": "Nature's Toxin",
+        "description": "Lunara's Basic Attacks and damaging Abilities poison their target, dealing 34 damage a second for 3 seconds. Every additional application increases the duration by 3 seconds, up to a maximum of 9 seconds.",
+        "id": "DryadNaturesToxin",
+        "slug": "natures-toxin"
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+        {
+          "name": "Noxious Blossom",
+          "description": "After 0.5 seconds, cause an area to explode with pollen dealing 160 damage.",
+          "id": "DryadNoxiousBlossom",
+          "video": "",
+          "slug": "noxious-blossom",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Crippling Spores",
+          "description": "Enemies currently afflicted by Nature's Toxin have its duration increased by 3 seconds and are slowed by 40% decaying over 3 seconds. ",
+          "id": "DryadCripplingSpores",
+          "video": "",
+          "slug": "crippling-spores",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Wisp",
+          "description": "Spawn a Wisp to scout an area. Can be redirected once active. Lasts 45 seconds.",
+          "id": "DryadWisp",
+          "video": "",
+          "slug": "wisp",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "heroicAbilities": [
+        {
+          "name": "Thornwood Vine",
+          "description": "Send forth vines that deal 164 damage to all enemies in a line. Stores up to 3 charges.",
+          "id": "DryadThornwoodVine",
+          "video": "",
+          "slug": "thornwood-vine",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Leaping Strike",
+          "description": "Leap over an enemy, slowing them by 80% for 0.35 seconds and dealing 271 damage. Stores up to 2 charges.",
+          "id": "DryadLeapingStrike",
+          "video": "",
+          "slug": "leaping-strike",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+        {
+          "name": "Dryad's Swiftness",
+          "description": "Lunara moves 20% faster by leaping short distances.",
+          "id": "DryadDryadsSwiftness",
+          "video": "",
+          "slug": "dryads-swiftness",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+    },
+    "roleSecondary": {
+    },
+    "type": {
+    },
+    "trait": {
+      "name": "Nature's Toxin",
+      "description": "Lunara's Basic Attacks and damaging Abilities poison their target, dealing 34 damage a second for 3 seconds. Every additional application increases the duration by 3 seconds, up to a maximum of 9 seconds.",
+      "id": "DryadNaturesToxin",
+      "slug": "natures-toxin"
+    },
+    "abilities": [
+      {
+        "name": "Noxious Blossom",
+        "description": "After 0.5 seconds, cause an area to explode with pollen dealing 160 damage.",
+        "id": "DryadNoxiousBlossom",
+        "video": "",
+        "slug": "noxious-blossom",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Crippling Spores",
+        "description": "Enemies currently afflicted by Nature's Toxin have its duration increased by 3 seconds and are slowed by 40% decaying over 3 seconds. ",
+        "id": "DryadCripplingSpores",
+        "video": "",
+        "slug": "crippling-spores",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Wisp",
+        "description": "Spawn a Wisp to scout an area. Can be redirected once active. Lasts 45 seconds.",
+        "id": "DryadWisp",
+        "video": "",
+        "slug": "wisp",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "heroicAbilities": [
+      {
+        "name": "Thornwood Vine",
+        "description": "Send forth vines that deal 164 damage to all enemies in a line. Stores up to 3 charges.",
+        "id": "DryadThornwoodVine",
+        "video": "",
+        "slug": "thornwood-vine",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Leaping Strike",
+        "description": "Leap over an enemy, slowing them by 80% for 0.35 seconds and dealing 271 damage. Stores up to 2 charges.",
+        "id": "DryadLeapingStrike",
+        "video": "",
+        "slug": "leaping-strike",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "defaultMount": {
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "otherAbilities": [
+      {
+        "name": "Dryad's Swiftness",
+        "description": "Lunara moves 20% faster by leaping short distances.",
+        "id": "DryadDryadsSwiftness",
+        "video": "",
+        "slug": "dryads-swiftness",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "slug": "lunara",
+    "franchise": "Warcraft",
+    "stanceSlug": "",
+    "difficulty": "Medium",
+    "stats": {
+      "damage": 8,
+      "utility": 5,
+      "survivability": 4,
+      "complexity": 5
+    },
+    "skins": [
+      {
+        "name": "First Daughter of Cenarius",
+        "description": "While her younger sisters frolicked in idyllic forests, Lunara watched as mortals exploited nature’s splendor. On Azeroth, her father Cenarius forbade her from retaliating. But this is the Nexus, and it’s time for nature to take its revenge.",
+        "id": "DryadCommon",
+        "analyticsName": "Lunara | first-daughter-of-cenarius",
+        "slug": "first-daughter-of-cenarius"
+      },
+      {
+        "name": "Wild Champion Lunara",
+        "description": "As her power grew, Lunara began to hear the wilds of the Nexus crying out for a champion. They granted her untold power, and she granted them ruthless protection.",
+        "id": "DryadSkinUltimate",
+        "analyticsName": "Lunara | wild-champion-lunara",
+        "slug": "wild-champion-lunara"
+      },
+      {
+        "name": "Warden Lunara",
+        "description": "When the war was finally over, the Betrayer Malfurion sat in chains. Unable to return to an idyllic life in the wilds, Lunara joined the Watchers in order to keep an eye on their accursed prisoner.",
+        "id": "DryadWarden",
+        "analyticsName": "Lunara | warden-lunara",
+        "slug": "warden-lunara"
+      },
+      {
+        "name": "Winter Veil Lunara",
+        "description": "Lunara, the festive Dryad, has a very pointy spear. And if you ever see it, you should prob'ly run in fear.",
+        "id": "DryadWinter",
+        "analyticsName": "Lunara | winter-veil-lunara",
+        "slug": "winter-veil-lunara"
+      },
+      {
+        "name": "Sentinel Lunara",
+        "description": "Lunara watched as the betrayer Malfurion’s fel magic consumed her beloved wilds. When High Priestess Shadowsong called upon the dryads to join the Sentinels, she was the first to volunteer.",
+        "id": "DryadSkinSentinel",
+        "analyticsName": "Lunara | sentinel-lunara",
+        "slug": "sentinel-lunara"
+      }
+    ],
+    "releaseDate": {
+      "year": 2015,
+      "month": 12,
+      "day": 15
+    },
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "lunara",
+    "revealed": true,
+    "video": "4OqrfLfaOnc",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
+  }
+}

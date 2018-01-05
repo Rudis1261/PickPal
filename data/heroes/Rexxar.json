@@ -1,0 +1,317 @@
+{
+  "name": "Rexxar",
+  "slug": "rexxar",
+  "title": "Champion of the Horde",
+  "description": "Warrior Front-line defenders and bruisers.",
+  "role": {
+    "name": "Warrior",
+    "slug": "warrior",
+    "description": "Warrior Front-line defenders and bruisers."
+  },
+  "type_of_hero": "Ranged",
+  "franchise": "Warcraft",
+  "difficulty": "Hard",
+  "live": true,
+  "poster_image": "http://localhost:3000/images/rexxar/bust.jpg",
+  "stat": {
+    "damage": 5,
+    "utility": 8,
+    "survivability": 7,
+    "complexity": 6
+  },
+  "thumb": "http://localhost:3000/images/rexxar/champion-of-the-horde.jpg",
+  "trait": {
+    "name": "Misha, Focus!",
+    "description": "Misha, Focus!",
+    "slug": "misha-focus",
+    "image": ""
+  },
+  "abilities": [
+    {
+      "name": "Spirit Swoop",
+      "description": "Deal 141 damage to enemies in a line, slowing them by 30% for 2 seconds.",
+      "slug": "spirit-swoop",
+      "image": ""
+    },
+    {
+      "name": "Misha, Charge!",
+      "description": "Misha charges in a line, dealing 59 damage and stunning enemies for 1.25 seconds.",
+      "slug": "misha-charge",
+      "image": ""
+    },
+    {
+      "name": "Mend Pet",
+      "description": "Heal Misha for 714 Health over 5 seconds.",
+      "slug": "mend-pet",
+      "image": ""
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Unleash the Boars",
+      "description": "Release a herd of boars that track down all enemy Heroes in a direction, dealing 110 damage, revealing, and slowing enemies by 40% for 5 seconds.",
+      "slug": "unleash-the-boars",
+      "image": ""
+    },
+    {
+      "name": "Bestial Wrath",
+      "description": "Increases Misha's Basic Attack damage by 150% for 12 seconds.",
+      "slug": "bestial-wrath",
+      "image": ""
+    }
+  ],
+  "original": {
+    "id": "Rexxar",
+    "name": "Rexxar",
+    "title": "Champion of the Horde",
+    "description": "It was a strange twist of fate that led the wandering half-ogre Rexxar to the fledgling city of Orgrimmar. With his aid, Thrall and the Horde were able to secure their homeland and defend it from the invading forces of Lord Admiral Daelin Proudmoore.",
+    "shortDescription": "A Bruiser that with his bear, Misha, expertly controls areas of the battleground.",
+    "baseHeroInfo": {
+      "name": "Rexxar",
+      "title": "Champion of the Horde",
+      "description": "It was a strange twist of fate that led the wandering half-ogre Rexxar to the fledgling city of Orgrimmar. With his aid, Thrall and the Horde were able to secure their homeland and defend it from the invading forces of Lord Admiral Daelin Proudmoore.",
+      "shortDescription": "A Bruiser that with his bear, Misha, expertly controls areas of the battleground.",
+      "slug": "rexxar",
+      "role": {
+        "name": "Warrior",
+        "slug": "warrior",
+        "description": "Warrior Front-line defenders and bruisers."
+      },
+      "skins": [
+
+      ],
+      "type": {
+        "name": "Ranged",
+        "slug": "ranged"
+      },
+      "trait": {
+        "name": "Misha, Focus!",
+        "description": "Passive: Misha gains 15% move speed. Command Misha to attack a specific enemy or move to a point and wait. Targeting Rexxar commands Misha to retreat to his position, gaining 30% move speed until she reaches Rexxar. Targeting Misha commands her to hold her current position.",
+        "id": "RexxarMishaFocus",
+        "slug": "misha-focus"
+      },
+      "defaultMount": {
+        "name": "Battle Beast",
+        "id": "BattleBeast"
+      },
+      "abilities": [
+        {
+          "name": "Spirit Swoop",
+          "description": "Deal 141 damage to enemies in a line, slowing them by 30% for 2 seconds.",
+          "id": "RexxarSpiritSwoop",
+          "video": "",
+          "slug": "spirit-swoop",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Misha, Charge!",
+          "description": "Misha charges in a line, dealing 59 damage and stunning enemies for 1.25 seconds.",
+          "id": "RexxarMishaChargeRedirect",
+          "video": "",
+          "slug": "misha-charge",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Mend Pet",
+          "description": "Heal Misha for 714 Health over 5 seconds.",
+          "id": "RexxarMendPet",
+          "video": "",
+          "slug": "mend-pet",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "heroicAbilities": [
+        {
+          "name": "Unleash the Boars",
+          "description": "Release a herd of boars that track down all enemy Heroes in a direction, dealing 110 damage, revealing, and slowing enemies by 40% for 5 seconds.",
+          "id": "RexxarUnleashTheBoars",
+          "video": "",
+          "slug": "unleash-the-boars",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Bestial Wrath",
+          "description": "Increases Misha's Basic Attack damage by 150% for 12 seconds.",
+          "id": "RexxarBestialWrath",
+          "video": "",
+          "slug": "bestial-wrath",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+        {
+          "name": "Misha, Focus!",
+          "description": "Passive: Misha gains 15% move speed. Command Misha to attack a specific enemy or move to a point and wait. Targeting Rexxar commands Misha to retreat to his position, gaining 30% move speed until she reaches Rexxar. Targeting Misha commands her to hold her current position.",
+          "id": "RexxarMishaFocus",
+          "video": "",
+          "slug": "misha-focus",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+    },
+    "roleSecondary": {
+    },
+    "type": {
+    },
+    "trait": {
+      "name": "Misha, Focus!",
+      "description": "Passive: Misha gains 15% move speed. Command Misha to attack a specific enemy or move to a point and wait. Targeting Rexxar commands Misha to retreat to his position, gaining 30% move speed until she reaches Rexxar. Targeting Misha commands her to hold her current position.",
+      "id": "RexxarMishaFocus",
+      "slug": "misha-focus"
+    },
+    "abilities": [
+      {
+        "name": "Spirit Swoop",
+        "description": "Deal 141 damage to enemies in a line, slowing them by 30% for 2 seconds.",
+        "id": "RexxarSpiritSwoop",
+        "video": "",
+        "slug": "spirit-swoop",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Misha, Charge!",
+        "description": "Misha charges in a line, dealing 59 damage and stunning enemies for 1.25 seconds.",
+        "id": "RexxarMishaChargeRedirect",
+        "video": "",
+        "slug": "misha-charge",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Mend Pet",
+        "description": "Heal Misha for 714 Health over 5 seconds.",
+        "id": "RexxarMendPet",
+        "video": "",
+        "slug": "mend-pet",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "heroicAbilities": [
+      {
+        "name": "Unleash the Boars",
+        "description": "Release a herd of boars that track down all enemy Heroes in a direction, dealing 110 damage, revealing, and slowing enemies by 40% for 5 seconds.",
+        "id": "RexxarUnleashTheBoars",
+        "video": "",
+        "slug": "unleash-the-boars",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Bestial Wrath",
+        "description": "Increases Misha's Basic Attack damage by 150% for 12 seconds.",
+        "id": "RexxarBestialWrath",
+        "video": "",
+        "slug": "bestial-wrath",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "defaultMount": {
+      "name": "Battle Beast",
+      "id": "BattleBeast"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "otherAbilities": [
+      {
+        "name": "Misha, Focus!",
+        "description": "Passive: Misha gains 15% move speed. Command Misha to attack a specific enemy or move to a point and wait. Targeting Rexxar commands Misha to retreat to his position, gaining 30% move speed until she reaches Rexxar. Targeting Misha commands her to hold her current position.",
+        "id": "RexxarMishaFocus",
+        "video": "",
+        "slug": "misha-focus",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "slug": "rexxar",
+    "franchise": "Warcraft",
+    "stanceSlug": "",
+    "difficulty": "Hard",
+    "stats": {
+      "damage": 5,
+      "utility": 8,
+      "survivability": 7,
+      "complexity": 6
+    },
+    "skins": [
+      {
+        "name": "Champion of the Horde",
+        "description": "It was a strange twist of fate that led the wandering half-ogre Rexxar to the fledgling city of Orgrimmar. With his aid, Thrall and the Horde were able to secure their homeland and defend it from the invading forces of Lord Admiral Daelin Proudmoore.",
+        "id": "RexxarBaseCommon",
+        "analyticsName": "Rexxar | champion-of-the-horde",
+        "slug": "champion-of-the-horde"
+      },
+      {
+        "name": "Beastmaster Rexxar",
+        "description": "A beastmaster is at one with the wilds. When they kill, they ensure every part of the animal is made use of.",
+        "id": "RexxarSkinMaster",
+        "analyticsName": "Rexxar | beastmaster-rexxar",
+        "slug": "beastmaster-rexxar"
+      },
+      {
+        "name": "Raider Rexxar",
+        "description": "The terrans are descended from Earth's exiled prisoners, mutants, and degenerates. Some, like the military ursine-handler Cpl. Rex Arkk, are more genetically aberrant than others.",
+        "id": "RexxarMarine",
+        "analyticsName": "Rexxar | raider-rexxar",
+        "slug": "raider-rexxar"
+      },
+      {
+        "name": "Frostlord Rexxar",
+        "description": "When the Crystal Citadel fell, the Frostlords were scattered and never heard from again. Legend holds that some still wander the frozen tundras of the north, ever searching for a new home.",
+        "id": "RexxarSkinFrost",
+        "analyticsName": "Rexxar | frostlord-rexxar",
+        "slug": "frostlord-rexxar"
+      }
+    ],
+    "releaseDate": {
+      "year": 2015,
+      "month": 9,
+      "day": 8
+    },
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "rexxar",
+    "revealed": true,
+    "video": "RR4uygYb8_0",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
+  }
+}

@@ -1,0 +1,298 @@
+{
+  "name": "Dehaka",
+  "slug": "dehaka",
+  "title": "Primal Pack Leader",
+  "description": "Warrior Front-line defenders and bruisers.",
+  "role": {
+    "name": "Warrior",
+    "slug": "warrior",
+    "description": "Warrior Front-line defenders and bruisers."
+  },
+  "type_of_hero": "Melee",
+  "franchise": "StarCraft",
+  "difficulty": "Medium",
+  "live": true,
+  "poster_image": "http://localhost:3000/images/dehaka/bust.jpg",
+  "stat": {
+    "damage": 6,
+    "utility": 8,
+    "survivability": 9,
+    "complexity": 7
+  },
+  "thumb": "http://localhost:3000/images/dehaka/primal-pack-leader.jpg",
+  "trait": {
+    "name": "Essence Collection",
+    "description": "Essence Collection",
+    "slug": "essence-collection",
+    "image": ""
+  },
+  "abilities": [
+    {
+      "name": "Drag",
+      "description": "Dehaka lashes out his tongue, dealing 160 damage to the first enemy hit, stunning and dragging them with him for 1.75 seconds. If Dehaka is stunned or silenced while using Drag, the effect ends.",
+      "slug": "drag",
+      "image": ""
+    },
+    {
+      "name": "Dark Swarm",
+      "description": "Deal 47 damage every 0.5 seconds to nearby enemies for 3.5 seconds. While active, you are able to move through units. Can be cast during Drag and Burrow.",
+      "slug": "dark-swarm",
+      "image": ""
+    },
+    {
+      "name": "Burrow",
+      "description": "Burrow into the ground, entering Stasis and becoming Invulnerable for 2 seconds.",
+      "slug": "burrow",
+      "image": ""
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Isolation",
+      "description": "Launch biomass that hits the first enemy Hero dealing 200 damage, Silencing and Slowing them 30% for 3 seconds. Additionally, their vision radius is greatly reduced for 6 seconds.",
+      "slug": "isolation",
+      "image": ""
+    },
+    {
+      "name": "Adaptation",
+      "description": "After 4 seconds, heal for 100% of the damage Dehaka took over this period.",
+      "slug": "adaptation",
+      "image": ""
+    }
+  ],
+  "original": {
+    "id": "Dehaka",
+    "name": "Dehaka",
+    "title": "Primal Pack Leader",
+    "description": "Cunning and wise, Dehaka is one of the last surviving pack leaders of the forgotten world of Zerus. As with all primal zerg, he is driven by a powerful desire to consume the essence of his foes and evolve into newer and more deadly forms.",
+    "shortDescription": "A Bruiser with a strong, global presence that can effectively clear groups of minions.",
+    "baseHeroInfo": {
+      "name": "Dehaka",
+      "title": "Primal Pack Leader",
+      "description": "Cunning and wise, Dehaka is one of the last surviving pack leaders of the forgotten world of Zerus. As with all primal zerg, he is driven by a powerful desire to consume the essence of his foes and evolve into newer and more deadly forms.",
+      "shortDescription": "A Bruiser with a strong, global presence that can effectively clear groups of minions.",
+      "slug": "dehaka",
+      "role": {
+        "name": "Warrior",
+        "slug": "warrior",
+        "description": "Warrior Front-line defenders and bruisers."
+      },
+      "skins": [
+
+      ],
+      "type": {
+        "name": "Melee",
+        "slug": "melee"
+      },
+      "trait": {
+        "name": "Essence Collection",
+        "description": "Killing an enemy Hero will grant 10 Essence and Minion kills grant 2 Essence. Each Essence consumed heals 29 health over 5 seconds. A maximum of 50 Essence can be stored. Can be cast while channeling.",
+        "id": "DehakaEssenceCollectionStore",
+        "slug": "essence-collection"
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+        {
+          "name": "Drag",
+          "description": "Dehaka lashes out his tongue, dealing 160 damage to the first enemy hit, stunning and dragging them with him for 1.75 seconds. If Dehaka is stunned or silenced while using Drag, the effect ends.",
+          "id": "DehakaDrag",
+          "video": "",
+          "slug": "drag",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Dark Swarm",
+          "description": "Deal 47 damage every 0.5 seconds to nearby enemies for 3.5 seconds. While active, you are able to move through units. Can be cast during Drag and Burrow.",
+          "id": "DehakaDarkSwarm",
+          "video": "",
+          "slug": "dark-swarm",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Burrow",
+          "description": "Burrow into the ground, entering Stasis and becoming Invulnerable for 2 seconds.",
+          "id": "DehakaBurrow",
+          "video": "",
+          "slug": "burrow",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Brushstalker",
+          "description": "Activate to burrow to a bush on the Battleground. Passive: Gain 20% movement speed while in a bush and for 2 seconds after leaving.",
+          "id": "DehakaBrushstalker",
+          "video": "",
+          "slug": "brushstalker",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "heroicAbilities": [
+        {
+          "name": "Isolation",
+          "description": "Launch biomass that hits the first enemy Hero dealing 200 damage, Silencing and Slowing them 30% for 3 seconds. Additionally, their vision radius is greatly reduced for 6 seconds.",
+          "id": "DehakaIsolation",
+          "video": "",
+          "slug": "isolation",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        },
+        {
+          "name": "Adaptation",
+          "description": "After 4 seconds, heal for 100% of the damage Dehaka took over this period.",
+          "id": "DehakaAdaptation",
+          "video": "",
+          "slug": "adaptation",
+          "analyticsName": "",
+          "icon": "",
+          "thumbnail": ""
+        }
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+    },
+    "roleSecondary": {
+    },
+    "type": {
+    },
+    "trait": {
+      "name": "Essence Collection",
+      "description": "Killing an enemy Hero will grant 10 Essence and Minion kills grant 2 Essence. Each Essence consumed heals 29 health over 5 seconds. A maximum of 50 Essence can be stored. Can be cast while channeling.",
+      "id": "DehakaEssenceCollectionStore",
+      "slug": "essence-collection"
+    },
+    "abilities": [
+      {
+        "name": "Drag",
+        "description": "Dehaka lashes out his tongue, dealing 160 damage to the first enemy hit, stunning and dragging them with him for 1.75 seconds. If Dehaka is stunned or silenced while using Drag, the effect ends.",
+        "id": "DehakaDrag",
+        "video": "",
+        "slug": "drag",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Dark Swarm",
+        "description": "Deal 47 damage every 0.5 seconds to nearby enemies for 3.5 seconds. While active, you are able to move through units. Can be cast during Drag and Burrow.",
+        "id": "DehakaDarkSwarm",
+        "video": "",
+        "slug": "dark-swarm",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Burrow",
+        "description": "Burrow into the ground, entering Stasis and becoming Invulnerable for 2 seconds.",
+        "id": "DehakaBurrow",
+        "video": "",
+        "slug": "burrow",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "heroicAbilities": [
+      {
+        "name": "Isolation",
+        "description": "Launch biomass that hits the first enemy Hero dealing 200 damage, Silencing and Slowing them 30% for 3 seconds. Additionally, their vision radius is greatly reduced for 6 seconds.",
+        "id": "DehakaIsolation",
+        "video": "",
+        "slug": "isolation",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      },
+      {
+        "name": "Adaptation",
+        "description": "After 4 seconds, heal for 100% of the damage Dehaka took over this period.",
+        "id": "DehakaAdaptation",
+        "video": "",
+        "slug": "adaptation",
+        "analyticsName": "",
+        "icon": "",
+        "thumbnail": ""
+      }
+    ],
+    "defaultMount": {
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "otherAbilities": [
+
+    ],
+    "slug": "dehaka",
+    "franchise": "StarCraft",
+    "stanceSlug": "",
+    "difficulty": "Medium",
+    "stats": {
+      "damage": 6,
+      "utility": 8,
+      "survivability": 9,
+      "complexity": 7
+    },
+    "skins": [
+      {
+        "name": "Primal Pack Leader",
+        "description": "Cunning and wise, Dehaka is one of the last surviving pack leaders of the forgotten world of Zerus. As with all primal zerg, he is driven by a powerful desire to consume the essence of his foes and evolve into newer and more deadly forms.",
+        "id": "DehakaCommon",
+        "analyticsName": "Dehaka | primal-pack-leader",
+        "slug": "primal-pack-leader"
+      },
+      {
+        "name": "Pack Leader Dehaka",
+        "description": "To the primal zerg, form and function are one. With each change comes greater strength, and thus survival. Few have undergone as much change as Dehaka… and he intends to keep it that way.",
+        "id": "DehakaMaster",
+        "analyticsName": "Dehaka | pack-leader-dehaka",
+        "slug": "pack-leader-dehaka"
+      },
+      {
+        "name": "Mecha Dehaka",
+        "description": "Zerus-class mech D3-H4K4 was developed to gather Kaijo DNA mid-combat. Troublingly, the onboard AI has begun rejecting orders, extracting \"essence\" from its own targets.",
+        "id": "DehakaMecha",
+        "analyticsName": "Dehaka | mecha-dehaka",
+        "slug": "mecha-dehaka"
+      }
+    ],
+    "releaseDate": {
+      "year": 2016,
+      "month": 3,
+      "day": 29
+    },
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "dehaka",
+    "revealed": true,
+    "video": "1c5SJV7-Q9A",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
+  }
+}
