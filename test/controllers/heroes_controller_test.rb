@@ -10,10 +10,10 @@ class HeroesControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
-  test "should get new" do
-    get new_hero_url
-    assert_response :success
-  end
+  # test "should get new" do
+  #   get new_hero_url
+  #   assert_response :success
+  # end
 
   # test "should create hero" do
   #   assert_difference('Hero.count') do
