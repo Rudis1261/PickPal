@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   resources :heroes
+    resources :roles
 
   get '/roles', to: 'role#index'
   get '/roles.json', to: 'role#index'

@@ -1,25 +1,23 @@
 class HeroesController < ApplicationController
   before_action :set_hero, only: [:show, :edit, :update, :destroy]
+  before_action :set_heroes, only: [:index]
 
-  # GET /heroes
-  # GET /heroes.json
   def index
-    @heroes = Hero.all
+    return render :json => @heroes, include: 'role'
   end
 
-  # GET /heroes/1
-  # GET /heroes/1.json
   def show
+   return render :json => @hero, include: 'role'
   end
 
-  # GET /heroes/new
-  def new
-    @hero = Hero.new
-  end
-
-  # GET /heroes/1/edit
-  def edit
-  end
+  # # GET /heroes/new
+  # def new
+  #   @hero = Hero.new
+  # end
+  #
+  # # GET /heroes/1/edit
+  # def edit
+  # end
 
   # POST /heroes
   # POST /heroes.json
@@ -63,12 +61,16 @@ class HeroesController < ApplicationController
 
   private
     # Use callbacks to share common setup or constraints between actions.
+    def set_heroes
+      @heroes = Hero.joins(:role).includes(:role).all
+    end
+
     def set_hero
-      @hero = Hero.find(params[:id])
+      @hero = Hero.where(id: params[:id]).joins(:role).includes(:role)
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def hero_params
-      params.require(:hero).permit(:title, :name, :slug, :poster_image)
+      params.require(:hero).permit(:title, :name, :slug, :poster_image, :role_id)
     end
 end

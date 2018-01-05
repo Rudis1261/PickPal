@@ -1,3 +1,3 @@
 class Hero < ApplicationRecord
-  has_one :role
+  belongs_to :role
 end
