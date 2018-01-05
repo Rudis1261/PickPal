@@ -7,7 +7,7 @@ class HeroesController < ApplicationController
   end
 
   def show
-   return render :json => @hero, include: 'role'
+   return render :json => @hero.first, include: ['role', 'stat']
   end
 
   # # GET /heroes/new
@@ -66,11 +66,11 @@ class HeroesController < ApplicationController
     end
 
     def set_hero
-      @hero = Hero.where(id: params[:id]).joins(:role).includes(:role)
+      @hero = Hero.where(id: params[:id]).joins(:role).includes(:role, :stat)
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def hero_params
-      params.require(:hero).permit(:title, :name, :slug, :poster_image, :role_id)
+      params.require(:hero).permit(:title, :name, :slug, :poster_image, :role_id, :stat_id)
     end
 end
