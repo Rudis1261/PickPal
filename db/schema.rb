@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180105085641) do
+ActiveRecord::Schema.define(version: 20180105115903) do
 
   create_table "heroes", force: :cascade do |t|
     t.string "title"
@@ -25,7 +25,9 @@ ActiveRecord::Schema.define(version: 20180105085641) do
     t.string "difficulty"
     t.boolean "live"
     t.integer "role_id"
+    t.integer "stat_id"
     t.index ["role_id"], name: "index_heroes_on_role_id"
+    t.index ["stat_id"], name: "index_heroes_on_stat_id"
   end
 
   create_table "heros", force: :cascade do |t|
@@ -44,6 +46,18 @@ ActiveRecord::Schema.define(version: 20180105085641) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["id"], name: "index_roles_on_id"
+  end
+
+  create_table "stats", force: :cascade do |t|
+    t.integer "damage", limit: 2, default: 0
+    t.integer "utility", limit: 2, default: 0
+    t.integer "survivability", limit: 2, default: 0
+    t.integer "complexity", limit: 2, default: 0
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer "hero_id"
+    t.index ["hero_id"], name: "index_stats_on_hero_id"
+    t.index ["id"], name: "index_stats_on_id"
   end
 
 end

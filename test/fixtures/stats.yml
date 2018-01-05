@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  damage: 1
+  utility: 1
+  survivability: 1
+  complexity: 1
+
+two:
+  damage: 1
+  utility: 1
+  survivability: 1
+  complexity: 1

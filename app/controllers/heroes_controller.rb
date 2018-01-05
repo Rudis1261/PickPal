@@ -3,7 +3,7 @@ class HeroesController < ApplicationController
   before_action :set_heroes, only: [:index]
 
   def index
-    return render :json => @heroes, include: 'role'
+    return render :json => @heroes, include: ['role', 'stat']
   end
 
   def show
@@ -62,7 +62,7 @@ class HeroesController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_heroes
-      @heroes = Hero.joins(:role).includes(:role).all
+      @heroes = Hero.joins(:role).includes(:role, :stat).all
     end
 
     def set_hero
