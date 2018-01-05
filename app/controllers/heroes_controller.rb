@@ -10,32 +10,38 @@ class HeroesController < ApplicationController
   end
 
   def index
-    return render :json => @heroes, include: @column_array
+    return render :json => @heroes,
+                  include: @column_array
   end
 
   def show
-    return render :json => @hero.first, include: @column_array
+    return render :json => @hero.first,
+                  include: @column_array
   end
 
   def one
-    return render :json => @hero.first, include: @column_array
+    return render :json => @hero.first,
+                  include: @column_array
   end
 
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_heroes
       @heroes = Hero.joins(:role).includes(@columns).order(:name).all
-      return render :json => ApplicationHelper.http404, status: 404 if @heroes.size == 0
+      return render :json => ApplicationHelper.http404,
+                    status: 404 if @heroes.size == 0
     end
 
     def set_hero
       @hero = Hero.where(id: params[:id]).joins(:role).includes(@columns)
-      return render :json => ApplicationHelper.http404, status: 404 if @hero.size == 0
+      return render :json => ApplicationHelper.http404,
+                    status: 404 if @hero.size == 0
     end
 
     def set_hero_by_name
       @hero = Hero.where(slug: params[:name]).includes(@columns)
-      return render :json => ApplicationHelper.http404, status: 404 if @hero.size == 0
+      return render :json => ApplicationHelper.http404,
+                    status: 404 if @hero.size == 0
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
