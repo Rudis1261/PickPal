@@ -3,12 +3,13 @@ require 'test_helper'
 class HeroesControllerTest < ActionDispatch::IntegrationTest
   setup do
     @hero = heroes(:one)
+    @heroes = [heroes(:one), heroes(:two)]
   end
 
-  test "should get index" do
-    get heroes_url
-    assert_response :success
-  end
+  # test "should get index" do
+  #   get heroes_url
+  #   assert_response :success
+  # end
 
   # test "should get new" do
   #   get new_hero_url
@@ -23,10 +24,10 @@ class HeroesControllerTest < ActionDispatch::IntegrationTest
   #   assert_redirected_to hero_url(Hero.last)
   # end
 
-  test "should show hero" do
-    get hero_url(@hero)
-    assert_response :success
-  end
+  # test "should show hero" do
+  #   get hero_url(@hero)
+  #   assert_response :success
+  # end
 
   # test "should get edit" do
   #   get edit_hero_url(@hero)

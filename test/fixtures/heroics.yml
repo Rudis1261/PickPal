@@ -5,11 +5,9 @@ one:
   description: MyString
   slug: MyString
   image: MyString
-  belongs_to: 
 
 two:
   name: MyString
   description: MyString
   slug: MyString
   image: MyString
-  belongs_to: 

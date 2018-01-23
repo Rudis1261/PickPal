@@ -1,15 +1,13 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: MyString
-  description: MyString
-  slug: MyString
-  image: MyString
-  belongs_to: 
+  name: Super awesome ability
+  description: Makes everything better
+  slug: super-awesome-ability
+  image:
 
 two:
-  name: MyString
-  description: MyString
-  slug: MyString
-  image: MyString
-  belongs_to: 
+  name: Super awesome ability 2
+  description: Even more awesome
+  slug: super_awesome-ability-2
+  image:

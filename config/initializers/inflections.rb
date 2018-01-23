@@ -17,6 +17,7 @@
 
 ActiveSupport::Inflector.inflections(:en) do |inflect|
   inflect.irregular 'hero', 'heroes'
+  inflect.irregular 'ability', 'abilities'
 end
 
 

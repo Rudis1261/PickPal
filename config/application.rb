@@ -44,5 +44,6 @@ module PickPal
     config.active_record.default_timezone = :local
     config.time_zone = 'Africa/Johannesburg'
     config.hostname = "http://localhost:#{$local_port}"
+    config.default_host = 'localhost'
   end
 end
